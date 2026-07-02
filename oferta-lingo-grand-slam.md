@@ -8,6 +8,13 @@
 > ⚠️ Los campos marcados con `[AJUSTA]` necesitan tus datos reales. Todo lo demás
 > es una recomendación lista para usar que puedes editar.
 
+> 🧩 **Las 3 líneas de Lingo** (referencia — precios detallados en
+> `plan-facturar-20k-soles-julio.md`):
+> - **Lingo Studio** — Content strategy + producción (con equipo pro propio).
+> - **Lingo Ads** — Paid media para marcas.
+> - **Lingo OS** — Todo lo anterior + funcionalidades GHL (CRM, embudos, automatización).
+> **Para caja urgente este mes → ver `plan-facturar-20k-soles-julio.md`.**
+
 ---
 
 ## 0. La Ecuación de Valor (Hormozi)
