@@ -1,160 +1,137 @@
-# 6 Guiones de Video — Ganchos Ganadores de 20 segundos
-### Lingo | Marca personal → clientes | Julio 2026
+# 6 Guiones de Video — Ganchos Virales 2026 (versión retención)
+### Lingo | Marca personal → clientes | Julio 2026 · en "tú"
 
-> **Regla:** el gancho son los primeros **3 segundos**. Si no frena el scroll, nada
-> más importa. 20 seg ≈ 50–60 palabras. Habla rápido, mira a cámara, sin intro.
+> **Data 2026 (últimos meses):** la decisión de seguir viendo se toma en **0.8–1.5 seg**;
+> el gancho debe cerrar antes del **segundo 3** y son **10–14 palabras** habladas.
+> Fórmulas top ahora: **claim contrario**, **advertencia de error**, **lista con teaser**
+> y **mostrar el resultado en los primeros 2 seg**. Curiosidad ESPECÍFICA > genérica.
+> Apila 2+ gatillos por frase (curiosidad + relevancia personal + interrupción de patrón).
+> Para retener a 15–20s: abre un **loop** que solo se cierra al final.
 >
-> **El loop viral (comentario → DM → seguidor):** cada video pide comentar UNA palabra.
-> ManyChat detecta el comentario → responde el comentario en público → manda la info
-> por DM → pide que te siga. Comentarios = más alcance; DM = lead + seguidor. 🔁
->
-> Formato: `[GANCHO 0-3s]` → desarrollo → `[CTA]` + palabra clave + auto-DM de ManyChat.
+> **Loop viral (comentario → DM → seguidor):** cada video pide comentar UNA palabra.
+> ManyChat responde el comentario en público + manda la info por DM + pide que te siga.
+> Comentarios = más alcance; DM = lead + seguidor. 🔁
 
 ---
 
-## 🎬 Video 1 — Creencia contraria (el más importante)
-**Palabra clave: `CONFIANZA`**
+## 🎬 Video 1 — CONFIANZA · *Claim contrario*
 
-> **[0-3s]** "Dejá de intentar volverte viral. Es la razón por la que no tenés clientes."
+> **[0-3s]** "Mientras todos persiguen viralidad, yo cierro clientes. Y no es suerte."
 >
-> La viralidad te da views de gente que nunca te va a comprar. Yo prefiero 500
-> personas que confían en mí antes que 50 mil que me olvidan mañana.
-> El contenido no se optimiza para gustar… se optimiza para **confianza**.
+> Los views no pagan. La confianza sí. Prefiero 500 personas que me creen antes que
+> 50 mil que me olvidan mañana. Y hay 3 tipos de contenido que construyen esa confianza…
+> el tercero es el que vende.
 >
-> **[CTA]** "Comentá la palabra **CONFIANZA** y te mando gratis mi guía de los 3 tipos
-> de contenido que generan confianza (y venden). Seguime para no perderte el resto."
+> **[CTA]** "Comenta **CONFIANZA** y te los mando gratis. Sígueme para el resto."
 
-**🤖 Auto-DM ManyChat:**
-> "¡Ahí está! 🙌 Acá tenés la guía de los 3 tipos de contenido que construyen confianza
-> → [link]. Si te sirve, seguime que subo esto cada semana. ¿En qué rubro estás? Te digo
-> cuál aplicar primero."
+*Visual: arranca en movimiento, mirada fija. Texto en pantalla: "views ≠ clientes".*
+
+**🤖 Auto-DM:** "¡Ahí está! 🙌 Los 3 tipos de contenido que construyen confianza → [link].
+Si te sirve, sígueme que subo esto cada semana. ¿En qué rubro estás? Te digo cuál usar primero."
 
 ---
 
-## 🎬 Video 2 — Callout del dolor
-**Palabra clave: `CLIENTE`**
+## 🎬 Video 2 — CLIENTE · *Advertencia de error*
 
-> **[0-3s]** "Si publicás y no pasa NADA, no es el algoritmo. Es esto."
+> **[0-3s]** "Estás cometiendo este error en cada post y por eso nadie te compra."
 >
-> Estás hablando de vos: "yo hago", "yo ofrezco", "mi servicio".
-> A tu cliente no le importás vos. Le importa **su** problema.
-> Cambiá cada frase que empiece con "yo" por una que empiece con "vos".
+> Hablas de ti: "yo hago", "yo ofrezco". A tu cliente no le importas tú… le importa
+> su problema. Cambia cada "yo" por un "tú" y mira lo que pasa con tus mensajes.
 >
-> **[CTA]** "Comentá **CLIENTE** y te paso la plantilla para reescribir tus posts en
-> lenguaje de cliente. Seguime así te llega."
+> **[CTA]** "Comenta **CLIENTE** y te paso la plantilla exacta. Sígueme así te llega."
 
-**🤖 Auto-DM ManyChat:**
-> "Acá va 👉 la plantilla 'De YO a VOS' para reescribir cualquier post → [link].
-> Aplicala en tu próximo contenido y contame cómo te fue. PD: seguime que mañana subo
-> el error #2 que mata tu alcance. 🔥"
+*Visual: pattern interrupt — corte seco al decir "y por eso nadie te compra".*
+
+**🤖 Auto-DM:** "Acá va 👉 la plantilla 'De YO a TÚ' → [link]. Aplícala en tu próximo post
+y cuéntame cómo te fue. PD: sígueme que mañana subo el error #2 que mata tu alcance. 🔥"
 
 ---
 
-## 🎬 Video 3 — Prueba / resultado
-**Palabra clave: `LEADS`**
+## 🎬 Video 3 — LEADS · *Outcome showcase (muestra el resultado ya)*
 
-> **[0-3s]** "Un cliente pasó de 0 a 8 leads por semana sin gastar en ads. Así."
+> **[0-3s]** *(mostrando la pantalla)* "8 clientes nuevos esta semana. Cero soles en publicidad."
 >
-> No hicimos más contenido. Hicimos el contenido **correcto**:
-> un mensaje claro, una oferta irresistible y un embudo que captura al que ya está listo.
-> La mayoría publica y espera. Nosotros publicamos y **capturamos**.
+> No hice más contenido. Hice el correcto: mensaje claro, oferta irresistible y un embudo
+> que captura al que ya está listo. La mayoría publica y espera. Yo publico y capturo.
 >
-> **[CTA]** "Comentá **LEADS** y te mando el mapa del sistema exacto que usamos.
-> Seguime para ver el próximo caso."
+> **[CTA]** "Comenta **LEADS** y te mando el mapa del sistema. Sígueme para el próximo caso."
 
-**🤖 Auto-DM ManyChat:**
-> "Listo 🚀 acá tenés el mapa del sistema de captación (el mismo de los 8 leads/semana)
-> → [link]. Si querés que lo armemos para tu negocio, respondé 'QUIERO' y te cuento cómo
-> trabajamos en Lingo. Seguime que subo casos reales cada semana."
+*Visual: primeros 2 seg = captura del dashboard/DMs con notificaciones. Ese es el gancho.*
+*⚠️ Usa un caso real. Si aún no lo tienes, muéstralo con tu propia marca.*
 
-*⚠️ Usá un caso real. Si aún no lo tenés, cambialo por tu propia marca.*
+**🤖 Auto-DM:** "Listo 🚀 el mapa del sistema de captación → [link]. Si quieres que lo armemos
+para tu negocio, responde 'QUIERO' y te cuento cómo trabajamos en Lingo. Sígueme para más casos."
 
 ---
 
-## 🎬 Video 4 — Micro-win
-**Palabra clave: `GANCHO`**
+## 🎬 Video 4 — GANCHO · *Lista con teaser*
 
-> **[0-3s]** "El gancho de 3 segundos que uso en TODO video que quiere vender."
+> **[0-3s]** "Estos son los 3 ganchos que más están reventando en 2026. Copia el primero."
 >
-> Fácil: empezá nombrando el problema de tu cliente + una promesa.
-> "Si te pasa X… esto lo arregla." Listo.
-> Nadie se queda por tu nombre. Se quedan por lo que podés resolverles.
+> Uno: el claim contrario. Dos: la advertencia de error. Tres… el que muestra el resultado
+> antes de explicar nada. Cualquiera de los tres frena el scroll en un segundo.
 >
-> **[CTA]** "Comentá **GANCHO** y te mando mi lista de 20 ganchos probados para copiar
-> y pegar. Seguime que subo herramientas así siempre."
+> **[CTA]** "Comenta **GANCHO** y te mando los 20 completos. Sígueme que subo herramientas así."
 
-**🤖 Auto-DM ManyChat:**
-> "¡Buenísimo! 🎯 Acá tenés los 20 ganchos listos para copiar → [link]. Usá uno en tu
-> próximo video. Seguime para más plantillas gratis. ¿Cuál vas a probar primero?"
+*Visual: cuenta con los dedos 1-2-3. Texto grande con cada número.*
+
+**🤖 Auto-DM:** "¡Buenísimo! 🎯 Los 20 ganchos listos para copiar → [link]. Usa uno en tu próximo
+video. Sígueme para más plantillas gratis. ¿Cuál vas a probar primero?"
 
 ---
 
-## 🎬 Video 5 — Historia / vulnerabilidad
-**Palabra clave: `EQUIPO`**
+## 🎬 Video 5 — EQUIPO · *Confesión + número (arousal)*
 
-> **[0-3s]** "Invertí en cámara, luces y micrófono pro… y casi cometo el peor error."
+> **[0-3s]** "Gasté miles en cámara y luces… y fue el error más caro de mi marca."
 >
-> Pensé que mejor equipo = más clientes. Mentira.
-> El equipo no vende. Vende el **mensaje**. Un video con el celular y una idea clara
-> le gana a un video 4K sin nada que decir. Primero la estrategia, después el fierro.
+> Pensé que mejor equipo igual a más clientes. Mentira. El equipo no vende, vende el
+> mensaje. Un celular con una idea clara le gana a un 4K sin nada que decir.
+> Primero estrategia, después el fierro.
 >
-> **[CTA]** "Comentá **EQUIPO** y te mando mi checklist de qué priorizar ANTES de gastar
-> en producción. Seguime que comparto lo que aprendo en el camino."
+> **[CTA]** "Comenta **EQUIPO** y te mando mi checklist de qué priorizar. Sígueme que comparto lo que aprendo."
 
-**🤖 Auto-DM ManyChat:**
-> "Acá va 🙌 el checklist 'Estrategia antes que fierro' → [link]. Te ahorra plata y
-> tiempo. Si estás armando tu marca, seguime que documento todo el proceso. ¿Ya tenés
-> equipo o recién empezás?"
+*Visual: muestra tu setup pro de fondo mientras dices que fue un error. La ironía retiene.*
+
+**🤖 Auto-DM:** "Acá va 🙌 el checklist 'Estrategia antes que fierro' → [link]. Te ahorra plata
+y tiempo. Si estás armando tu marca, sígueme que documento todo. ¿Ya tienes equipo o recién empiezas?"
 
 ---
 
-## 🎬 Video 6 — Rompe-objeción / oferta suave
-**Palabra clave: `SISTEMA`**
+## 🎬 Video 6 — SISTEMA · *Claim contrario + objeción*
 
-> **[0-3s]** "'No tengo tiempo para hacer contenido.' Justo por eso vas a perder."
+> **[0-3s]** "Grabo una hora al mes y publico todos los días. No es magia, es esto."
 >
-> No necesitás 20 horas por semana. Necesitás **1**.
-> Grabás una hora, y de ahí salen 15 piezas para todo el mes.
-> Tu competencia improvisa; vos publicás con método.
+> No necesitas más tiempo. Necesitas un sistema. Una hora de grabación se convierte
+> en 15 piezas. Tu competencia improvisa; tú publicas con método.
 >
-> **[CTA]** "Comentá **SISTEMA** y te mando el método de 1 hora = 15 piezas paso a paso.
-> Seguime que así trabajamos en Lingo."
+> **[CTA]** "Comenta **SISTEMA** y te mando el paso a paso. Sígueme que así trabajamos en Lingo."
 
-**🤖 Auto-DM ManyChat:**
-> "Acá tenés 🔁 el método '1 hora → 15 piezas' → [link]. Si querés que te lo montemos
-> completo (grabación + edición + embudo), respondé 'LINGO' y te paso las condiciones de
-> este mes. Seguime que subo sistema, no improvisación. 💪"
+*Visual: arranca mostrando el calendario lleno de posts. Es la "prueba" del claim.*
+
+**🤖 Auto-DM:** "Acá tienes 🔁 el método '1 hora → 15 piezas' → [link]. Si quieres que te lo
+montemos completo (grabación + edición + embudo), responde 'LINGO' y te paso las condiciones del mes. 💪"
 
 ---
 
-## 🤖 Cómo montar la automatización en ManyChat (una vez)
+## 🎥 Reglas de grabación 2026 (retención 15–20s)
 
-1. Conectá tu Instagram a **ManyChat** (plan Pro para comment-to-DM en IG).
-2. Creá un flujo por palabra clave: **Trigger → "Instagram Comments"** → elegí el post
-   → poné la palabra exacta (CONFIANZA, CLIENTE, LEADS, GANCHO, EQUIPO, SISTEMA).
-3. Acción 1: **responder el comentario en público** ("¡Te lo mando al DM! 📩") → sube el
-   alcance y avisa a los demás que hay premio por comentar.
-4. Acción 2: **enviar el DM** con el texto de "Auto-DM" de cada video + el link.
-5. Instagram exige interacción: en el primer DM poné un botón **"Enviar info"** que el
-   usuario toca para abrir la conversación (opt-in), y ahí recién mandás el link.
-6. Sumá un paso **"Seguime"** con botón a tu perfil + una pregunta abierta (para que
-   respondan → más señal de conversación → más entrega futura).
+1. **Primera frase fuerte y sin respirar.** Cero "hola / bienvenidos / soy…". Nadie se queda por tu nombre.
+2. **Movimiento en el primer frame** (camina, acércate, gesto). Frame quieto = scroll.
+3. **Loop abierto:** promete algo al inicio ("el tercero es el que vende") y ciérralo al final.
+4. **Subtítulos siempre** + palabra clave GRANDE en pantalla durante el CTA.
+5. **Pausa de 1 seg** antes del CTA para que el comentario "pegue".
+6. **A/B test:** graba 3–5 versiones del gancho de tu mejor video y publica el que más retenga.
+7. Orden de grabación por energía: **1 → 3 → 6 → 2 → 4 → 5**.
 
-> 💡 Tip Ralston/Hormozi: la palabra clave debe ser **la del tema del video** (no un
-> genérico). Refuerza el mensaje y sube la tasa de comentario.
+## 🤖 Automatización ManyChat (montar una vez)
+- Trigger "Instagram Comments" por palabra exacta: CONFIANZA · CLIENTE · LEADS · GANCHO · EQUIPO · SISTEMA.
+- Acción 1: responder el comentario en público ("¡Te lo mando al DM! 📩") → sube alcance.
+- Acción 2: DM con botón de opt-in ("Enviar info") → luego el link (IG exige la interacción).
+- Acción 3: botón "Sígueme" + una pregunta abierta (más conversación = más entrega futura).
+- Crea los imanes (PDF/Notion/Doc) — un link por palabra clave.
 
----
-
-## Cómo grabarlos (aprovechá tu equipo nuevo)
-
-1. **Grabá los 6 de una sola sentada** (Waterfall Method). Misma ropa, misma luz.
-2. Orden de energía: 1 → 3 → 6 → 2 → 4 → 5 (arrancá fuerte, cerrá íntimo).
-3. Si te trabás, **reiniciá la frase, no el video**. Editás después.
-4. Subtítulos SIEMPRE (80% mira sin audio) + **fijá la palabra clave en pantalla** en el CTA.
-5. Publicá 3/semana. Duplicá el gancho que más retenga.
-
-## Notas
-- Palabras clave por video: CONFIANZA · CLIENTE · LEADS · GANCHO · EQUIPO · SISTEMA.
-- Cada auto-DM entrega valor + pide seguir + abre conversación (no vende de una).
-- Los links de las guías: creá algo simple (PDF en Drive, Notion, o Google Doc) por palabra.
-- Frameworks: Caleb Ralston (confianza > viralidad) + Hormozi (valor + CTA).
+## Fuentes / data 2026
+- OpusClip — Best TikTok Hooks 2026 (data-backed): https://www.opus.pro/blog/tiktok-hooks-that-go-viral-2026
+- Conbersa — Hooks que frenan el scroll 2026: https://www.conbersa.ai/learn/best-tiktok-hooks
+- HeyOrca — Best social media hooks 2026: https://www.heyorca.com/blog/the-best-social-media-hooks-for-2026
+- Frameworks base: Caleb Ralston (confianza > viralidad) + Alex Hormozi (valor + CTA).
