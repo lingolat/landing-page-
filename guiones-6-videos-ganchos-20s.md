@@ -20,7 +20,7 @@
 >
 > Los views no pagan. La confianza sí. Prefiero 500 personas que me creen antes que
 > 50 mil que me olvidan mañana. Y hay 3 tipos de contenido que construyen esa confianza…
-> el tercero es el que vende.
+> la mayoría solo usa uno.
 >
 > **[CTA]** "Comenta **CONFIANZA** y te los mando gratis. Sígueme para el resto."
 
