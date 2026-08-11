@@ -1,0 +1,25 @@
+﻿# Gana Diario (Peru) - 5 numeros de 1 a 35, sorteo diario.
+# SOLO sorteos verificados via busqueda web (el acceso directo a los portales
+# de loteria esta bloqueado por la politica de red de este entorno).
+# Validaciones aplicadas a cada fila: rango 1-35, sin duplicados, 5 numeros,
+# y consistencia numero_sorteo == 4660 + (fecha - 2026-08-01).
+# NINGUNA fila fue inferida, interpolada ni completada. Ver DATA_PROVENANCE.md.
+fecha,sorteo,n1,n2,n3,n4,n5,fuentes
+2026-06-05,4603,5,21,31,25,18,infobae
+2026-06-09,4607,2,11,27,1,10,infobae
+2026-06-10,4608,6,23,1,17,9,infobae
+2026-06-22,4620,12,32,26,21,31,infobae
+2026-07-08,4636,32,16,28,35,33,infobae
+2026-07-12,4640,20,25,29,33,16,infobae
+2026-07-13,4641,28,16,3,33,29,infobae
+2026-07-17,4645,18,26,4,23,27,infobae
+2026-07-21,4649,26,18,20,21,19,infobae
+2026-07-27,4655,10,5,32,28,7,infobae
+2026-07-30,4658,34,35,19,28,8,infobae
+2026-08-01,4660,23,9,18,1,20,infobae
+2026-08-02,4661,10,35,27,16,31,infobae
+2026-08-03,4662,4,32,17,34,7,infobae|kusiresultados
+2026-08-05,4664,3,32,21,18,16,infobae
+2026-08-07,4666,27,34,7,17,5,infobae
+2026-08-09,4668,4,17,5,21,14,infobae
+2026-08-10,4669,20,16,33,12,22,nacionalloteria|resultadosdetinka
