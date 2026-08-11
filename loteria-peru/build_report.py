@@ -486,7 +486,7 @@ def main():
 
     out = os.path.join(HERE, "output", "informe.html")
     with open(out, "w", encoding="utf-8") as fh:
-        fh.write(f"<title>Gana Diario y Kábala: lectura estadística</title>\n"
+        fh.write(f"<title>Auditoría Gana Diario y Kábala</title>\n"
                  f"<style>{CSS}</style>\n{body}\n")
     print("escrito", out, os.path.getsize(out), "bytes")
 
