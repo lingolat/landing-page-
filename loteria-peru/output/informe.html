@@ -1,0 +1,609 @@
+<title>Gana Diario y Kábala: lectura estadística</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --ground:#F6F7F9; --surface:#FFFFFF; --surface2:#EFF1F5;
+  --ink:#101520; --muted:#59637A; --line:#DCE0E8;
+  --accent:#9A6410; --accent-soft:#F3E7D2;
+  --ok:#1C6B4A; --bad:#9E2C24; --warn:#8A5A0B; --warn-soft:#FBF0DA;
+  --display:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0C1016; --surface:#141A23; --surface2:#1B222D;
+  --ink:#E4EAF3; --muted:#8A94A8; --line:#28313E;
+  --accent:#E0A742; --accent-soft:#2A2216;
+  --ok:#4FBE8B; --bad:#E4796F; --warn:#E0A742; --warn-soft:#2A2216;
+}}
+:root[data-theme="dark"]{
+  --ground:#0C1016; --surface:#141A23; --surface2:#1B222D;
+  --ink:#E4EAF3; --muted:#8A94A8; --line:#28313E;
+  --accent:#E0A742; --accent-soft:#2A2216;
+  --ok:#4FBE8B; --bad:#E4796F; --warn:#E0A742; --warn-soft:#2A2216;
+}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);
+  font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:clamp(24px,5vw,64px) clamp(16px,4vw,40px) 96px;
+  display:flex;flex-direction:column;gap:40px}
+h1,h2,h3,h4{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15;
+  letter-spacing:-.022em;font-weight:750}
+h1{font-size:clamp(30px,5vw,50px)}
+h2{font-size:clamp(24px,3.4vw,34px);padding-top:16px;border-top:2px solid var(--ink)}
+h3{font-size:clamp(18px,2.2vw,23px);margin-top:36px;color:var(--ink)}
+h4{font-size:16px;margin-top:22px;letter-spacing:0}
+p{margin:12px 0;max-width:74ch}
+section{display:flex;flex-direction:column}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 10px}
+.lede{color:var(--muted);font-size:15px;max-width:74ch}
+.note{font-size:13.5px;color:var(--muted)}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;
+  border-radius:0 6px 6px 0;font-size:15px;max-width:74ch}
+.callout.warn{border-left-color:var(--warn);background:var(--warn-soft)}
+.callout.bad{border-left-color:var(--bad)}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface);
+  margin:14px 0}
+table{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted);text-align:right;padding:10px 12px;border-bottom:1px solid var(--line);
+  white-space:nowrap;background:var(--surface2);position:sticky;top:0}
+td{padding:8px 12px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:var(--surface2)}
+.master td:first-child{position:sticky;left:0;background:var(--surface)}
+.num{font-family:var(--mono);font-weight:700;color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;
+  display:flex;flex-direction:column;gap:2px}
+.stat.warn{border-color:var(--warn);background:var(--warn-soft)}
+.sv{font-family:var(--display);font-size:26px;font-weight:750;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+.sl{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.chip{display:inline-block;background:var(--surface);border:1px solid var(--line);
+  border-radius:20px;padding:2px 11px;font-size:12.5px;font-family:var(--mono);margin:2px 0}
+.tag{font-family:var(--mono);font-size:11px;padding:2px 8px;border-radius:4px;
+  border:1px solid currentColor}
+.tag.bad{color:var(--bad)} .tag.ok{color:var(--ok)}
+.jugadas{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px;margin:20px 0}
+.jugada{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px;
+  display:flex;flex-direction:column;gap:12px}
+.jugada header{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:baseline}
+.jidx{grid-column:1;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--accent)}
+.jugada h4{grid-column:1;margin:0;font-size:17px}
+.score{grid-row:1/3;grid-column:2;font-family:var(--display);font-size:30px;font-weight:750;
+  letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.score small{font-size:13px;color:var(--muted);font-weight:500}
+.balls{display:flex;gap:6px;flex-wrap:wrap}
+.ball{font-family:var(--mono);font-weight:700;font-size:15px;background:var(--accent-soft);
+  color:var(--accent);border:1px solid var(--accent);border-radius:50%;width:38px;height:38px;
+  display:grid;place-items:center}
+.bar{display:grid;grid-template-columns:1fr 88px 34px;gap:8px;align-items:center;font-size:12px}
+.bl{color:var(--muted)} .bl em{font-style:normal;opacity:.65;font-size:11px}
+.btrack{background:var(--surface2);border-radius:3px;height:6px;overflow:hidden}
+.bfill{display:block;height:100%;background:var(--accent)}
+.bv{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px 14px;margin:4px 0 0;
+  padding-top:12px;border-top:1px solid var(--line)}
+.meta div{display:flex;flex-direction:column}
+.meta dt{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.meta dd{margin:0;font-size:13.5px;font-variant-numeric:tabular-nums}
+.meta em{font-style:normal;color:var(--muted);font-size:12px}
+.toc{display:flex;flex-wrap:wrap;gap:8px}
+.toc a{font-family:var(--mono);font-size:12px;text-decoration:none;color:var(--muted);
+  border:1px solid var(--line);border-radius:5px;padding:5px 10px;background:var(--surface)}
+.toc a:hover,.toc a:focus-visible{color:var(--accent);border-color:var(--accent)}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em;background:var(--surface2);padding:1px 5px;border-radius:4px}
+.verdict{background:var(--surface);border:2px solid var(--ink);border-radius:10px;padding:22px 24px;
+  display:flex;flex-direction:column;gap:10px}
+ul,ol{max-width:74ch;padding-left:20px}
+li{margin:5px 0}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<div class="wrap">
+<header>
+  <p class="eyebrow">Análisis estadístico · corte 11 agosto 2026</p>
+  <h1>Gana Diario y Kábala: qué dicen los datos y qué no</h1>
+  <p class="lede">Análisis reproducible con semilla fija sobre sorteos verificados uno a uno,
+     400 000 combinaciones evaluadas y 200 000 sorteos simulados por juego.
+     Todo el código y los datos están en el repositorio; cada cifra de esta página
+     se genera desde <code>output/resultados.json</code>.</p>
+</header>
+
+<nav class="toc">
+  <a href="#datos">Datos y procedencia</a><a href="#gana_diario">Gana Diario</a>
+  <a href="#kabala">Kábala</a><a href="#modelo">Modelo de scoring</a>
+  <a href="#final">Jugadas finales</a><a href="#critica">Crítica</a>
+</nav>
+
+<div class="verdict">
+  <p class="eyebrow" style="margin:0">Resumen ejecutivo</p>
+  <p style="margin:0"><b>Lo primero, porque cambia cómo hay que leer todo lo demás:</b>
+     el entorno donde corre este análisis <b>bloquea el acceso a los portales de lotería</b>.
+     Solo pude verificar <b>18 de 588</b>
+     sorteos de Gana Diario (3.1 %) y
+     <b>23 de 252</b>
+     de Kábala (9.1 %). No inventé ni un solo sorteo para rellenar.</p>
+  <p style="margin:0">Con esos datos: <b>cero</b> números, pares o tríos resultan
+     estadísticamente significativos en ninguno de los dos juegos tras corregir por
+     comparaciones múltiples. χ² = 33.67 (p = 0.2978) en Gana Diario y
+     27.8 (p = 0.7782) en Kábala: compatibles con azar puro.</p>
+  <p style="margin:0">Aun así, y como pediste, hay <b>3 + 3 jugadas concretas</b>, elegidas por un
+     criterio explícito y auditable. El criterio con peso mayoritario (45 %) no es la frecuencia
+     —que no informa nada— sino la <b>impopularidad</b>: no cambia la probabilidad de ganar,
+     pero sí el premio esperado si ganas. Es la única ventaja real que existe en una lotería.</p>
+</div>
+
+<section id="datos">
+  <h2>Datos y procedencia</h2>
+  <p>El acceso directo por HTTPS a <code>latinka.com.pe</code>, <code>tinkaresultados.com</code>,
+     <code>lotterytexts.com</code> y <code>loteria.guru</code> devuelve
+     <code>403 CONNECT tunnel failed</code>. El único canal disponible fue la búsqueda web,
+     que devuelve fragmentos, no tablas históricas. De ahí la cobertura parcial.</p>
+
+  <h3>Clave de auditoría: la numeración es consecutiva</h3>
+  <p>Descubrí que los sorteos de Gana Diario se numeran de forma diaria y consecutiva sin saltos.
+     Anclas independientes: sorteo <b>4390</b> = 04/11/2025, <b>4603</b> = 05/06/2026,
+     <b>4660</b> = 01/08/2026 y <b>4669</b> = 10/08/2026.
+     Se cumple que 4390 + 270 días = 4660 y 4603 + 57 = 4660. De ahí se deduce que el
+     <b>sorteo 4083 = 01/01/2025</b> y que el período completo son los sorteos 4083 a 4670.
+     Cada fila del dataset se valida contra esta fórmula.</p>
+
+  <h3>Un dato rechazado (importante)</h3>
+  <p class="callout bad">Para el 07/06/2026 (sorteo 4605) la búsqueda devolvió
+     <code>20, 33, 43, 53, 30</code>. <b>43 y 53 no existen en Gana Diario</b> (rango 1–35).
+     Fila <b>rechazada</b> por el validador. Esto demuestra que los resúmenes automáticos
+     de búsqueda alucinan resultados de lotería: cualquier análisis que los use sin validar
+     rango y consistencia arrastra datos falsos.</p>
+
+  <h3>Parte 12 · Verificación del sorteo 4669</h3>
+  <p><b>Gana Diario — sorteo 4669 — 10/08/2026: 20 – 16 – 33 – 12 – 22.</b>
+     Confirmado de forma independiente por <code>nacionalloteria.com</code> y
+     <code>resultadosdetinka.com</code>; consistente con la numeración (4660 + 9 = 4669);
+     los 5 números están en rango y sin repetir.
+     <span class="tag ok">CONFIRMADO</span> e incorporado al modelo.</p>
+
+  <h3>Discrepancias entre fuentes</h3>
+  <ul>
+    <li>El premio de Gana Diario aparece como <b>S/ 200 000</b> en una nota y <b>S/ 100 000</b>
+        en otra. Sin resolver; no afecta al análisis de números.</li>
+    <li>Un resumen describió Gana Diario como «acertar los seis números»: es incorrecto,
+        son 5 de 1 a 35. Error del resumidor, no de la fuente.</li>
+    <li>Varias fuentes publican Kábala y <b>Chau Chamba</b> juntos. Registré
+        <b>solo el sorteo principal</b> para no mezclar juegos.</li>
+  </ul>
+</section>
+
+
+<section id="gana_diario">
+  <h2>GANA DIARIO</h2>
+  <p class="lede">5 números de 1 a 35 ·
+    324,632 combinaciones posibles ·
+    probabilidad por jugada 1 entre 324,632</p>
+
+  <div class="stats">
+    <div class="stat"><span class="sv">18</span><span class="sl">sorteos verificados</span></div>
+    <div class="stat"><span class="sv">588</span><span class="sl">sorteos en el período</span></div>
+    <div class="stat warn"><span class="sv">3.1%</span><span class="sl">cobertura real</span></div>
+    <div class="stat"><span class="sv">0 / 18</span><span class="sl">2025 / 2026</span></div>
+  </div>
+
+  <h3>Parte 3 · Tabla maestra por número</h3>
+  <p>Columnas exactamente como se pidieron. «—» significa que el dato no es
+     calculable con la muestra disponible, no que valga cero.</p>
+  <div class="scroll"><table class="master"><thead><tr><th>Nº</th><th>Ap. 2025</th><th>Ap. 2026</th><th>Ap. total</th><th>% 2025</th><th>% 2026</th><th>Dif. p.p.</th><th>Última aparición</th><th>Sorteos desde</th><th>Máx. retraso</th><th>Frec. últ. 30</th><th>Frec. últ. 60</th><th>Frec. últ. 100</th></tr></thead><tbody><tr><td><span class="num">01</span></td><td>0</td><td>3</td><td>3</td><td>—</td><td>3.33</td><td>—</td><td>2026-08-01</td><td>6</td><td>8</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">02</span></td><td>0</td><td>1</td><td>1</td><td>—</td><td>1.11</td><td>—</td><td>2026-06-09</td><td>16</td><td>16</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">03</span></td><td>0</td><td>2</td><td>2</td><td>—</td><td>2.22</td><td>—</td><td>2026-08-05</td><td>3</td><td>7</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">04</span></td><td>0</td><td>3</td><td>3</td><td>—</td><td>3.33</td><td>—</td><td>2026-08-09</td><td>1</td><td>7</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">05</span></td><td>0</td><td>4</td><td>4</td><td>—</td><td>4.44</td><td>—</td><td>2026-08-09</td><td>1</td><td>8</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">06</span></td><td>0</td><td>1</td><td>1</td><td>—</td><td>1.11</td><td>—</td><td>2026-06-10</td><td>15</td><td>15</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">07</span></td><td>0</td><td>3</td><td>3</td><td>—</td><td>3.33</td><td>—</td><td>2026-08-07</td><td>2</td><td>9</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">08</span></td><td>0</td><td>1</td><td>1</td><td>—</td><td>1.11</td><td>—</td><td>2026-07-30</td><td>7</td><td>10</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">09</span></td><td>0</td><td>2</td><td>2</td><td>—</td><td>2.22</td><td>—</td><td>2026-08-01</td><td>6</td><td>8</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">10</span></td><td>0</td><td>3</td><td>3</td><td>—</td><td>3.33</td><td>—</td><td>2026-08-02</td><td>5</td><td>7</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">11</span></td><td>0</td><td>1</td><td>1</td><td>—</td><td>1.11</td><td>—</td><td>2026-06-09</td><td>16</td><td>16</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">12</span></td><td>0</td><td>2</td><td>2</td><td>—</td><td>2.22</td><td>—</td><td>2026-08-10</td><td>0</td><td>13</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">13</span></td><td>0</td><td>0</td><td>0</td><td>—</td><td>0.0</td><td>—</td><td>—</td><td>—</td><td>18</td><td>0</td><td>0</td><td>0</td></tr><tr><td><span class="num">14</span></td><td>0</td><td>1</td><td>1</td><td>—</td><td>1.11</td><td>—</td><td>2026-08-09</td><td>1</td><td>16</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">15</span></td><td>0</td><td>0</td><td>0</td><td>—</td><td>0.0</td><td>—</td><td>—</td><td>—</td><td>18</td><td>0</td><td>0</td><td>0</td></tr><tr><td><span class="num">16</span></td><td>0</td><td>6</td><td>6</td><td>—</td><td>6.67</td><td>—</td><td>2026-08-10</td><td>0</td><td>5</td><td>6</td><td>6</td><td>6</td></tr><tr><td><span class="num">17</span></td><td>0</td><td>4</td><td>4</td><td>—</td><td>4.44</td><td>—</td><td>2026-08-09</td><td>1</td><td>10</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">18</span></td><td>0</td><td>5</td><td>5</td><td>—</td><td>5.56</td><td>—</td><td>2026-08-05</td><td>3</td><td>6</td><td>5</td><td>5</td><td>5</td></tr><tr><td><span class="num">19</span></td><td>0</td><td>2</td><td>2</td><td>—</td><td>2.22</td><td>—</td><td>2026-07-30</td><td>7</td><td>8</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">20</span></td><td>0</td><td>4</td><td>4</td><td>—</td><td>4.44</td><td>—</td><td>2026-08-10</td><td>0</td><td>5</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">21</span></td><td>0</td><td>5</td><td>5</td><td>—</td><td>5.56</td><td>—</td><td>2026-08-09</td><td>1</td><td>5</td><td>5</td><td>5</td><td>5</td></tr><tr><td><span class="num">22</span></td><td>0</td><td>1</td><td>1</td><td>—</td><td>1.11</td><td>—</td><td>2026-08-10</td><td>0</td><td>17</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">23</span></td><td>0</td><td>3</td><td>3</td><td>—</td><td>3.33</td><td>—</td><td>2026-08-01</td><td>6</td><td>6</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">24</span></td><td>0</td><td>0</td><td>0</td><td>—</td><td>0.0</td><td>—</td><td>—</td><td>—</td><td>18</td><td>0</td><td>0</td><td>0</td></tr><tr><td><span class="num">25</span></td><td>0</td><td>2</td><td>2</td><td>—</td><td>2.22</td><td>—</td><td>2026-07-12</td><td>12</td><td>12</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">26</span></td><td>0</td><td>3</td><td>3</td><td>—</td><td>3.33</td><td>—</td><td>2026-07-21</td><td>9</td><td>9</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">27</span></td><td>0</td><td>4</td><td>4</td><td>—</td><td>4.44</td><td>—</td><td>2026-08-07</td><td>2</td><td>5</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">28</span></td><td>0</td><td>4</td><td>4</td><td>—</td><td>4.44</td><td>—</td><td>2026-07-30</td><td>7</td><td>7</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">29</span></td><td>0</td><td>2</td><td>2</td><td>—</td><td>2.22</td><td>—</td><td>2026-07-13</td><td>11</td><td>11</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">30</span></td><td>0</td><td>0</td><td>0</td><td>—</td><td>0.0</td><td>—</td><td>—</td><td>—</td><td>18</td><td>0</td><td>0</td><td>0</td></tr><tr><td><span class="num">31</span></td><td>0</td><td>3</td><td>3</td><td>—</td><td>3.33</td><td>—</td><td>2026-08-02</td><td>5</td><td>8</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">32</span></td><td>0</td><td>5</td><td>5</td><td>—</td><td>5.56</td><td>—</td><td>2026-08-05</td><td>3</td><td>4</td><td>5</td><td>5</td><td>5</td></tr><tr><td><span class="num">33</span></td><td>0</td><td>4</td><td>4</td><td>—</td><td>4.44</td><td>—</td><td>2026-08-10</td><td>0</td><td>10</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">34</span></td><td>0</td><td>3</td><td>3</td><td>—</td><td>3.33</td><td>—</td><td>2026-08-07</td><td>2</td><td>10</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">35</span></td><td>0</td><td>3</td><td>3</td><td>—</td><td>3.33</td><td>—</td><td>2026-08-02</td><td>5</td><td>5</td><td>3</td><td>3</td><td>3</td></tr></tbody></table></div>
+  <p class="note">Nota: con 18 sorteos, las ventanas de 30/60/100
+     se truncan a la muestra disponible; «Frec. últ. 100» equivale aquí a la frecuencia total.</p>
+
+  <h3>Parte 4 · Hot / Cold / Overdue</h3>
+  <p>Esperado por número: <b>2.57</b> apariciones.
+     Cada número sigue marginalmente una Binomial(N, k/M), lo que permite un
+     p-valor <em>exacto</em>. Tras corrección de Benjamini-Hochberg sobre los
+     35 números: <b>0 números significativos</b>
+     (p mínimo observado = 0.0339).</p>
+  <div class="two">
+    <div><h4>🔥 Hot (mayor frecuencia)</h4><div class="scroll"><table class=""><thead><tr><th>Nº</th><th>Aparic.</th><th>Esperado</th><th>p exacto</th><th>¿Signif. tras BH?</th></tr></thead><tbody><tr><td><span class="num">16</span></td><td>6</td><td>2.57</td><td>0.034</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">18</span></td><td>5</td><td>2.57</td><td>0.165</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">21</span></td><td>5</td><td>2.57</td><td>0.165</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">32</span></td><td>5</td><td>2.57</td><td>0.165</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">05</span></td><td>4</td><td>2.57</td><td>0.312</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">17</span></td><td>4</td><td>2.57</td><td>0.312</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">20</span></td><td>4</td><td>2.57</td><td>0.312</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">27</span></td><td>4</td><td>2.57</td><td>0.312</td><td><span class="tag bad">No</span></td></tr></tbody></table></div></div>
+    <div><h4>🧊 Cold (menor frecuencia)</h4><div class="scroll"><table class=""><thead><tr><th>Nº</th><th>Aparic.</th><th>Esperado</th><th>p exacto</th><th>¿Signif. tras BH?</th></tr></thead><tbody><tr><td><span class="num">08</span></td><td>1</td><td>2.57</td><td>0.499</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">11</span></td><td>1</td><td>2.57</td><td>0.499</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">14</span></td><td>1</td><td>2.57</td><td>0.499</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">22</span></td><td>1</td><td>2.57</td><td>0.499</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">13</span></td><td>0</td><td>2.57</td><td>0.096</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">15</span></td><td>0</td><td>2.57</td><td>0.096</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">24</span></td><td>0</td><td>2.57</td><td>0.096</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">30</span></td><td>0</td><td>2.57</td><td>0.096</td><td><span class="tag bad">No</span></td></tr></tbody></table></div></div>
+  </div>
+  <h4>⏳ Overdue (mayor retraso)</h4>
+  <div class="scroll"><table class=""><thead><tr><th>Nº</th><th>Sorteos sin salir</th><th>Máx. retraso histórico</th></tr></thead><tbody><tr><td><span class="num">13</span></td><td>nunca apareció</td><td>18</td></tr><tr><td><span class="num">15</span></td><td>nunca apareció</td><td>18</td></tr><tr><td><span class="num">24</span></td><td>nunca apareció</td><td>18</td></tr><tr><td><span class="num">30</span></td><td>nunca apareció</td><td>18</td></tr><tr><td><span class="num">02</span></td><td>16</td><td>16</td></tr><tr><td><span class="num">11</span></td><td>16</td><td>16</td></tr><tr><td><span class="num">06</span></td><td>15</td><td>15</td></tr><tr><td><span class="num">25</span></td><td>12</td><td>12</td></tr></tbody></table></div>
+
+  <h3>Parte 5 · Pares y tríos</h3>
+  <p>Pares: 146 pares distintos observados de
+     595 posibles; esperado por par
+     <b>0.303</b>; máximo observado <b>4</b>;
+     <b>0 significativos</b> tras Benjamini-Hochberg.</p>
+  <div class="scroll"><table class=""><thead><tr><th>Par</th><th>Veces juntos</th><th>Esperado</th><th>p Poisson</th></tr></thead><tbody><tr><td><span class="num">16·33</span></td><td>4</td><td>0.303</td><td>0.0003</td></tr><tr><td><span class="num">18·21</span></td><td>3</td><td>0.303</td><td>0.0037</td></tr><tr><td><span class="num">01·09</span></td><td>2</td><td>0.303</td><td>0.0375</td></tr><tr><td><span class="num">01·23</span></td><td>2</td><td>0.303</td><td>0.0375</td></tr><tr><td><span class="num">03·16</span></td><td>2</td><td>0.303</td><td>0.0375</td></tr><tr><td><span class="num">04·17</span></td><td>2</td><td>0.303</td><td>0.0375</td></tr><tr><td><span class="num">05·07</span></td><td>2</td><td>0.303</td><td>0.0375</td></tr><tr><td><span class="num">05·17</span></td><td>2</td><td>0.303</td><td>0.0375</td></tr></tbody></table></div>
+  <p>Tríos: esperado por trío <b>0.028</b>; máximo observado
+     <b>2</b>;
+     <b>0 significativos</b> tras BH.</p>
+  <div class="scroll"><table class=""><thead><tr><th>Trío</th><th>Veces juntos</th><th>Esperado</th><th>p Poisson</th></tr></thead><tbody><tr><td><span class="num">01·09·23</span></td><td>2</td><td>0.028</td><td>0.0004</td></tr><tr><td><span class="num">07·17·34</span></td><td>2</td><td>0.028</td><td>0.0004</td></tr><tr><td><span class="num">16·20·33</span></td><td>2</td><td>0.028</td><td>0.0004</td></tr><tr><td><span class="num">16·28·33</span></td><td>2</td><td>0.028</td><td>0.0004</td></tr><tr><td><span class="num">16·29·33</span></td><td>2</td><td>0.028</td><td>0.0004</td></tr><tr><td><span class="num">01·02·10</span></td><td>1</td><td>0.028</td><td>0.0271</td></tr></tbody></table></div>
+  <p class="callout">Con 18 sorteos hay
+     595 pares posibles. Que alguno aparezca
+     4 veces es <b>lo esperado por azar</b>, no una señal.</p>
+
+  <h3>Parte 6 · Estructura de los sorteos</h3>
+  <div class="scroll"><table class=""><thead><tr><th>Métrica</th><th>Observado (media)</th><th>Esperado si es azar</th><th>z</th><th>Banda nula 5–95%</th></tr></thead><tbody><tr><td>suma</td><td>96.72</td><td>90.05</td><td><b>1.33</b></td><td>55.0 – 125.0</td></tr><tr><td>pares</td><td>2.39</td><td>2.43</td><td><b>-0.17</b></td><td>1.0 – 4.0</td></tr><tr><td>amplitud</td><td>23.22</td><td>24.01</td><td><b>-0.57</b></td><td>13.0 – 32.0</td></tr><tr><td>consecutivos</td><td>0.61</td><td>0.57</td><td><b>0.25</b></td><td>0.0 – 2.0</td></tr><tr><td>n_mayores_31</td><td>0.83</td><td>0.57</td><td><b>1.65</b></td><td>0.0 – 2.0</td></tr></tbody></table></div>
+  <p class="note">z = desviaciones estándar entre la media observada y la media
+     simulada. |z| &lt; 2 ⇒ compatible con azar.</p>
+  <p><b>Reparto par/impar:</b> <span class="chip">3P-2I: <b>8</b></span> · <span class="chip">2P-3I: <b>6</b></span> · <span class="chip">1P-4I: <b>3</b></span> · <span class="chip">4P-1I: <b>1</b></span></p>
+  <p><b>Bandas de rango ocupadas:</b> <span class="chip">2: <b>1</b></span> · <span class="chip">3: <b>11</b></span> · <span class="chip">4: <b>6</b></span></p>
+  <p><b>Números consecutivos:</b> <span class="chip">0: <b>10</b></span> · <span class="chip">1: <b>6</b></span> · <span class="chip">2: <b>1</b></span> · <span class="chip">3: <b>1</b></span></p>
+  <h4>Repetición respecto de sorteos anteriores</h4>
+  <div class="scroll"><table class=""><thead><tr><th>Ventana</th><th>Repeticiones observadas (media)</th><th>Esperado si es azar</th></tr></thead><tbody><tr><td>últimos 1 sorteos</td><td>0.765</td><td>0.709</td></tr><tr><td>últimos 2 sorteos</td><td>1.312</td><td>1.304</td></tr><tr><td>últimos 3 sorteos</td><td>2.133</td><td>1.831</td></tr><tr><td>últimos 5 sorteos</td><td>2.923</td><td>2.677</td></tr><tr><td>últimos 10 sorteos</td><td>4.125</td><td>3.933</td></tr></tbody></table></div>
+
+  <h3>Parte 7 · 2025 vs 2026</h3>
+  <p class="callout warn"><b>No computable.</b> No hay sorteos verificados suficientes en uno de los dos anios; la comparacion interanual no es computable. Sorteos verificados: 0 en 2025, 18 en 2026.</p>
+
+  <h3>Parte 8 · Monte Carlo y poder estadístico</h3>
+  <p>200 000 sorteos simulados. χ² de uniformidad observado =
+     <b>33.67</b> (gl = 34), p = <b>0.2978</b>;
+     el umbral del 95 % bajo azar puro es 43.0.
+     Conclusión: <b>los datos son compatibles con un proceso aleatorio</b>.</p>
+  <p>Esto fija el <em>shrinkage</em> del modelo en
+     <b>λ = 0.0</b> (ver Parte 9).</p>
+  <h4>¿Cuánta desviación haría falta para detectar un sesgo?</h4>
+  <div class="scroll"><table class=""><thead><tr><th>Nº de sorteos</th><th>Esperado por número</th><th>Máx. por puro azar (p95)</th><th>Exceso</th></tr></thead><tbody><tr><td>18</td><td>2.6</td><td>8.0</td><td>+5.4</td></tr><tr><td>100</td><td>14.3</td><td>25.0</td><td>+10.7</td></tr><tr><td>223</td><td>31.9</td><td>48.0</td><td>+16.1</td></tr><tr><td>588</td><td>84.0</td><td>110.0</td><td>+26.0</td></tr></tbody></table></div>
+  <p class="callout">Aun con el histórico <b>completo</b>
+     (588 sorteos), un número podría salir hasta
+     110.0 veces
+     (+26.0 sobre lo esperado)
+     <b>por puro azar</b>. Cualquier «número caliente» por debajo de ese umbral
+     es ruido, no señal.</p>
+
+  <h3>Parte 10 · Top 10 y jugadas finales</h3>
+  <div class="scroll"><table class=""><thead><tr><th>#</th><th>Nº</th><th>Score</th><th>F frec.</th><th>R recencia</th><th>V impop.</th><th>D desemp.</th><th>Aparic.</th><th>Frec/esperado</th><th>Sorteos desde</th></tr></thead><tbody><tr><td>1</td><td><span class="num">32</span></td><td><b>82.2</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.971</td><td>5</td><td>1.94</td><td>3</td></tr><tr><td>2</td><td><span class="num">33</span></td><td><b>81.3</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.882</td><td>4</td><td>1.56</td><td>0</td></tr><tr><td>3</td><td><span class="num">35</span></td><td><b>79.6</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.706</td><td>3</td><td>1.17</td><td>5</td></tr><tr><td>4</td><td><span class="num">34</span></td><td><b>79.3</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.676</td><td>3</td><td>1.17</td><td>2</td></tr><tr><td>5</td><td><span class="num">16</span></td><td><b>57.8</b></td><td>0.5</td><td>0.5</td><td>0.55</td><td>1.0</td><td>6</td><td>2.33</td><td>0</td></tr><tr><td>6</td><td><span class="num">21</span></td><td><b>57.2</b></td><td>0.5</td><td>0.5</td><td>0.55</td><td>0.941</td><td>5</td><td>1.94</td><td>1</td></tr><tr><td>7</td><td><span class="num">18</span></td><td><b>56.9</b></td><td>0.5</td><td>0.5</td><td>0.55</td><td>0.912</td><td>5</td><td>1.94</td><td>3</td></tr><tr><td>8</td><td><span class="num">28</span></td><td><b>56.3</b></td><td>0.5</td><td>0.5</td><td>0.55</td><td>0.853</td><td>4</td><td>1.56</td><td>7</td></tr><tr><td>9</td><td><span class="num">27</span></td><td><b>56.0</b></td><td>0.5</td><td>0.5</td><td>0.55</td><td>0.824</td><td>4</td><td>1.56</td><td>2</td></tr><tr><td>10</td><td><span class="num">20</span></td><td><b>55.7</b></td><td>0.5</td><td>0.5</td><td>0.55</td><td>0.794</td><td>4</td><td>1.56</td><td>0</td></tr></tbody></table></div>
+  <div class="jugadas">
+<article class="jugada">
+  <header><span class="jidx">Jugada 1</span><h4>Máxima puntuación estadística</h4>
+    <span class="score">82.3<small>/100</small></span></header>
+  <div class="balls"><span class="ball">08</span><span class="ball">13</span><span class="ball">16</span><span class="ball">32</span><span class="ball">33</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:87%"></span></span><span class="bv">0.87</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:93%"></span></span><span class="bv">0.93</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>102 <em>(pct 71.7 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>3P-2I</dd></div>
+    <div><dt>Amplitud</dt><dd>25</dd></div>
+    <div><dt>Consecutivos</dt><dd>1 <em>(P=0.4747)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>3 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>2</dd></div>
+    <div><dt>Percentil del score</dt><dd>100.0</dd></div>
+  </dl>
+</article>
+<article class="jugada">
+  <header><span class="jidx">Jugada 2</span><h4>Balanceada</h4>
+    <span class="score">54.8<small>/100</small></span></header>
+  <div class="balls"><span class="ball">06</span><span class="ball">07</span><span class="ball">18</span><span class="ball">28</span><span class="ball">31</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:96%"></span></span><span class="bv">0.96</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:25%"></span></span><span class="bv">0.25</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>90 <em>(pct 51.0 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>3P-2I</dd></div>
+    <div><dt>Amplitud</dt><dd>25</dd></div>
+    <div><dt>Consecutivos</dt><dd>1 <em>(P=0.4747)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>4 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>0</dd></div>
+    <div><dt>Percentil del score</dt><dd>76.43</dd></div>
+  </dl>
+</article>
+<article class="jugada">
+  <header><span class="jidx">Jugada 3</span><h4>Contrarian</h4>
+    <span class="score">66.3<small>/100</small></span></header>
+  <div class="balls"><span class="ball">13</span><span class="ball">14</span><span class="ball">15</span><span class="ball">32</span><span class="ball">33</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:32%"></span></span><span class="bv">0.32</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:100%"></span></span><span class="bv">1.00</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>107 <em>(pct 79.0 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>2P-3I</dd></div>
+    <div><dt>Amplitud</dt><dd>20</dd></div>
+    <div><dt>Consecutivos</dt><dd>3 <em>(P=0.0059)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>2 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>2</dd></div>
+    <div><dt>Percentil del score</dt><dd>91.33</dd></div>
+  </dl>
+</article></div>
+  <p class="note">Score medio de todas las combinaciones evaluadas:
+     46.23 · p99 = 74.64 ·
+     máximo alcanzable 82.35.</p>
+</section>
+
+<section id="kabala">
+  <h2>KABALA</h2>
+  <p class="lede">6 números de 1 a 40 ·
+    3,838,380 combinaciones posibles ·
+    probabilidad por jugada 1 entre 3,838,380</p>
+
+  <div class="stats">
+    <div class="stat"><span class="sv">23</span><span class="sl">sorteos verificados</span></div>
+    <div class="stat"><span class="sv">252</span><span class="sl">sorteos en el período</span></div>
+    <div class="stat warn"><span class="sv">9.1%</span><span class="sl">cobertura real</span></div>
+    <div class="stat"><span class="sv">6 / 17</span><span class="sl">2025 / 2026</span></div>
+  </div>
+
+  <h3>Parte 3 · Tabla maestra por número</h3>
+  <p>Columnas exactamente como se pidieron. «—» significa que el dato no es
+     calculable con la muestra disponible, no que valga cero.</p>
+  <div class="scroll"><table class="master"><thead><tr><th>Nº</th><th>Ap. 2025</th><th>Ap. 2026</th><th>Ap. total</th><th>% 2025</th><th>% 2026</th><th>Dif. p.p.</th><th>Última aparición</th><th>Sorteos desde</th><th>Máx. retraso</th><th>Frec. últ. 30</th><th>Frec. últ. 60</th><th>Frec. últ. 100</th></tr></thead><tbody><tr><td><span class="num">01</span></td><td>1</td><td>0</td><td>1</td><td>2.78</td><td>0.0</td><td>-2.78</td><td>2025-11-08</td><td>17</td><td>17</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">02</span></td><td>1</td><td>1</td><td>2</td><td>2.78</td><td>0.98</td><td>-1.8</td><td>2026-07-21</td><td>8</td><td>9</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">03</span></td><td>0</td><td>2</td><td>2</td><td>0.0</td><td>1.96</td><td>1.96</td><td>2026-07-21</td><td>8</td><td>8</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">04</span></td><td>3</td><td>2</td><td>5</td><td>8.33</td><td>1.96</td><td>-6.37</td><td>2026-08-01</td><td>3</td><td>11</td><td>5</td><td>5</td><td>5</td></tr><tr><td><span class="num">05</span></td><td>0</td><td>5</td><td>5</td><td>0.0</td><td>4.9</td><td>4.9</td><td>2026-07-28</td><td>5</td><td>7</td><td>5</td><td>5</td><td>5</td></tr><tr><td><span class="num">06</span></td><td>0</td><td>5</td><td>5</td><td>0.0</td><td>4.9</td><td>4.9</td><td>2026-08-08</td><td>0</td><td>8</td><td>5</td><td>5</td><td>5</td></tr><tr><td><span class="num">07</span></td><td>0</td><td>6</td><td>6</td><td>0.0</td><td>5.88</td><td>5.88</td><td>2026-08-06</td><td>1</td><td>9</td><td>6</td><td>6</td><td>6</td></tr><tr><td><span class="num">08</span></td><td>0</td><td>4</td><td>4</td><td>0.0</td><td>3.92</td><td>3.92</td><td>2026-07-25</td><td>6</td><td>7</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">09</span></td><td>0</td><td>2</td><td>2</td><td>0.0</td><td>1.96</td><td>1.96</td><td>2026-08-04</td><td>2</td><td>19</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">10</span></td><td>1</td><td>3</td><td>4</td><td>2.78</td><td>2.94</td><td>0.16</td><td>2026-08-04</td><td>2</td><td>7</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">11</span></td><td>0</td><td>2</td><td>2</td><td>0.0</td><td>1.96</td><td>1.96</td><td>2026-07-23</td><td>7</td><td>8</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">12</span></td><td>1</td><td>2</td><td>3</td><td>2.78</td><td>1.96</td><td>-0.82</td><td>2026-08-06</td><td>1</td><td>10</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">13</span></td><td>0</td><td>1</td><td>1</td><td>0.0</td><td>0.98</td><td>0.98</td><td>2026-07-14</td><td>10</td><td>12</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">14</span></td><td>1</td><td>5</td><td>6</td><td>2.78</td><td>4.9</td><td>2.12</td><td>2026-08-08</td><td>0</td><td>6</td><td>6</td><td>6</td><td>6</td></tr><tr><td><span class="num">15</span></td><td>2</td><td>1</td><td>3</td><td>5.56</td><td>0.98</td><td>-4.58</td><td>2026-06-27</td><td>13</td><td>13</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">16</span></td><td>0</td><td>4</td><td>4</td><td>0.0</td><td>3.92</td><td>3.92</td><td>2026-08-06</td><td>1</td><td>12</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">17</span></td><td>2</td><td>1</td><td>3</td><td>5.56</td><td>0.98</td><td>-4.58</td><td>2026-07-23</td><td>7</td><td>11</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">18</span></td><td>3</td><td>3</td><td>6</td><td>8.33</td><td>2.94</td><td>-5.39</td><td>2026-08-04</td><td>2</td><td>7</td><td>6</td><td>6</td><td>6</td></tr><tr><td><span class="num">19</span></td><td>1</td><td>2</td><td>3</td><td>2.78</td><td>1.96</td><td>-0.82</td><td>2026-07-28</td><td>5</td><td>10</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">20</span></td><td>0</td><td>3</td><td>3</td><td>0.0</td><td>2.94</td><td>2.94</td><td>2026-08-08</td><td>0</td><td>11</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">21</span></td><td>0</td><td>3</td><td>3</td><td>0.0</td><td>2.94</td><td>2.94</td><td>2026-08-08</td><td>0</td><td>8</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">22</span></td><td>1</td><td>3</td><td>4</td><td>2.78</td><td>2.94</td><td>0.16</td><td>2026-08-06</td><td>1</td><td>13</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">23</span></td><td>1</td><td>5</td><td>6</td><td>2.78</td><td>4.9</td><td>2.12</td><td>2026-07-30</td><td>4</td><td>4</td><td>6</td><td>6</td><td>6</td></tr><tr><td><span class="num">24</span></td><td>1</td><td>1</td><td>2</td><td>2.78</td><td>0.98</td><td>-1.8</td><td>2026-05-23</td><td>15</td><td>15</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">25</span></td><td>2</td><td>2</td><td>4</td><td>5.56</td><td>1.96</td><td>-3.6</td><td>2026-07-14</td><td>10</td><td>10</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">26</span></td><td>2</td><td>2</td><td>4</td><td>5.56</td><td>1.96</td><td>-3.6</td><td>2026-08-06</td><td>1</td><td>12</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">27</span></td><td>3</td><td>4</td><td>7</td><td>8.33</td><td>3.92</td><td>-4.41</td><td>2026-08-08</td><td>0</td><td>8</td><td>7</td><td>7</td><td>7</td></tr><tr><td><span class="num">28</span></td><td>1</td><td>1</td><td>2</td><td>2.78</td><td>0.98</td><td>-1.8</td><td>2026-07-18</td><td>9</td><td>9</td><td>2</td><td>2</td><td>2</td></tr><tr><td><span class="num">29</span></td><td>0</td><td>1</td><td>1</td><td>0.0</td><td>0.98</td><td>0.98</td><td>2026-05-07</td><td>16</td><td>16</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">30</span></td><td>0</td><td>3</td><td>3</td><td>0.0</td><td>2.94</td><td>2.94</td><td>2026-08-01</td><td>3</td><td>11</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">31</span></td><td>0</td><td>3</td><td>3</td><td>0.0</td><td>2.94</td><td>2.94</td><td>2026-08-06</td><td>1</td><td>15</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">32</span></td><td>1</td><td>3</td><td>4</td><td>2.78</td><td>2.94</td><td>0.16</td><td>2026-07-25</td><td>6</td><td>7</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">33</span></td><td>1</td><td>3</td><td>4</td><td>2.78</td><td>2.94</td><td>0.16</td><td>2026-08-08</td><td>0</td><td>12</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">34</span></td><td>2</td><td>3</td><td>5</td><td>5.56</td><td>2.94</td><td>-2.62</td><td>2026-07-21</td><td>8</td><td>8</td><td>5</td><td>5</td><td>5</td></tr><tr><td><span class="num">35</span></td><td>1</td><td>2</td><td>3</td><td>2.78</td><td>1.96</td><td>-0.82</td><td>2026-08-01</td><td>3</td><td>10</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">36</span></td><td>0</td><td>1</td><td>1</td><td>0.0</td><td>0.98</td><td>0.98</td><td>2026-07-18</td><td>9</td><td>13</td><td>1</td><td>1</td><td>1</td></tr><tr><td><span class="num">37</span></td><td>2</td><td>2</td><td>4</td><td>5.56</td><td>1.96</td><td>-3.6</td><td>2026-07-28</td><td>5</td><td>9</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">38</span></td><td>2</td><td>2</td><td>4</td><td>5.56</td><td>1.96</td><td>-3.6</td><td>2026-07-30</td><td>4</td><td>7</td><td>4</td><td>4</td><td>4</td></tr><tr><td><span class="num">39</span></td><td>0</td><td>3</td><td>3</td><td>0.0</td><td>2.94</td><td>2.94</td><td>2026-08-01</td><td>3</td><td>11</td><td>3</td><td>3</td><td>3</td></tr><tr><td><span class="num">40</span></td><td>0</td><td>1</td><td>1</td><td>0.0</td><td>0.98</td><td>0.98</td><td>2026-08-04</td><td>2</td><td>20</td><td>1</td><td>1</td><td>1</td></tr></tbody></table></div>
+  <p class="note">Nota: con 23 sorteos, las ventanas de 30/60/100
+     se truncan a la muestra disponible; «Frec. últ. 100» equivale aquí a la frecuencia total.</p>
+
+  <h3>Parte 4 · Hot / Cold / Overdue</h3>
+  <p>Esperado por número: <b>3.45</b> apariciones.
+     Cada número sigue marginalmente una Binomial(N, k/M), lo que permite un
+     p-valor <em>exacto</em>. Tras corrección de Benjamini-Hochberg sobre los
+     40 números: <b>0 números significativos</b>
+     (p mínimo observado = 0.0701).</p>
+  <div class="two">
+    <div><h4>🔥 Hot (mayor frecuencia)</h4><div class="scroll"><table class=""><thead><tr><th>Nº</th><th>Aparic.</th><th>Esperado</th><th>p exacto</th><th>¿Signif. tras BH?</th></tr></thead><tbody><tr><td><span class="num">27</span></td><td>7</td><td>3.45</td><td>0.07</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">07</span></td><td>6</td><td>3.45</td><td>0.143</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">14</span></td><td>6</td><td>3.45</td><td>0.143</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">18</span></td><td>6</td><td>3.45</td><td>0.143</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">23</span></td><td>6</td><td>3.45</td><td>0.143</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">04</span></td><td>5</td><td>3.45</td><td>0.376</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">05</span></td><td>5</td><td>3.45</td><td>0.376</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">06</span></td><td>5</td><td>3.45</td><td>0.376</td><td><span class="tag bad">No</span></td></tr></tbody></table></div></div>
+    <div><h4>🧊 Cold (menor frecuencia)</h4><div class="scroll"><table class=""><thead><tr><th>Nº</th><th>Aparic.</th><th>Esperado</th><th>p exacto</th><th>¿Signif. tras BH?</th></tr></thead><tbody><tr><td><span class="num">11</span></td><td>2</td><td>3.45</td><td>0.564</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">24</span></td><td>2</td><td>3.45</td><td>0.564</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">28</span></td><td>2</td><td>3.45</td><td>0.564</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">01</span></td><td>1</td><td>3.45</td><td>0.239</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">13</span></td><td>1</td><td>3.45</td><td>0.239</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">29</span></td><td>1</td><td>3.45</td><td>0.239</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">36</span></td><td>1</td><td>3.45</td><td>0.239</td><td><span class="tag bad">No</span></td></tr><tr><td><span class="num">40</span></td><td>1</td><td>3.45</td><td>0.239</td><td><span class="tag bad">No</span></td></tr></tbody></table></div></div>
+  </div>
+  <h4>⏳ Overdue (mayor retraso)</h4>
+  <div class="scroll"><table class=""><thead><tr><th>Nº</th><th>Sorteos sin salir</th><th>Máx. retraso histórico</th></tr></thead><tbody><tr><td><span class="num">01</span></td><td>17</td><td>17</td></tr><tr><td><span class="num">29</span></td><td>16</td><td>16</td></tr><tr><td><span class="num">24</span></td><td>15</td><td>15</td></tr><tr><td><span class="num">15</span></td><td>13</td><td>13</td></tr><tr><td><span class="num">13</span></td><td>10</td><td>12</td></tr><tr><td><span class="num">25</span></td><td>10</td><td>10</td></tr><tr><td><span class="num">28</span></td><td>9</td><td>9</td></tr><tr><td><span class="num">36</span></td><td>9</td><td>13</td></tr></tbody></table></div>
+
+  <h3>Parte 5 · Pares y tríos</h3>
+  <p>Pares: 287 pares distintos observados de
+     780 posibles; esperado por par
+     <b>0.442</b>; máximo observado <b>4</b>;
+     <b>0 significativos</b> tras Benjamini-Hochberg.</p>
+  <div class="scroll"><table class=""><thead><tr><th>Par</th><th>Veces juntos</th><th>Esperado</th><th>p Poisson</th></tr></thead><tbody><tr><td><span class="num">27·33</span></td><td>4</td><td>0.442</td><td>0.0011</td></tr><tr><td><span class="num">05·23</span></td><td>3</td><td>0.442</td><td>0.0104</td></tr><tr><td><span class="num">07·16</span></td><td>3</td><td>0.442</td><td>0.0104</td></tr><tr><td><span class="num">14·38</span></td><td>3</td><td>0.442</td><td>0.0104</td></tr><tr><td><span class="num">04·10</span></td><td>2</td><td>0.442</td><td>0.0732</td></tr><tr><td><span class="num">04·23</span></td><td>2</td><td>0.442</td><td>0.0732</td></tr><tr><td><span class="num">04·26</span></td><td>2</td><td>0.442</td><td>0.0732</td></tr><tr><td><span class="num">04·27</span></td><td>2</td><td>0.442</td><td>0.0732</td></tr></tbody></table></div>
+  <p>Tríos: esperado por trío <b>0.047</b>; máximo observado
+     <b>2</b>;
+     <b>0 significativos</b> tras BH.</p>
+  <div class="scroll"><table class=""><thead><tr><th>Trío</th><th>Veces juntos</th><th>Esperado</th><th>p Poisson</th></tr></thead><tbody><tr><td><span class="num">04·10·23</span></td><td>2</td><td>0.047</td><td>0.0011</td></tr><tr><td><span class="num">05·23·30</span></td><td>2</td><td>0.047</td><td>0.0011</td></tr><tr><td><span class="num">06·14·27</span></td><td>2</td><td>0.047</td><td>0.0011</td></tr><tr><td><span class="num">07·16·18</span></td><td>2</td><td>0.047</td><td>0.0011</td></tr><tr><td><span class="num">12·14·25</span></td><td>2</td><td>0.047</td><td>0.0011</td></tr><tr><td><span class="num">12·14·38</span></td><td>2</td><td>0.047</td><td>0.0011</td></tr></tbody></table></div>
+  <p class="callout">Con 23 sorteos hay
+     780 pares posibles. Que alguno aparezca
+     4 veces es <b>lo esperado por azar</b>, no una señal.</p>
+
+  <h3>Parte 6 · Estructura de los sorteos</h3>
+  <div class="scroll"><table class=""><thead><tr><th>Métrica</th><th>Observado (media)</th><th>Esperado si es azar</th><th>z</th><th>Banda nula 5–95%</th></tr></thead><tbody><tr><td>suma</td><td>121.04</td><td>122.9</td><td><b>-0.34</b></td><td>79.0 – 167.0</td></tr><tr><td>pares</td><td>3.13</td><td>3.0</td><td><b>0.55</b></td><td>1.0 – 5.0</td></tr><tr><td>amplitud</td><td>28.96</td><td>29.28</td><td><b>-0.26</b></td><td>18.0 – 38.0</td></tr><tr><td>consecutivos</td><td>0.65</td><td>0.75</td><td><b>-0.62</b></td><td>0.0 – 2.0</td></tr><tr><td>n_mayores_31</td><td>1.26</td><td>1.35</td><td><b>-0.42</b></td><td>0.0 – 3.0</td></tr></tbody></table></div>
+  <p class="note">z = desviaciones estándar entre la media observada y la media
+     simulada. |z| &lt; 2 ⇒ compatible con azar.</p>
+  <p><b>Reparto par/impar:</b> <span class="chip">3P-3I: <b>9</b></span> · <span class="chip">4P-2I: <b>7</b></span> · <span class="chip">2P-4I: <b>3</b></span> · <span class="chip">5P-1I: <b>2</b></span> · <span class="chip">1P-5I: <b>1</b></span> · <span class="chip">0P-6I: <b>1</b></span></p>
+  <p><b>Bandas de rango ocupadas:</b> <span class="chip">3: <b>13</b></span> · <span class="chip">4: <b>10</b></span></p>
+  <p><b>Números consecutivos:</b> <span class="chip">0: <b>11</b></span> · <span class="chip">1: <b>9</b></span> · <span class="chip">2: <b>3</b></span></p>
+  <h4>Repetición respecto de sorteos anteriores</h4>
+  <div class="scroll"><table class=""><thead><tr><th>Ventana</th><th>Repeticiones observadas (media)</th><th>Esperado si es azar</th></tr></thead><tbody><tr><td>últimos 1 sorteos</td><td>0.727</td><td>0.91</td></tr><tr><td>últimos 2 sorteos</td><td>1.571</td><td>1.677</td></tr><tr><td>últimos 3 sorteos</td><td>1.85</td><td>2.329</td></tr><tr><td>últimos 5 sorteos</td><td>3.389</td><td>3.341</td></tr><tr><td>últimos 10 sorteos</td><td>4.692</td><td>4.825</td></tr></tbody></table></div>
+
+  <h3>Parte 7 · 2025 vs 2026</h3>
+  <p>Correlación de Pearson entre las frecuencias de 2025 y 2026: <b>r = -0.15</b>, con 6 y 17 sorteos respectivamente. La banda del 95 % para dos años <em>independientes y simulados</em> va de -0.31 a 0.312 (p = 0.351). La correlacion observada cae dentro de la banda esperada por puro azar.</p><p class="callout">Es decir: la frecuencia de 2025 <b>no predice</b> la de 2026. La correlación observada es indistinguible de cero.</p>
+
+  <h3>Parte 8 · Monte Carlo y poder estadístico</h3>
+  <p>200 000 sorteos simulados. χ² de uniformidad observado =
+     <b>27.8</b> (gl = 39), p = <b>0.7782</b>;
+     el umbral del 95 % bajo azar puro es 47.51.
+     Conclusión: <b>los datos son compatibles con un proceso aleatorio</b>.</p>
+  <p>Esto fija el <em>shrinkage</em> del modelo en
+     <b>λ = 0.0</b> (ver Parte 9).</p>
+  <h4>¿Cuánta desviación haría falta para detectar un sesgo?</h4>
+  <div class="scroll"><table class=""><thead><tr><th>Nº de sorteos</th><th>Esperado por número</th><th>Máx. por puro azar (p95)</th><th>Exceso</th></tr></thead><tbody><tr><td>23</td><td>3.5</td><td>9.0</td><td>+5.5</td></tr><tr><td>100</td><td>15.0</td><td>26.0</td><td>+11.0</td></tr><tr><td>223</td><td>33.5</td><td>50.0</td><td>+16.5</td></tr><tr><td>252</td><td>37.8</td><td>56.0</td><td>+18.2</td></tr></tbody></table></div>
+  <p class="callout">Aun con el histórico <b>completo</b>
+     (252 sorteos), un número podría salir hasta
+     56.0 veces
+     (+18.2 sobre lo esperado)
+     <b>por puro azar</b>. Cualquier «número caliente» por debajo de ese umbral
+     es ruido, no señal.</p>
+
+  <h3>Parte 10 · Top 10 y jugadas finales</h3>
+  <div class="scroll"><table class=""><thead><tr><th>#</th><th>Nº</th><th>Score</th><th>F frec.</th><th>R recencia</th><th>V impop.</th><th>D desemp.</th><th>Aparic.</th><th>Frec/esperado</th><th>Sorteos desde</th></tr></thead><tbody><tr><td>1</td><td><span class="num">34</span></td><td><b>81.2</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.872</td><td>5</td><td>1.45</td><td>8</td></tr><tr><td>2</td><td><span class="num">38</span></td><td><b>80.2</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.769</td><td>4</td><td>1.16</td><td>4</td></tr><tr><td>3</td><td><span class="num">37</span></td><td><b>79.9</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.744</td><td>4</td><td>1.16</td><td>5</td></tr><tr><td>4</td><td><span class="num">33</span></td><td><b>79.7</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.718</td><td>4</td><td>1.16</td><td>0</td></tr><tr><td>5</td><td><span class="num">32</span></td><td><b>79.4</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.692</td><td>4</td><td>1.16</td><td>6</td></tr><tr><td>6</td><td><span class="num">39</span></td><td><b>77.6</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.513</td><td>3</td><td>0.87</td><td>3</td></tr><tr><td>7</td><td><span class="num">35</span></td><td><b>77.4</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.487</td><td>3</td><td>0.87</td><td>3</td></tr><tr><td>8</td><td><span class="num">40</span></td><td><b>73.5</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.103</td><td>1</td><td>0.29</td><td>2</td></tr><tr><td>9</td><td><span class="num">36</span></td><td><b>73.3</b></td><td>0.5</td><td>0.5</td><td>1.0</td><td>0.077</td><td>1</td><td>0.29</td><td>9</td></tr><tr><td>10</td><td><span class="num">27</span></td><td><b>57.8</b></td><td>0.5</td><td>0.5</td><td>0.55</td><td>1.0</td><td>7</td><td>2.03</td><td>0</td></tr></tbody></table></div>
+  <div class="jugadas">
+<article class="jugada">
+  <header><span class="jidx">Jugada 1</span><h4>Máxima puntuación estadística</h4>
+    <span class="score">82.1<small>/100</small></span></header>
+  <div class="balls"><span class="ball">02</span><span class="ball">15</span><span class="ball">19</span><span class="ball">22</span><span class="ball">32</span><span class="ball">33</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:86%"></span></span><span class="bv">0.86</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:93%"></span></span><span class="bv">0.93</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>123 <em>(pct 50.8 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>3P-3I</dd></div>
+    <div><dt>Amplitud</dt><dd>31</dd></div>
+    <div><dt>Consecutivos</dt><dd>1 <em>(P=0.5785)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>4 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>2</dd></div>
+    <div><dt>Percentil del score</dt><dd>100.0</dd></div>
+  </dl>
+</article>
+<article class="jugada">
+  <header><span class="jidx">Jugada 2</span><h4>Balanceada</h4>
+    <span class="score">71.4<small>/100</small></span></header>
+  <div class="balls"><span class="ball">01</span><span class="ball">11</span><span class="ball">24</span><span class="ball">27</span><span class="ball">28</span><span class="ball">32</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:86%"></span></span><span class="bv">0.86</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:70%"></span></span><span class="bv">0.70</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>123 <em>(pct 50.8 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>3P-3I</dd></div>
+    <div><dt>Amplitud</dt><dd>31</dd></div>
+    <div><dt>Consecutivos</dt><dd>1 <em>(P=0.5785)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>4 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>1</dd></div>
+    <div><dt>Percentil del score</dt><dd>92.04</dd></div>
+  </dl>
+</article>
+<article class="jugada">
+  <header><span class="jidx">Jugada 3</span><h4>Contrarian</h4>
+    <span class="score">71.3<small>/100</small></span></header>
+  <div class="balls"><span class="ball">13</span><span class="ball">14</span><span class="ball">15</span><span class="ball">16</span><span class="ball">32</span><span class="ball">34</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:47%"></span></span><span class="bv">0.47</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:100%"></span></span><span class="bv">1.00</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>124 <em>(pct 52.3 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>4P-2I</dd></div>
+    <div><dt>Amplitud</dt><dd>21</dd></div>
+    <div><dt>Consecutivos</dt><dd>3 <em>(P=0.0179)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>2 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>2</dd></div>
+    <div><dt>Percentil del score</dt><dd>91.82</dd></div>
+  </dl>
+</article></div>
+  <p class="note">Score medio de todas las combinaciones evaluadas:
+     54.35 · p99 = 76.55 ·
+     máximo alcanzable 82.07.</p>
+</section>
+
+<section id="modelo">
+  <h2>Parte 9 · Cómo se calcula el score</h2>
+  <p>El «Statistical Selection Score» va de 0 a 100 y combina tres componentes.
+     Ninguno de ellos aumenta la probabilidad de acertar; lo digo explícitamente porque
+     es la diferencia entre un modelo honesto y uno que vende humo.</p>
+  <ol>
+    <li><b>T · Tipicidad estructural (peso 35 %).</b> Percentil de la combinación dentro de la
+        distribución <em>simulada</em> de suma, paridad, amplitud y consecutivos. Vale 1 si cae
+        en el centro exacto y 0 en la cola. Es <b>descriptivo</b>: una combinación «típica» no
+        es más probable, simplemente se parece a la mayoría de los sorteos.</li>
+    <li><b>E · Frecuencia regularizada (peso 20 %).</b> Se aplica <em>shrinkage</em>
+        empírico-bayesiano: λ = max(0, (χ²−gl)/χ²). Como en ambos juegos χ² &lt; gl, resulta
+        <b>λ = 0</b> y la componente colapsa a 0,5 para todos los números.
+        <b>Ese es el resultado honesto</b>: las frecuencias observadas no aportan información,
+        y el modelo se autolimita en lugar de fingir que sí.</li>
+    <li><b>V · Impopularidad / valor esperado (peso 45 %).</b> La única componente con
+        justificación económica real. Premia números ≥ 32 (no representables como día del mes),
+        penaliza el 7 y el exceso de números ≤ 12, y penaliza las combinaciones formadas
+        íntegramente por números ≤ 31. <b>No cambia P(ganar)</b>, pero si el premio se reparte
+        entre acertantes, reduce la probabilidad de compartirlo.</li>
+  </ol>
+  <p class="callout"><b>La falacia del jugador, explícitamente.</b> Un número «overdue» <b>no</b>
+     tiene más probabilidad de salir: los sorteos son independientes y el bombo no tiene memoria.
+     La columna «sorteos desde la última aparición» es <b>descriptiva</b>, y por eso el modelo
+     <b>no la usa</b> para premiar números atrasados. Distinguir esas tres cosas
+     —descripción histórica, inferencia estadística y falacia del jugador— es justamente
+     lo que pediste, y es donde la mayoría de los «sistemas» de lotería fallan.</p>
+</section>
+
+<section id="final">
+  <h2>Parte 10 · Las 6 jugadas</h2>
+  <h3>Gana Diario</h3>
+  <div class="jugadas">
+<article class="jugada">
+  <header><span class="jidx">Jugada 1</span><h4>Máxima puntuación estadística</h4>
+    <span class="score">82.3<small>/100</small></span></header>
+  <div class="balls"><span class="ball">08</span><span class="ball">13</span><span class="ball">16</span><span class="ball">32</span><span class="ball">33</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:87%"></span></span><span class="bv">0.87</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:93%"></span></span><span class="bv">0.93</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>102 <em>(pct 71.7 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>3P-2I</dd></div>
+    <div><dt>Amplitud</dt><dd>25</dd></div>
+    <div><dt>Consecutivos</dt><dd>1 <em>(P=0.4747)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>3 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>2</dd></div>
+    <div><dt>Percentil del score</dt><dd>100.0</dd></div>
+  </dl>
+</article>
+<article class="jugada">
+  <header><span class="jidx">Jugada 2</span><h4>Balanceada</h4>
+    <span class="score">54.8<small>/100</small></span></header>
+  <div class="balls"><span class="ball">06</span><span class="ball">07</span><span class="ball">18</span><span class="ball">28</span><span class="ball">31</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:96%"></span></span><span class="bv">0.96</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:25%"></span></span><span class="bv">0.25</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>90 <em>(pct 51.0 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>3P-2I</dd></div>
+    <div><dt>Amplitud</dt><dd>25</dd></div>
+    <div><dt>Consecutivos</dt><dd>1 <em>(P=0.4747)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>4 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>0</dd></div>
+    <div><dt>Percentil del score</dt><dd>76.43</dd></div>
+  </dl>
+</article>
+<article class="jugada">
+  <header><span class="jidx">Jugada 3</span><h4>Contrarian</h4>
+    <span class="score">66.3<small>/100</small></span></header>
+  <div class="balls"><span class="ball">13</span><span class="ball">14</span><span class="ball">15</span><span class="ball">32</span><span class="ball">33</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:32%"></span></span><span class="bv">0.32</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:100%"></span></span><span class="bv">1.00</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>107 <em>(pct 79.0 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>2P-3I</dd></div>
+    <div><dt>Amplitud</dt><dd>20</dd></div>
+    <div><dt>Consecutivos</dt><dd>3 <em>(P=0.0059)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>2 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>2</dd></div>
+    <div><dt>Percentil del score</dt><dd>91.33</dd></div>
+  </dl>
+</article></div>
+  <h3>Kábala</h3>
+  <div class="jugadas">
+<article class="jugada">
+  <header><span class="jidx">Jugada 1</span><h4>Máxima puntuación estadística</h4>
+    <span class="score">82.1<small>/100</small></span></header>
+  <div class="balls"><span class="ball">02</span><span class="ball">15</span><span class="ball">19</span><span class="ball">22</span><span class="ball">32</span><span class="ball">33</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:86%"></span></span><span class="bv">0.86</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:93%"></span></span><span class="bv">0.93</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>123 <em>(pct 50.8 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>3P-3I</dd></div>
+    <div><dt>Amplitud</dt><dd>31</dd></div>
+    <div><dt>Consecutivos</dt><dd>1 <em>(P=0.5785)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>4 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>2</dd></div>
+    <div><dt>Percentil del score</dt><dd>100.0</dd></div>
+  </dl>
+</article>
+<article class="jugada">
+  <header><span class="jidx">Jugada 2</span><h4>Balanceada</h4>
+    <span class="score">71.4<small>/100</small></span></header>
+  <div class="balls"><span class="ball">01</span><span class="ball">11</span><span class="ball">24</span><span class="ball">27</span><span class="ball">28</span><span class="ball">32</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:86%"></span></span><span class="bv">0.86</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:70%"></span></span><span class="bv">0.70</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>123 <em>(pct 50.8 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>3P-3I</dd></div>
+    <div><dt>Amplitud</dt><dd>31</dd></div>
+    <div><dt>Consecutivos</dt><dd>1 <em>(P=0.5785)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>4 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>1</dd></div>
+    <div><dt>Percentil del score</dt><dd>92.04</dd></div>
+  </dl>
+</article>
+<article class="jugada">
+  <header><span class="jidx">Jugada 3</span><h4>Contrarian</h4>
+    <span class="score">71.3<small>/100</small></span></header>
+  <div class="balls"><span class="ball">13</span><span class="ball">14</span><span class="ball">15</span><span class="ball">16</span><span class="ball">32</span><span class="ball">34</span></div>
+  <div class="bar"><span class="bl">Tipicidad estructural <em>peso 35%</em></span><span class="btrack"><span class="bfill" style="width:47%"></span></span><span class="bv">0.47</span></div><div class="bar"><span class="bl">Frecuencia (regularizada) <em>peso 20%</em></span><span class="btrack"><span class="bfill" style="width:50%"></span></span><span class="bv">0.50</span></div><div class="bar"><span class="bl">Impopularidad / VE <em>peso 45%</em></span><span class="btrack"><span class="bfill" style="width:100%"></span></span><span class="bv">1.00</span></div>
+  <dl class="meta">
+    <div><dt>Suma</dt><dd>124 <em>(pct 52.3 del null)</em></dd></div>
+    <div><dt>Par / impar</dt><dd>4P-2I</dd></div>
+    <div><dt>Amplitud</dt><dd>21</dd></div>
+    <div><dt>Consecutivos</dt><dd>3 <em>(P=0.0179)</em></dd></div>
+    <div><dt>Bandas ocupadas</dt><dd>2 de 4</dd></div>
+    <div><dt>Números ≥ 32</dt><dd>2</dd></div>
+    <div><dt>Percentil del score</dt><dd>91.82</dd></div>
+  </dl>
+</article></div>
+  <p class="callout"><b>Si tuviera que elegir una sola por juego:</b> la Jugada 1.
+     Combina tipicidad estructural alta con impopularidad alta, que es la única
+     combinación de criterios donde uno de los dos factores tiene efecto económico medible.
+     La Jugada 3 es deliberadamente más arriesgada: maximiza impopularidad a costa de una
+     estructura rara (tres consecutivos, que ocurren en menos del
+     0.6 %
+     de los sorteos).</p>
+</section>
+
+<section id="critica">
+  <h2>Parte 11 · Crítica, y qué haría distinto</h2>
+  <h3>Qué esperar del otro modelo</h3>
+  <p>Si el otro modelo te entregó una tabla de frecuencias «completa» de 588 sorteos de
+     Gana Diario y 252 de Kábala, conviene que verifiques una cosa concreta: pídele
+     <b>diez fechas al azar con su número de sorteo</b> y contrástalas. La numeración consecutiva
+     (sorteo = 4083 + días desde el 01/01/2025) hace que las invenciones se detecten en segundos.
+     Yo no pude reconstruir ese histórico, y lo digo en lugar de rellenarlo.</p>
+  <h3>Dónde probablemente coincidamos y dónde no</h3>
+  <ul>
+    <li><b>Coincidencia esperada:</b> números altos y «fríos» aparecerán en ambas listas,
+        aunque por razones opuestas. Yo los elijo por impopularidad (efecto sobre el premio
+        compartido), no porque «toque que salgan».</li>
+    <li><b>Discrepancia esperada:</b> cualquier lista basada en «números calientes» o en
+        «overdue». Ninguno de los dos criterios sobrevive a la corrección por comparaciones
+        múltiples en mis datos, y ninguno tiene validez predictiva ni siquiera con el
+        histórico completo.</li>
+    <li><b>Lo que yo aportaría y probablemente no consideraste:</b> optimizar por
+        <b>premio esperado</b> en lugar de por probabilidad. Es el único margen real.</li>
+  </ul>
+  <h3>Qué invalidaría o mejoraría este análisis</h3>
+  <ul>
+    <li>El histórico completo desde una red sin bloqueo: basta añadir filas a
+        <code>data/*.csv</code> y volver a ejecutar; todo se recalcula.</li>
+    <li>Datos de <b>ventas por combinación</b>, que no son públicos. Con ellos la componente V
+        dejaría de ser una heurística basada en sesgos documentados y pasaría a ser
+        una optimización medible del premio esperado.</li>
+  </ul>
+  <p class="callout warn"><b>Lo que ningún análisis puede darte.</b> La probabilidad de acertar
+     Gana Diario es 1 entre 324,632 y la de Kábala
+     1 entre 3,838,380, y <b>estas jugadas no la mejoran</b>.
+     Lo que sí hacen es elegir, entre combinaciones de idéntica probabilidad, aquellas que
+     tienen menos posibilidades de estar compartidas con otros apostadores.</p>
+</section>
+</div>

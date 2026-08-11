@@ -405,6 +405,51 @@ def score_numeros(draws, cfg, lam):
     return out
 
 
+def clasificar_hot_cold(draws, cfg):
+    """HOT / COLD / OVERDUE + test exacto por numero.
+
+    Marginalmente, el numero de sorteos en que aparece un numero dado sigue
+    una Binomial(N, k/M): en cada sorteo aparece (1) o no (0) con prob k/M.
+    Eso permite un p-valor EXACTO por numero, y luego correccion BH.
+    """
+    M, k, N = cfg["maxnum"], cfg["k"], len(draws)
+    p = k / M
+    tabla = tabla_maestra(draws, cfg)
+
+    def binom_pmf(x, n, pp):
+        return comb(n, x) * pp ** x * (1 - pp) ** (n - x)
+
+    filas = []
+    for f in tabla:
+        x = f["ap_total"]
+        pmf_obs = binom_pmf(x, N, p)
+        # p-valor exacto de dos colas (metodo de la densidad minima)
+        pv = sum(binom_pmf(i, N, p) for i in range(N + 1)
+                 if binom_pmf(i, N, p) <= pmf_obs * (1 + 1e-9))
+        filas.append({**f, "esperado": round(N * p, 2),
+                      "p_exacto": min(1.0, pv)})
+    # Benjamini-Hochberg
+    orden = sorted(filas, key=lambda r: r["p_exacto"])
+    signif = []
+    for i, r in enumerate(orden, 1):
+        r["bh_umbral"] = round(0.05 * i / M, 4)
+        r["significativo"] = r["p_exacto"] <= 0.05 * i / M
+        if r["significativo"]:
+            signif.append(r["numero"])
+    por_frec = sorted(filas, key=lambda r: (-r["ap_total"], r["numero"]))
+    por_gap = sorted(filas, key=lambda r: (-(r["sorteos_desde"] if r["sorteos_desde"]
+                                             is not None else 10 ** 6), r["numero"]))
+    return {
+        "hot": por_frec[:8],
+        "cold": por_frec[-8:],
+        "overdue": por_gap[:8],
+        "n_significativos_BH": len(signif),
+        "numeros_significativos": signif,
+        "p_minimo_observado": round(min(r["p_exacto"] for r in filas), 4),
+        "esperado_por_numero": round(N * p, 2),
+    }
+
+
 # --------------------------------------------------------------------------
 # 6b. Comparacion 2025 vs 2026
 # --------------------------------------------------------------------------
@@ -615,6 +660,7 @@ def analizar(key):
 
     rep["poder"] = poder_estadistico(cfg, rng, [N, 100, 223, esperados])
     rep["comparacion_anios"] = comparar_anios(draws, cfg, rng)
+    rep["hot_cold"] = clasificar_hot_cold(draws, cfg)
 
     rep["score_numeros"] = score_numeros(draws, cfg, lam)
     scorer, null_ref = construir_scorer(draws, cfg, rng, lam)
