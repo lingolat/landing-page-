@@ -4,13 +4,13 @@
     "k": 5,
     "maxnum": 35,
     "cobertura": {
-      "sorteos_verificados": 18,
+      "sorteos_verificados": 19,
       "sorteos_en_el_periodo": 588,
-      "cobertura_pct": 3.1,
-      "faltantes": 570,
+      "cobertura_pct": 3.2,
+      "faltantes": 569,
       "verificados_2025": 0,
-      "verificados_2026": 18,
-      "rango": "2026-06-05 .. 2026-08-10",
+      "verificados_2026": 19,
+      "rango": "2026-06-05 .. 2026-08-11",
       "filas_rechazadas": []
     },
     "tabla_maestra": [
@@ -20,9 +20,9 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 3.33,
+        "pct_2026": 3.16,
         "ultima_aparicion": "2026-08-01",
-        "sorteos_desde": 6,
+        "sorteos_desde": 7,
         "max_retraso": 8,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
@@ -35,10 +35,10 @@
         "ap_2026": 1,
         "ap_total": 1,
         "pct_2025": null,
-        "pct_2026": 1.11,
+        "pct_2026": 1.05,
         "ultima_aparicion": "2026-06-09",
-        "sorteos_desde": 16,
-        "max_retraso": 16,
+        "sorteos_desde": 17,
+        "max_retraso": 17,
         "frec_ult_30": 1,
         "frec_ult_60": 1,
         "frec_ult_100": 1,
@@ -50,9 +50,9 @@
         "ap_2026": 2,
         "ap_total": 2,
         "pct_2025": null,
-        "pct_2026": 2.22,
+        "pct_2026": 2.11,
         "ultima_aparicion": "2026-08-05",
-        "sorteos_desde": 3,
+        "sorteos_desde": 4,
         "max_retraso": 7,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
@@ -65,9 +65,9 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 3.33,
+        "pct_2026": 3.16,
         "ultima_aparicion": "2026-08-09",
-        "sorteos_desde": 1,
+        "sorteos_desde": 2,
         "max_retraso": 7,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
@@ -77,16 +77,16 @@
       {
         "numero": 5,
         "ap_2025": 0,
-        "ap_2026": 4,
-        "ap_total": 4,
+        "ap_2026": 5,
+        "ap_total": 5,
         "pct_2025": null,
-        "pct_2026": 4.44,
-        "ultima_aparicion": "2026-08-09",
-        "sorteos_desde": 1,
+        "pct_2026": 5.26,
+        "ultima_aparicion": "2026-08-11",
+        "sorteos_desde": 0,
         "max_retraso": 8,
-        "frec_ult_30": 4,
-        "frec_ult_60": 4,
-        "frec_ult_100": 4,
+        "frec_ult_30": 5,
+        "frec_ult_60": 5,
+        "frec_ult_100": 5,
         "diferencia_pp": null
       },
       {
@@ -95,10 +95,10 @@
         "ap_2026": 1,
         "ap_total": 1,
         "pct_2025": null,
-        "pct_2026": 1.11,
+        "pct_2026": 1.05,
         "ultima_aparicion": "2026-06-10",
-        "sorteos_desde": 15,
-        "max_retraso": 15,
+        "sorteos_desde": 16,
+        "max_retraso": 16,
         "frec_ult_30": 1,
         "frec_ult_60": 1,
         "frec_ult_100": 1,
@@ -110,9 +110,9 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 3.33,
+        "pct_2026": 3.16,
         "ultima_aparicion": "2026-08-07",
-        "sorteos_desde": 2,
+        "sorteos_desde": 3,
         "max_retraso": 9,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
@@ -125,9 +125,9 @@
         "ap_2026": 1,
         "ap_total": 1,
         "pct_2025": null,
-        "pct_2026": 1.11,
+        "pct_2026": 1.05,
         "ultima_aparicion": "2026-07-30",
-        "sorteos_desde": 7,
+        "sorteos_desde": 8,
         "max_retraso": 10,
         "frec_ult_30": 1,
         "frec_ult_60": 1,
@@ -140,9 +140,9 @@
         "ap_2026": 2,
         "ap_total": 2,
         "pct_2025": null,
-        "pct_2026": 2.22,
+        "pct_2026": 2.11,
         "ultima_aparicion": "2026-08-01",
-        "sorteos_desde": 6,
+        "sorteos_desde": 7,
         "max_retraso": 8,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
@@ -155,9 +155,9 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 3.33,
+        "pct_2026": 3.16,
         "ultima_aparicion": "2026-08-02",
-        "sorteos_desde": 5,
+        "sorteos_desde": 6,
         "max_retraso": 7,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
@@ -167,16 +167,16 @@
       {
         "numero": 11,
         "ap_2025": 0,
-        "ap_2026": 1,
-        "ap_total": 1,
+        "ap_2026": 2,
+        "ap_total": 2,
         "pct_2025": null,
-        "pct_2026": 1.11,
-        "ultima_aparicion": "2026-06-09",
-        "sorteos_desde": 16,
+        "pct_2026": 2.11,
+        "ultima_aparicion": "2026-08-11",
+        "sorteos_desde": 0,
         "max_retraso": 16,
-        "frec_ult_30": 1,
-        "frec_ult_60": 1,
-        "frec_ult_100": 1,
+        "frec_ult_30": 2,
+        "frec_ult_60": 2,
+        "frec_ult_100": 2,
         "diferencia_pp": null
       },
       {
@@ -185,9 +185,9 @@
         "ap_2026": 2,
         "ap_total": 2,
         "pct_2025": null,
-        "pct_2026": 2.22,
+        "pct_2026": 2.11,
         "ultima_aparicion": "2026-08-10",
-        "sorteos_desde": 0,
+        "sorteos_desde": 1,
         "max_retraso": 13,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
@@ -203,7 +203,7 @@
         "pct_2026": 0.0,
         "ultima_aparicion": null,
         "sorteos_desde": null,
-        "max_retraso": 18,
+        "max_retraso": 19,
         "frec_ult_30": 0,
         "frec_ult_60": 0,
         "frec_ult_100": 0,
@@ -215,9 +215,9 @@
         "ap_2026": 1,
         "ap_total": 1,
         "pct_2025": null,
-        "pct_2026": 1.11,
+        "pct_2026": 1.05,
         "ultima_aparicion": "2026-08-09",
-        "sorteos_desde": 1,
+        "sorteos_desde": 2,
         "max_retraso": 16,
         "frec_ult_30": 1,
         "frec_ult_60": 1,
@@ -233,7 +233,7 @@
         "pct_2026": 0.0,
         "ultima_aparicion": null,
         "sorteos_desde": null,
-        "max_retraso": 18,
+        "max_retraso": 19,
         "frec_ult_30": 0,
         "frec_ult_60": 0,
         "frec_ult_100": 0,
@@ -245,9 +245,9 @@
         "ap_2026": 6,
         "ap_total": 6,
         "pct_2025": null,
-        "pct_2026": 6.67,
+        "pct_2026": 6.32,
         "ultima_aparicion": "2026-08-10",
-        "sorteos_desde": 0,
+        "sorteos_desde": 1,
         "max_retraso": 5,
         "frec_ult_30": 6,
         "frec_ult_60": 6,
@@ -260,9 +260,9 @@
         "ap_2026": 4,
         "ap_total": 4,
         "pct_2025": null,
-        "pct_2026": 4.44,
+        "pct_2026": 4.21,
         "ultima_aparicion": "2026-08-09",
-        "sorteos_desde": 1,
+        "sorteos_desde": 2,
         "max_retraso": 10,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
@@ -272,16 +272,16 @@
       {
         "numero": 18,
         "ap_2025": 0,
-        "ap_2026": 5,
-        "ap_total": 5,
+        "ap_2026": 6,
+        "ap_total": 6,
         "pct_2025": null,
-        "pct_2026": 5.56,
-        "ultima_aparicion": "2026-08-05",
-        "sorteos_desde": 3,
+        "pct_2026": 6.32,
+        "ultima_aparicion": "2026-08-11",
+        "sorteos_desde": 0,
         "max_retraso": 6,
-        "frec_ult_30": 5,
-        "frec_ult_60": 5,
-        "frec_ult_100": 5,
+        "frec_ult_30": 6,
+        "frec_ult_60": 6,
+        "frec_ult_100": 6,
         "diferencia_pp": null
       },
       {
@@ -290,9 +290,9 @@
         "ap_2026": 2,
         "ap_total": 2,
         "pct_2025": null,
-        "pct_2026": 2.22,
+        "pct_2026": 2.11,
         "ultima_aparicion": "2026-07-30",
-        "sorteos_desde": 7,
+        "sorteos_desde": 8,
         "max_retraso": 8,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
@@ -302,16 +302,16 @@
       {
         "numero": 20,
         "ap_2025": 0,
-        "ap_2026": 4,
-        "ap_total": 4,
+        "ap_2026": 5,
+        "ap_total": 5,
         "pct_2025": null,
-        "pct_2026": 4.44,
-        "ultima_aparicion": "2026-08-10",
+        "pct_2026": 5.26,
+        "ultima_aparicion": "2026-08-11",
         "sorteos_desde": 0,
         "max_retraso": 5,
-        "frec_ult_30": 4,
-        "frec_ult_60": 4,
-        "frec_ult_100": 4,
+        "frec_ult_30": 5,
+        "frec_ult_60": 5,
+        "frec_ult_100": 5,
         "diferencia_pp": null
       },
       {
@@ -320,9 +320,9 @@
         "ap_2026": 5,
         "ap_total": 5,
         "pct_2025": null,
-        "pct_2026": 5.56,
+        "pct_2026": 5.26,
         "ultima_aparicion": "2026-08-09",
-        "sorteos_desde": 1,
+        "sorteos_desde": 2,
         "max_retraso": 5,
         "frec_ult_30": 5,
         "frec_ult_60": 5,
@@ -335,9 +335,9 @@
         "ap_2026": 1,
         "ap_total": 1,
         "pct_2025": null,
-        "pct_2026": 1.11,
+        "pct_2026": 1.05,
         "ultima_aparicion": "2026-08-10",
-        "sorteos_desde": 0,
+        "sorteos_desde": 1,
         "max_retraso": 17,
         "frec_ult_30": 1,
         "frec_ult_60": 1,
@@ -350,10 +350,10 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 3.33,
+        "pct_2026": 3.16,
         "ultima_aparicion": "2026-08-01",
-        "sorteos_desde": 6,
-        "max_retraso": 6,
+        "sorteos_desde": 7,
+        "max_retraso": 7,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
@@ -368,7 +368,7 @@
         "pct_2026": 0.0,
         "ultima_aparicion": null,
         "sorteos_desde": null,
-        "max_retraso": 18,
+        "max_retraso": 19,
         "frec_ult_30": 0,
         "frec_ult_60": 0,
         "frec_ult_100": 0,
@@ -377,16 +377,16 @@
       {
         "numero": 25,
         "ap_2025": 0,
-        "ap_2026": 2,
-        "ap_total": 2,
+        "ap_2026": 3,
+        "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 2.22,
-        "ultima_aparicion": "2026-07-12",
-        "sorteos_desde": 12,
+        "pct_2026": 3.16,
+        "ultima_aparicion": "2026-08-11",
+        "sorteos_desde": 0,
         "max_retraso": 12,
-        "frec_ult_30": 2,
-        "frec_ult_60": 2,
-        "frec_ult_100": 2,
+        "frec_ult_30": 3,
+        "frec_ult_60": 3,
+        "frec_ult_100": 3,
         "diferencia_pp": null
       },
       {
@@ -395,10 +395,10 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 3.33,
+        "pct_2026": 3.16,
         "ultima_aparicion": "2026-07-21",
-        "sorteos_desde": 9,
-        "max_retraso": 9,
+        "sorteos_desde": 10,
+        "max_retraso": 10,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
@@ -410,9 +410,9 @@
         "ap_2026": 4,
         "ap_total": 4,
         "pct_2025": null,
-        "pct_2026": 4.44,
+        "pct_2026": 4.21,
         "ultima_aparicion": "2026-08-07",
-        "sorteos_desde": 2,
+        "sorteos_desde": 3,
         "max_retraso": 5,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
@@ -425,10 +425,10 @@
         "ap_2026": 4,
         "ap_total": 4,
         "pct_2025": null,
-        "pct_2026": 4.44,
+        "pct_2026": 4.21,
         "ultima_aparicion": "2026-07-30",
-        "sorteos_desde": 7,
-        "max_retraso": 7,
+        "sorteos_desde": 8,
+        "max_retraso": 8,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
@@ -440,10 +440,10 @@
         "ap_2026": 2,
         "ap_total": 2,
         "pct_2025": null,
-        "pct_2026": 2.22,
+        "pct_2026": 2.11,
         "ultima_aparicion": "2026-07-13",
-        "sorteos_desde": 11,
-        "max_retraso": 11,
+        "sorteos_desde": 12,
+        "max_retraso": 12,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
         "frec_ult_100": 2,
@@ -458,7 +458,7 @@
         "pct_2026": 0.0,
         "ultima_aparicion": null,
         "sorteos_desde": null,
-        "max_retraso": 18,
+        "max_retraso": 19,
         "frec_ult_30": 0,
         "frec_ult_60": 0,
         "frec_ult_100": 0,
@@ -470,9 +470,9 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 3.33,
+        "pct_2026": 3.16,
         "ultima_aparicion": "2026-08-02",
-        "sorteos_desde": 5,
+        "sorteos_desde": 6,
         "max_retraso": 8,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
@@ -485,9 +485,9 @@
         "ap_2026": 5,
         "ap_total": 5,
         "pct_2025": null,
-        "pct_2026": 5.56,
+        "pct_2026": 5.26,
         "ultima_aparicion": "2026-08-05",
-        "sorteos_desde": 3,
+        "sorteos_desde": 4,
         "max_retraso": 4,
         "frec_ult_30": 5,
         "frec_ult_60": 5,
@@ -500,9 +500,9 @@
         "ap_2026": 4,
         "ap_total": 4,
         "pct_2025": null,
-        "pct_2026": 4.44,
+        "pct_2026": 4.21,
         "ultima_aparicion": "2026-08-10",
-        "sorteos_desde": 0,
+        "sorteos_desde": 1,
         "max_retraso": 10,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
@@ -515,9 +515,9 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 3.33,
+        "pct_2026": 3.16,
         "ultima_aparicion": "2026-08-07",
-        "sorteos_desde": 2,
+        "sorteos_desde": 3,
         "max_retraso": 10,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
@@ -530,10 +530,10 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": null,
-        "pct_2026": 3.33,
+        "pct_2026": 3.16,
         "ultima_aparicion": "2026-08-02",
-        "sorteos_desde": 5,
-        "max_retraso": 5,
+        "sorteos_desde": 6,
+        "max_retraso": 6,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
@@ -541,16 +541,16 @@
       }
     ],
     "chi2": {
-      "chi2": 33.67,
+      "chi2": 35.79,
       "gl": 34,
-      "p_montecarlo": 0.2978,
+      "p_montecarlo": 0.1892,
       "obs_max": 6,
       "obs_min": 0,
-      "esperado_por_numero": 2.57,
-      "chi2_null_media": 29.98,
-      "chi2_null_p95": 43.0
+      "esperado_por_numero": 2.71,
+      "chi2_null_media": 29.94,
+      "chi2_null_p95": 42.42
     },
-    "shrinkage_lambda": 0.0,
+    "shrinkage_lambda": 0.05,
     "pares": {
       "top": [
         {
@@ -559,8 +559,17 @@
             33
           ],
           "obs": 4,
-          "esperado": 0.303,
-          "p_poisson": 0.0002743111971850176
+          "esperado": 0.319,
+          "p_poisson": 0.00033603987546593217
+        },
+        {
+          "combo": [
+            18,
+            20
+          ],
+          "obs": 3,
+          "esperado": 0.319,
+          "p_poisson": 0.004279490284886167
         },
         {
           "combo": [
@@ -568,8 +577,8 @@
             21
           ],
           "obs": 3,
-          "esperado": 0.303,
-          "p_poisson": 0.00368413676681012
+          "esperado": 0.319,
+          "p_poisson": 0.004279490284886167
         },
         {
           "combo": [
@@ -577,8 +586,8 @@
             9
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         },
         {
           "combo": [
@@ -586,8 +595,8 @@
             23
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         },
         {
           "combo": [
@@ -595,8 +604,8 @@
             16
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         },
         {
           "combo": [
@@ -604,8 +613,8 @@
             17
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         },
         {
           "combo": [
@@ -613,8 +622,8 @@
             7
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         },
         {
           "combo": [
@@ -622,8 +631,17 @@
             17
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
+        },
+        {
+          "combo": [
+            5,
+            18
+          ],
+          "obs": 2,
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         },
         {
           "combo": [
@@ -631,8 +649,17 @@
             21
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
+        },
+        {
+          "combo": [
+            5,
+            25
+          ],
+          "obs": 2,
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         },
         {
           "combo": [
@@ -640,8 +667,8 @@
             17
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         },
         {
           "combo": [
@@ -649,8 +676,8 @@
             32
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         },
         {
           "combo": [
@@ -658,42 +685,15 @@
             34
           ],
           "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
-        },
-        {
-          "combo": [
-            9,
-            23
-          ],
-          "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
-        },
-        {
-          "combo": [
-            10,
-            27
-          ],
-          "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
-        },
-        {
-          "combo": [
-            16,
-            20
-          ],
-          "obs": 2,
-          "esperado": 0.303,
-          "p_poisson": 0.03749824033225857
+          "esperado": 0.319,
+          "p_poisson": 0.04132716913128209
         }
       ],
       "n_posibles": 595,
-      "esperado": 0.303,
+      "esperado": 0.319,
       "max_obs": 4,
       "n_significativos_BH": 0,
-      "n_observados_distintos": 146
+      "n_observados_distintos": 151
     },
     "trios": {
       "top": [
@@ -704,8 +704,18 @@
             23
           ],
           "obs": 2,
-          "esperado": 0.028,
-          "p_poisson": 0.00037131477441088023
+          "esperado": 0.029,
+          "p_poisson": 0.00041329780413479345
+        },
+        {
+          "combo": [
+            5,
+            18,
+            25
+          ],
+          "obs": 2,
+          "esperado": 0.029,
+          "p_poisson": 0.00041329780413479345
         },
         {
           "combo": [
@@ -714,8 +724,8 @@
             34
           ],
           "obs": 2,
-          "esperado": 0.028,
-          "p_poisson": 0.00037131477441088023
+          "esperado": 0.029,
+          "p_poisson": 0.00041329780413479345
         },
         {
           "combo": [
@@ -724,8 +734,8 @@
             33
           ],
           "obs": 2,
-          "esperado": 0.028,
-          "p_poisson": 0.00037131477441088023
+          "esperado": 0.029,
+          "p_poisson": 0.00041329780413479345
         },
         {
           "combo": [
@@ -734,8 +744,8 @@
             33
           ],
           "obs": 2,
-          "esperado": 0.028,
-          "p_poisson": 0.00037131477441088023
+          "esperado": 0.029,
+          "p_poisson": 0.00041329780413479345
         },
         {
           "combo": [
@@ -744,8 +754,8 @@
             33
           ],
           "obs": 2,
-          "esperado": 0.028,
-          "p_poisson": 0.00037131477441088023
+          "esperado": 0.029,
+          "p_poisson": 0.00041329780413479345
         },
         {
           "combo": [
@@ -754,8 +764,8 @@
             10
           ],
           "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
+          "esperado": 0.029,
+          "p_poisson": 0.028612477227626165
         },
         {
           "combo": [
@@ -764,8 +774,8 @@
             11
           ],
           "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
+          "esperado": 0.029,
+          "p_poisson": 0.028612477227626165
         },
         {
           "combo": [
@@ -774,8 +784,8 @@
             27
           ],
           "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
+          "esperado": 0.029,
+          "p_poisson": 0.028612477227626165
         },
         {
           "combo": [
@@ -784,8 +794,8 @@
             9
           ],
           "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
+          "esperado": 0.029,
+          "p_poisson": 0.028612477227626165
         },
         {
           "combo": [
@@ -794,8 +804,8 @@
             17
           ],
           "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
+          "esperado": 0.029,
+          "p_poisson": 0.028612477227626165
         },
         {
           "combo": [
@@ -804,8 +814,8 @@
             23
           ],
           "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
+          "esperado": 0.029,
+          "p_poisson": 0.028612477227626165
         },
         {
           "combo": [
@@ -814,8 +824,8 @@
             17
           ],
           "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
+          "esperado": 0.029,
+          "p_poisson": 0.028612477227626165
         },
         {
           "combo": [
@@ -824,8 +834,8 @@
             18
           ],
           "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
+          "esperado": 0.029,
+          "p_poisson": 0.028612477227626165
         },
         {
           "combo": [
@@ -834,59 +844,49 @@
             20
           ],
           "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
-        },
-        {
-          "combo": [
-            1,
-            10,
-            11
-          ],
-          "obs": 1,
-          "esperado": 0.028,
-          "p_poisson": 0.027127175494203626
+          "esperado": 0.029,
+          "p_poisson": 0.028612477227626165
         }
       ],
       "n_posibles": 6545,
-      "esperado": 0.028,
+      "esperado": 0.029,
       "max_obs": 2,
       "n_significativos_BH": 0,
-      "n_observados_distintos": 175
+      "n_observados_distintos": 184
     },
     "estructura": {
       "suma": {
-        "observado_medio": 96.72,
-        "esperado_medio": 90.05,
-        "z_del_promedio": 1.33,
+        "observado_medio": 95.79,
+        "esperado_medio": 90.04,
+        "z_del_promedio": 1.18,
         "null_p05": 55.0,
         "null_p95": 125.0
       },
       "pares": {
-        "observado_medio": 2.39,
+        "observado_medio": 2.37,
         "esperado_medio": 2.43,
-        "z_del_promedio": -0.17,
+        "z_del_promedio": -0.25,
         "null_p05": 1.0,
         "null_p95": 4.0
       },
       "amplitud": {
-        "observado_medio": 23.22,
+        "observado_medio": 23.05,
         "esperado_medio": 24.01,
-        "z_del_promedio": -0.57,
+        "z_del_promedio": -0.71,
         "null_p05": 13.0,
         "null_p95": 32.0
       },
       "consecutivos": {
-        "observado_medio": 0.61,
+        "observado_medio": 0.58,
         "esperado_medio": 0.57,
-        "z_del_promedio": 0.25,
+        "z_del_promedio": 0.05,
         "null_p05": 0.0,
         "null_p95": 2.0
       },
       "n_mayores_31": {
-        "observado_medio": 0.83,
+        "observado_medio": 0.79,
         "esperado_medio": 0.57,
-        "z_del_promedio": 1.65,
+        "z_del_promedio": 1.41,
         "null_p05": 0.0,
         "null_p95": 2.0
       }
@@ -894,17 +894,17 @@
     "estructura_dist": {
       "par_impar": {
         "3P-2I": 8,
-        "2P-3I": 6,
+        "2P-3I": 7,
         "1P-4I": 3,
         "4P-1I": 1
       },
       "bandas_ocupadas": {
         "2": 1,
-        "3": 11,
+        "3": 12,
         "4": 6
       },
       "consecutivos": {
-        "0": 10,
+        "0": 11,
         "1": 6,
         "2": 1,
         "3": 1
@@ -912,41 +912,41 @@
     },
     "repeticiones_obs": {
       "1": {
-        "n": 17,
-        "media": 0.765
+        "n": 18,
+        "media": 0.778
       },
       "2": {
-        "n": 16,
-        "media": 1.312
+        "n": 17,
+        "media": 1.353
       },
       "3": {
-        "n": 15,
-        "media": 2.133
+        "n": 16,
+        "media": 2.125
       },
       "5": {
-        "n": 13,
-        "media": 2.923
+        "n": 14,
+        "media": 2.929
       },
       "10": {
-        "n": 8,
-        "media": 4.125
+        "n": 9,
+        "media": 4.0
       }
     },
     "repeticiones_null": {
-      "1": 0.709,
-      "2": 1.304,
-      "3": 1.831,
-      "5": 2.677,
-      "10": 3.933
+      "1": 0.732,
+      "2": 1.327,
+      "3": 1.853,
+      "5": 2.695,
+      "10": 3.917
     },
     "poder": [
       {
-        "n_sorteos": 18,
-        "esperado_por_numero": 2.6,
+        "n_sorteos": 19,
+        "esperado_por_numero": 2.7,
         "max_esperado_por_azar_p50": 6.0,
         "max_esperado_por_azar_p95": 8.0,
-        "exceso_p95_sobre_esperado": 5.4,
-        "chi2_umbral_p95": 43.0
+        "exceso_p95_sobre_esperado": 5.3,
+        "chi2_umbral_p95": 42.4
       },
       {
         "n_sorteos": 100,
@@ -954,7 +954,7 @@
         "max_esperado_por_azar_p50": 22.0,
         "max_esperado_por_azar_p95": 25.0,
         "exceso_p95_sobre_esperado": 10.7,
-        "chi2_umbral_p95": 42.6
+        "chi2_umbral_p95": 42.5
       },
       {
         "n_sorteos": 223,
@@ -962,7 +962,7 @@
         "max_esperado_por_azar_p50": 43.0,
         "max_esperado_por_azar_p95": 48.0,
         "exceso_p95_sobre_esperado": 16.1,
-        "chi2_umbral_p95": 43.1
+        "chi2_umbral_p95": 43.2
       },
       {
         "n_sorteos": 588,
@@ -970,12 +970,12 @@
         "max_esperado_por_azar_p50": 102.0,
         "max_esperado_por_azar_p95": 110.0,
         "exceso_p95_sobre_esperado": 26.0,
-        "chi2_umbral_p95": 42.8
+        "chi2_umbral_p95": 43.1
       }
     ],
     "comparacion_anios": {
       "n_2025": 0,
-      "n_2026": 18,
+      "n_2026": 19,
       "computable": false,
       "motivo": "No hay sorteos verificados suficientes en uno de los dos anios; la comparacion interanual no es computable."
     },
@@ -987,36 +987,74 @@
           "ap_2026": 6,
           "ap_total": 6,
           "pct_2025": null,
-          "pct_2026": 6.67,
+          "pct_2026": 6.32,
           "ultima_aparicion": "2026-08-10",
-          "sorteos_desde": 0,
+          "sorteos_desde": 1,
           "max_retraso": 5,
           "frec_ult_30": 6,
           "frec_ult_60": 6,
           "frec_ult_100": 6,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.033882448285836066,
+          "esperado": 2.71,
+          "p_exacto": 0.04369954235585448,
           "bh_umbral": 0.0014,
           "significativo": false
         },
         {
           "numero": 18,
           "ap_2025": 0,
+          "ap_2026": 6,
+          "ap_total": 6,
+          "pct_2025": null,
+          "pct_2026": 6.32,
+          "ultima_aparicion": "2026-08-11",
+          "sorteos_desde": 0,
+          "max_retraso": 6,
+          "frec_ult_30": 6,
+          "frec_ult_60": 6,
+          "frec_ult_100": 6,
+          "diferencia_pp": null,
+          "esperado": 2.71,
+          "p_exacto": 0.04369954235585448,
+          "bh_umbral": 0.0029,
+          "significativo": false
+        },
+        {
+          "numero": 5,
+          "ap_2025": 0,
           "ap_2026": 5,
           "ap_total": 5,
           "pct_2025": null,
-          "pct_2026": 5.56,
-          "ultima_aparicion": "2026-08-05",
-          "sorteos_desde": 3,
-          "max_retraso": 6,
+          "pct_2026": 5.26,
+          "ultima_aparicion": "2026-08-11",
+          "sorteos_desde": 0,
+          "max_retraso": 8,
           "frec_ult_30": 5,
           "frec_ult_60": 5,
           "frec_ult_100": 5,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.16496952792667016,
-          "bh_umbral": 0.0086,
+          "esperado": 2.71,
+          "p_exacto": 0.1770965264837517,
+          "bh_umbral": 0.01,
+          "significativo": false
+        },
+        {
+          "numero": 20,
+          "ap_2025": 0,
+          "ap_2026": 5,
+          "ap_total": 5,
+          "pct_2025": null,
+          "pct_2026": 5.26,
+          "ultima_aparicion": "2026-08-11",
+          "sorteos_desde": 0,
+          "max_retraso": 5,
+          "frec_ult_30": 5,
+          "frec_ult_60": 5,
+          "frec_ult_100": 5,
+          "diferencia_pp": null,
+          "esperado": 2.71,
+          "p_exacto": 0.1770965264837517,
+          "bh_umbral": 0.0114,
           "significativo": false
         },
         {
@@ -1025,17 +1063,17 @@
           "ap_2026": 5,
           "ap_total": 5,
           "pct_2025": null,
-          "pct_2026": 5.56,
+          "pct_2026": 5.26,
           "ultima_aparicion": "2026-08-09",
-          "sorteos_desde": 1,
+          "sorteos_desde": 2,
           "max_retraso": 5,
           "frec_ult_30": 5,
           "frec_ult_60": 5,
           "frec_ult_100": 5,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.16496952792667016,
-          "bh_umbral": 0.01,
+          "esperado": 2.71,
+          "p_exacto": 0.1770965264837517,
+          "bh_umbral": 0.0129,
           "significativo": false
         },
         {
@@ -1044,36 +1082,17 @@
           "ap_2026": 5,
           "ap_total": 5,
           "pct_2025": null,
-          "pct_2026": 5.56,
+          "pct_2026": 5.26,
           "ultima_aparicion": "2026-08-05",
-          "sorteos_desde": 3,
+          "sorteos_desde": 4,
           "max_retraso": 4,
           "frec_ult_30": 5,
           "frec_ult_60": 5,
           "frec_ult_100": 5,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.16496952792667016,
-          "bh_umbral": 0.0114,
-          "significativo": false
-        },
-        {
-          "numero": 5,
-          "ap_2025": 0,
-          "ap_2026": 4,
-          "ap_total": 4,
-          "pct_2025": null,
-          "pct_2026": 4.44,
-          "ultima_aparicion": "2026-08-09",
-          "sorteos_desde": 1,
-          "max_retraso": 8,
-          "frec_ult_30": 4,
-          "frec_ult_60": 4,
-          "frec_ult_100": 4,
-          "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.3122259389769463,
-          "bh_umbral": 0.0129,
+          "esperado": 2.71,
+          "p_exacto": 0.1770965264837517,
+          "bh_umbral": 0.0143,
           "significativo": false
         },
         {
@@ -1082,35 +1101,16 @@
           "ap_2026": 4,
           "ap_total": 4,
           "pct_2025": null,
-          "pct_2026": 4.44,
+          "pct_2026": 4.21,
           "ultima_aparicion": "2026-08-09",
-          "sorteos_desde": 1,
+          "sorteos_desde": 2,
           "max_retraso": 10,
           "frec_ult_30": 4,
           "frec_ult_60": 4,
           "frec_ult_100": 4,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.3122259389769463,
-          "bh_umbral": 0.0143,
-          "significativo": false
-        },
-        {
-          "numero": 20,
-          "ap_2025": 0,
-          "ap_2026": 4,
-          "ap_total": 4,
-          "pct_2025": null,
-          "pct_2026": 4.44,
-          "ultima_aparicion": "2026-08-10",
-          "sorteos_desde": 0,
-          "max_retraso": 5,
-          "frec_ult_30": 4,
-          "frec_ult_60": 4,
-          "frec_ult_100": 4,
-          "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.3122259389769463,
+          "esperado": 2.71,
+          "p_exacto": 0.3369749156240516,
           "bh_umbral": 0.0157,
           "significativo": false
         },
@@ -1120,57 +1120,57 @@
           "ap_2026": 4,
           "ap_total": 4,
           "pct_2025": null,
-          "pct_2026": 4.44,
+          "pct_2026": 4.21,
           "ultima_aparicion": "2026-08-07",
-          "sorteos_desde": 2,
+          "sorteos_desde": 3,
           "max_retraso": 5,
           "frec_ult_30": 4,
           "frec_ult_60": 4,
           "frec_ult_100": 4,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.3122259389769463,
+          "esperado": 2.71,
+          "p_exacto": 0.3369749156240516,
           "bh_umbral": 0.0171,
           "significativo": false
         }
       ],
       "cold": [
         {
-          "numero": 8,
+          "numero": 6,
           "ap_2025": 0,
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": null,
-          "pct_2026": 1.11,
-          "ultima_aparicion": "2026-07-30",
-          "sorteos_desde": 7,
-          "max_retraso": 10,
-          "frec_ult_30": 1,
-          "frec_ult_60": 1,
-          "frec_ult_100": 1,
-          "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.4993282024290619,
-          "bh_umbral": 0.0243,
-          "significativo": false
-        },
-        {
-          "numero": 11,
-          "ap_2025": 0,
-          "ap_2026": 1,
-          "ap_total": 1,
-          "pct_2025": null,
-          "pct_2026": 1.11,
-          "ultima_aparicion": "2026-06-09",
+          "pct_2026": 1.05,
+          "ultima_aparicion": "2026-06-10",
           "sorteos_desde": 16,
           "max_retraso": 16,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.4993282024290619,
-          "bh_umbral": 0.0257,
+          "esperado": 2.71,
+          "p_exacto": 0.5062579158902514,
+          "bh_umbral": 0.0229,
+          "significativo": false
+        },
+        {
+          "numero": 8,
+          "ap_2025": 0,
+          "ap_2026": 1,
+          "ap_total": 1,
+          "pct_2025": null,
+          "pct_2026": 1.05,
+          "ultima_aparicion": "2026-07-30",
+          "sorteos_desde": 8,
+          "max_retraso": 10,
+          "frec_ult_30": 1,
+          "frec_ult_60": 1,
+          "frec_ult_100": 1,
+          "diferencia_pp": null,
+          "esperado": 2.71,
+          "p_exacto": 0.5062579158902514,
+          "bh_umbral": 0.0243,
           "significativo": false
         },
         {
@@ -1179,17 +1179,17 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": null,
-          "pct_2026": 1.11,
+          "pct_2026": 1.05,
           "ultima_aparicion": "2026-08-09",
-          "sorteos_desde": 1,
+          "sorteos_desde": 2,
           "max_retraso": 16,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.4993282024290619,
-          "bh_umbral": 0.0271,
+          "esperado": 2.71,
+          "p_exacto": 0.5062579158902514,
+          "bh_umbral": 0.0257,
           "significativo": false
         },
         {
@@ -1198,17 +1198,17 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": null,
-          "pct_2026": 1.11,
+          "pct_2026": 1.05,
           "ultima_aparicion": "2026-08-10",
-          "sorteos_desde": 0,
+          "sorteos_desde": 1,
           "max_retraso": 17,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.4993282024290619,
-          "bh_umbral": 0.0286,
+          "esperado": 2.71,
+          "p_exacto": 0.5062579158902514,
+          "bh_umbral": 0.0271,
           "significativo": false
         },
         {
@@ -1220,14 +1220,14 @@
           "pct_2026": 0.0,
           "ultima_aparicion": null,
           "sorteos_desde": null,
-          "max_retraso": 18,
+          "max_retraso": 19,
           "frec_ult_30": 0,
           "frec_ult_60": 0,
           "frec_ult_100": 0,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.09624986943654129,
-          "bh_umbral": 0.0029,
+          "esperado": 2.71,
+          "p_exacto": 0.09715733191360182,
+          "bh_umbral": 0.0043,
           "significativo": false
         },
         {
@@ -1239,14 +1239,14 @@
           "pct_2026": 0.0,
           "ultima_aparicion": null,
           "sorteos_desde": null,
-          "max_retraso": 18,
+          "max_retraso": 19,
           "frec_ult_30": 0,
           "frec_ult_60": 0,
           "frec_ult_100": 0,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.09624986943654129,
-          "bh_umbral": 0.0043,
+          "esperado": 2.71,
+          "p_exacto": 0.09715733191360182,
+          "bh_umbral": 0.0057,
           "significativo": false
         },
         {
@@ -1258,14 +1258,14 @@
           "pct_2026": 0.0,
           "ultima_aparicion": null,
           "sorteos_desde": null,
-          "max_retraso": 18,
+          "max_retraso": 19,
           "frec_ult_30": 0,
           "frec_ult_60": 0,
           "frec_ult_100": 0,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.09624986943654129,
-          "bh_umbral": 0.0057,
+          "esperado": 2.71,
+          "p_exacto": 0.09715733191360182,
+          "bh_umbral": 0.0071,
           "significativo": false
         },
         {
@@ -1277,14 +1277,14 @@
           "pct_2026": 0.0,
           "ultima_aparicion": null,
           "sorteos_desde": null,
-          "max_retraso": 18,
+          "max_retraso": 19,
           "frec_ult_30": 0,
           "frec_ult_60": 0,
           "frec_ult_100": 0,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.09624986943654129,
-          "bh_umbral": 0.0071,
+          "esperado": 2.71,
+          "p_exacto": 0.09715733191360182,
+          "bh_umbral": 0.0086,
           "significativo": false
         }
       ],
@@ -1298,14 +1298,14 @@
           "pct_2026": 0.0,
           "ultima_aparicion": null,
           "sorteos_desde": null,
-          "max_retraso": 18,
+          "max_retraso": 19,
           "frec_ult_30": 0,
           "frec_ult_60": 0,
           "frec_ult_100": 0,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.09624986943654129,
-          "bh_umbral": 0.0029,
+          "esperado": 2.71,
+          "p_exacto": 0.09715733191360182,
+          "bh_umbral": 0.0043,
           "significativo": false
         },
         {
@@ -1317,14 +1317,14 @@
           "pct_2026": 0.0,
           "ultima_aparicion": null,
           "sorteos_desde": null,
-          "max_retraso": 18,
+          "max_retraso": 19,
           "frec_ult_30": 0,
           "frec_ult_60": 0,
           "frec_ult_100": 0,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.09624986943654129,
-          "bh_umbral": 0.0043,
+          "esperado": 2.71,
+          "p_exacto": 0.09715733191360182,
+          "bh_umbral": 0.0057,
           "significativo": false
         },
         {
@@ -1336,14 +1336,14 @@
           "pct_2026": 0.0,
           "ultima_aparicion": null,
           "sorteos_desde": null,
-          "max_retraso": 18,
+          "max_retraso": 19,
           "frec_ult_30": 0,
           "frec_ult_60": 0,
           "frec_ult_100": 0,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.09624986943654129,
-          "bh_umbral": 0.0057,
+          "esperado": 2.71,
+          "p_exacto": 0.09715733191360182,
+          "bh_umbral": 0.0071,
           "significativo": false
         },
         {
@@ -1355,14 +1355,14 @@
           "pct_2026": 0.0,
           "ultima_aparicion": null,
           "sorteos_desde": null,
-          "max_retraso": 18,
+          "max_retraso": 19,
           "frec_ult_30": 0,
           "frec_ult_60": 0,
           "frec_ult_100": 0,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.09624986943654129,
-          "bh_umbral": 0.0071,
+          "esperado": 2.71,
+          "p_exacto": 0.09715733191360182,
+          "bh_umbral": 0.0086,
           "significativo": false
         },
         {
@@ -1371,36 +1371,17 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": null,
-          "pct_2026": 1.11,
+          "pct_2026": 1.05,
           "ultima_aparicion": "2026-06-09",
-          "sorteos_desde": 16,
-          "max_retraso": 16,
+          "sorteos_desde": 17,
+          "max_retraso": 17,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.4993282024290619,
+          "esperado": 2.71,
+          "p_exacto": 0.5062579158902514,
           "bh_umbral": 0.0214,
-          "significativo": false
-        },
-        {
-          "numero": 11,
-          "ap_2025": 0,
-          "ap_2026": 1,
-          "ap_total": 1,
-          "pct_2025": null,
-          "pct_2026": 1.11,
-          "ultima_aparicion": "2026-06-09",
-          "sorteos_desde": 16,
-          "max_retraso": 16,
-          "frec_ult_30": 1,
-          "frec_ult_60": 1,
-          "frec_ult_100": 1,
-          "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.4993282024290619,
-          "bh_umbral": 0.0257,
           "significativo": false
         },
         {
@@ -1409,451 +1390,470 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": null,
-          "pct_2026": 1.11,
+          "pct_2026": 1.05,
           "ultima_aparicion": "2026-06-10",
-          "sorteos_desde": 15,
-          "max_retraso": 15,
+          "sorteos_desde": 16,
+          "max_retraso": 16,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
           "diferencia_pp": null,
-          "esperado": 2.57,
-          "p_exacto": 0.4993282024290619,
+          "esperado": 2.71,
+          "p_exacto": 0.5062579158902514,
           "bh_umbral": 0.0229,
           "significativo": false
         },
         {
-          "numero": 25,
+          "numero": 29,
           "ap_2025": 0,
           "ap_2026": 2,
           "ap_total": 2,
           "pct_2025": null,
-          "pct_2026": 2.22,
-          "ultima_aparicion": "2026-07-12",
+          "pct_2026": 2.11,
+          "ultima_aparicion": "2026-07-13",
           "sorteos_desde": 12,
           "max_retraso": 12,
           "frec_ult_30": 2,
           "frec_ult_60": 2,
           "frec_ult_100": 2,
           "diferencia_pp": null,
-          "esperado": 2.57,
+          "esperado": 2.71,
           "p_exacto": 1.0,
-          "bh_umbral": 0.0486,
+          "bh_umbral": 0.05,
+          "significativo": false
+        },
+        {
+          "numero": 26,
+          "ap_2025": 0,
+          "ap_2026": 3,
+          "ap_total": 3,
+          "pct_2025": null,
+          "pct_2026": 3.16,
+          "ultima_aparicion": "2026-07-21",
+          "sorteos_desde": 10,
+          "max_retraso": 10,
+          "frec_ult_30": 3,
+          "frec_ult_60": 3,
+          "frec_ult_100": 3,
+          "diferencia_pp": null,
+          "esperado": 2.71,
+          "p_exacto": 0.7460754996007011,
+          "bh_umbral": 0.0371,
           "significativo": false
         }
       ],
       "n_significativos_BH": 0,
       "numeros_significativos": [],
-      "p_minimo_observado": 0.0339,
-      "esperado_por_numero": 2.57
+      "p_minimo_observado": 0.0437,
+      "esperado_por_numero": 2.71
     },
     "score_numeros": {
       "1": {
         "numero": 1,
+        "score": 18.2,
+        "F_frecuencia": 0.5,
+        "R_recencia": 0.25,
+        "V_impopularidad": 0.0,
+        "D_desempate_descriptivo": 0.441,
+        "ap_total": 3,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 7,
+        "max_retraso": 8
+      },
+      "2": {
+        "numero": 2,
+        "score": 4.5,
+        "F_frecuencia": 0.167,
+        "R_recencia": 0.0,
+        "V_impopularidad": 0.0,
+        "D_desempate_descriptivo": 0.118,
+        "ap_total": 1,
+        "frec_vs_esperado": 0.37,
+        "sorteos_desde": 17,
+        "max_retraso": 17
+      },
+      "3": {
+        "numero": 3,
+        "score": 13.1,
+        "F_frecuencia": 0.333,
+        "R_recencia": 0.25,
+        "V_impopularidad": 0.0,
+        "D_desempate_descriptivo": 0.265,
+        "ap_total": 2,
+        "frec_vs_esperado": 0.74,
+        "sorteos_desde": 4,
+        "max_retraso": 7
+      },
+      "4": {
+        "numero": 4,
         "score": 22.2,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.471,
         "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 6,
-        "max_retraso": 8
-      },
-      "2": {
-        "numero": 2,
-        "score": 18.7,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.118,
-        "ap_total": 1,
-        "frec_vs_esperado": 0.39,
-        "sorteos_desde": 16,
-        "max_retraso": 16
-      },
-      "3": {
-        "numero": 3,
-        "score": 20.4,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.294,
-        "ap_total": 2,
-        "frec_vs_esperado": 0.78,
-        "sorteos_desde": 3,
-        "max_retraso": 7
-      },
-      "4": {
-        "numero": 4,
-        "score": 22.5,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.5,
-        "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 1,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 2,
         "max_retraso": 7
       },
       "5": {
         "numero": 5,
-        "score": 24.9,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 40.2,
+        "F_frecuencia": 0.833,
+        "R_recencia": 1.0,
         "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.735,
-        "ap_total": 4,
-        "frec_vs_esperado": 1.56,
-        "sorteos_desde": 1,
+        "D_desempate_descriptivo": 0.853,
+        "ap_total": 5,
+        "frec_vs_esperado": 1.84,
+        "sorteos_desde": 0,
         "max_retraso": 8
       },
       "6": {
         "numero": 6,
-        "score": 19.0,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 4.8,
+        "F_frecuencia": 0.167,
+        "R_recencia": 0.0,
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.147,
         "ap_total": 1,
-        "frec_vs_esperado": 0.39,
-        "sorteos_desde": 15,
-        "max_retraso": 15
+        "frec_vs_esperado": 0.37,
+        "sorteos_desde": 16,
+        "max_retraso": 16
       },
       "7": {
         "numero": 7,
+        "score": 26.2,
+        "F_frecuencia": 0.5,
+        "R_recencia": 0.75,
+        "V_impopularidad": 0.0,
+        "D_desempate_descriptivo": 0.5,
+        "ap_total": 3,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 3,
+        "max_retraso": 9
+      },
+      "8": {
+        "numero": 8,
+        "score": 8.8,
+        "F_frecuencia": 0.167,
+        "R_recencia": 0.25,
+        "V_impopularidad": 0.0,
+        "D_desempate_descriptivo": 0.176,
+        "ap_total": 1,
+        "frec_vs_esperado": 0.37,
+        "sorteos_desde": 8,
+        "max_retraso": 10
+      },
+      "9": {
+        "numero": 9,
+        "score": 13.4,
+        "F_frecuencia": 0.333,
+        "R_recencia": 0.25,
+        "V_impopularidad": 0.0,
+        "D_desempate_descriptivo": 0.294,
+        "ap_total": 2,
+        "frec_vs_esperado": 0.74,
+        "sorteos_desde": 7,
+        "max_retraso": 8
+      },
+      "10": {
+        "numero": 10,
         "score": 22.8,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.529,
         "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 2,
-        "max_retraso": 9
-      },
-      "8": {
-        "numero": 8,
-        "score": 19.3,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.176,
-        "ap_total": 1,
-        "frec_vs_esperado": 0.39,
-        "sorteos_desde": 7,
-        "max_retraso": 10
-      },
-      "9": {
-        "numero": 9,
-        "score": 20.7,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.324,
-        "ap_total": 2,
-        "frec_vs_esperado": 0.78,
+        "frec_vs_esperado": 1.11,
         "sorteos_desde": 6,
-        "max_retraso": 8
-      },
-      "10": {
-        "numero": 10,
-        "score": 23.1,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.559,
-        "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 5,
         "max_retraso": 7
       },
       "11": {
         "numero": 11,
-        "score": 19.6,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 13.7,
+        "F_frecuencia": 0.333,
+        "R_recencia": 0.25,
         "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.206,
-        "ap_total": 1,
-        "frec_vs_esperado": 0.39,
-        "sorteos_desde": 16,
+        "D_desempate_descriptivo": 0.324,
+        "ap_total": 2,
+        "frec_vs_esperado": 0.74,
+        "sorteos_desde": 0,
         "max_retraso": 16
       },
       "12": {
         "numero": 12,
-        "score": 21.0,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 13.9,
+        "F_frecuencia": 0.333,
+        "R_recencia": 0.25,
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.353,
         "ap_total": 2,
-        "frec_vs_esperado": 0.78,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 0.74,
+        "sorteos_desde": 1,
         "max_retraso": 13
       },
       "13": {
         "numero": 13,
-        "score": 47.8,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 30.3,
+        "F_frecuencia": 0.0,
+        "R_recencia": 0.0,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.0,
         "ap_total": 0,
         "frec_vs_esperado": 0.0,
         "sorteos_desde": null,
-        "max_retraso": 18
+        "max_retraso": 19
       },
       "14": {
         "numero": 14,
-        "score": 50.1,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 39.4,
+        "F_frecuencia": 0.167,
+        "R_recencia": 0.25,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.235,
+        "D_desempate_descriptivo": 0.206,
         "ap_total": 1,
-        "frec_vs_esperado": 0.39,
-        "sorteos_desde": 1,
+        "frec_vs_esperado": 0.37,
+        "sorteos_desde": 2,
         "max_retraso": 16
       },
       "15": {
         "numero": 15,
-        "score": 48.0,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 30.5,
+        "F_frecuencia": 0.0,
+        "R_recencia": 0.0,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.029,
         "ap_total": 0,
         "frec_vs_esperado": 0.0,
         "sorteos_desde": null,
-        "max_retraso": 18
+        "max_retraso": 19
       },
       "16": {
         "numero": 16,
-        "score": 57.8,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 71.2,
+        "F_frecuencia": 1.0,
+        "R_recencia": 0.75,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 1.0,
+        "D_desempate_descriptivo": 0.971,
         "ap_total": 6,
-        "frec_vs_esperado": 2.33,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 2.21,
+        "sorteos_desde": 1,
         "max_retraso": 5
       },
       "17": {
         "numero": 17,
-        "score": 55.4,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 62.2,
+        "F_frecuencia": 0.667,
+        "R_recencia": 0.75,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.765,
+        "D_desempate_descriptivo": 0.735,
         "ap_total": 4,
-        "frec_vs_esperado": 1.56,
-        "sorteos_desde": 1,
+        "frec_vs_esperado": 1.47,
+        "sorteos_desde": 2,
         "max_retraso": 10
       },
       "18": {
         "numero": 18,
-        "score": 56.9,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 71.5,
+        "F_frecuencia": 1.0,
+        "R_recencia": 0.75,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.912,
-        "ap_total": 5,
-        "frec_vs_esperado": 1.94,
-        "sorteos_desde": 3,
+        "D_desempate_descriptivo": 1.0,
+        "ap_total": 6,
+        "frec_vs_esperado": 2.21,
+        "sorteos_desde": 0,
         "max_retraso": 6
       },
       "19": {
         "numero": 19,
-        "score": 51.6,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 44.5,
+        "F_frecuencia": 0.333,
+        "R_recencia": 0.25,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.382,
         "ap_total": 2,
-        "frec_vs_esperado": 0.78,
-        "sorteos_desde": 7,
+        "frec_vs_esperado": 0.74,
+        "sorteos_desde": 8,
         "max_retraso": 8
       },
       "20": {
         "numero": 20,
-        "score": 55.7,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 67.0,
+        "F_frecuencia": 0.833,
+        "R_recencia": 0.75,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.794,
-        "ap_total": 4,
-        "frec_vs_esperado": 1.56,
+        "D_desempate_descriptivo": 0.882,
+        "ap_total": 5,
+        "frec_vs_esperado": 1.84,
         "sorteos_desde": 0,
         "max_retraso": 5
       },
       "21": {
         "numero": 21,
-        "score": 57.2,
-        "F_frecuencia": 0.5,
+        "score": 63.5,
+        "F_frecuencia": 0.833,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.941,
+        "D_desempate_descriptivo": 0.912,
         "ap_total": 5,
-        "frec_vs_esperado": 1.94,
-        "sorteos_desde": 1,
+        "frec_vs_esperado": 1.84,
+        "sorteos_desde": 2,
         "max_retraso": 5
       },
       "22": {
         "numero": 22,
-        "score": 50.4,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 39.7,
+        "F_frecuencia": 0.167,
+        "R_recencia": 0.25,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.265,
+        "D_desempate_descriptivo": 0.235,
         "ap_total": 1,
-        "frec_vs_esperado": 0.39,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 0.37,
+        "sorteos_desde": 1,
         "max_retraso": 17
       },
       "23": {
         "numero": 23,
-        "score": 53.6,
+        "score": 49.6,
         "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "R_recencia": 0.25,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.588,
+        "D_desempate_descriptivo": 0.559,
         "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 6,
-        "max_retraso": 6
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 7,
+        "max_retraso": 7
       },
       "24": {
         "numero": 24,
-        "score": 48.3,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 30.8,
+        "F_frecuencia": 0.0,
+        "R_recencia": 0.0,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.059,
         "ap_total": 0,
         "frec_vs_esperado": 0.0,
         "sorteos_desde": null,
-        "max_retraso": 18
+        "max_retraso": 19
       },
       "25": {
         "numero": 25,
-        "score": 51.9,
+        "score": 49.9,
         "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "R_recencia": 0.25,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.412,
-        "ap_total": 2,
-        "frec_vs_esperado": 0.78,
-        "sorteos_desde": 12,
+        "D_desempate_descriptivo": 0.588,
+        "ap_total": 3,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 0,
         "max_retraso": 12
       },
       "26": {
         "numero": 26,
-        "score": 53.9,
+        "score": 46.4,
         "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "R_recencia": 0.0,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.618,
         "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 9,
-        "max_retraso": 9
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 10,
+        "max_retraso": 10
       },
       "27": {
         "numero": 27,
-        "score": 56.0,
-        "F_frecuencia": 0.5,
+        "score": 58.7,
+        "F_frecuencia": 0.667,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.824,
+        "D_desempate_descriptivo": 0.765,
         "ap_total": 4,
-        "frec_vs_esperado": 1.56,
-        "sorteos_desde": 2,
+        "frec_vs_esperado": 1.47,
+        "sorteos_desde": 3,
         "max_retraso": 5
       },
       "28": {
         "numero": 28,
-        "score": 56.3,
-        "F_frecuencia": 0.5,
+        "score": 59.0,
+        "F_frecuencia": 0.667,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.853,
+        "D_desempate_descriptivo": 0.794,
         "ap_total": 4,
-        "frec_vs_esperado": 1.56,
-        "sorteos_desde": 7,
-        "max_retraso": 7
+        "frec_vs_esperado": 1.47,
+        "sorteos_desde": 8,
+        "max_retraso": 8
       },
       "29": {
         "numero": 29,
-        "score": 52.2,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 41.0,
+        "F_frecuencia": 0.333,
+        "R_recencia": 0.0,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.441,
+        "D_desempate_descriptivo": 0.412,
         "ap_total": 2,
-        "frec_vs_esperado": 0.78,
-        "sorteos_desde": 11,
-        "max_retraso": 11
+        "frec_vs_esperado": 0.74,
+        "sorteos_desde": 12,
+        "max_retraso": 12
       },
       "30": {
         "numero": 30,
-        "score": 48.6,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 31.1,
+        "F_frecuencia": 0.0,
+        "R_recencia": 0.0,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.088,
         "ap_total": 0,
         "frec_vs_esperado": 0.0,
         "sorteos_desde": null,
-        "max_retraso": 18
+        "max_retraso": 19
       },
       "31": {
         "numero": 31,
-        "score": 54.2,
+        "score": 50.5,
         "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "R_recencia": 0.25,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.647,
         "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 5,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 6,
         "max_retraso": 8
       },
       "32": {
         "numero": 32,
-        "score": 82.2,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 92.3,
+        "F_frecuencia": 0.833,
+        "R_recencia": 0.75,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.971,
+        "D_desempate_descriptivo": 0.941,
         "ap_total": 5,
-        "frec_vs_esperado": 1.94,
-        "sorteos_desde": 3,
+        "frec_vs_esperado": 1.84,
+        "sorteos_desde": 4,
         "max_retraso": 4
       },
       "33": {
         "numero": 33,
-        "score": 81.3,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 80.3,
+        "F_frecuencia": 0.667,
+        "R_recencia": 0.25,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.882,
+        "D_desempate_descriptivo": 0.824,
         "ap_total": 4,
-        "frec_vs_esperado": 1.56,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 1.47,
+        "sorteos_desde": 1,
         "max_retraso": 10
       },
       "34": {
         "numero": 34,
-        "score": 79.3,
+        "score": 83.0,
         "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "R_recencia": 0.75,
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.676,
         "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 2,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 3,
         "max_retraso": 10
       },
       "35": {
@@ -1864,29 +1864,29 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.706,
         "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 5,
-        "max_retraso": 5
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 6,
+        "max_retraso": 6
       }
     },
     "jugadas": [
       {
         "etiqueta": "maxima puntuacion",
         "numeros": [
-          8,
-          13,
+          9,
           16,
+          18,
           32,
           33
         ],
-        "score": 82.3,
-        "T_tipicidad": 0.867,
-        "E_frecuencia": 0.5,
+        "score": 85.1,
+        "T_tipicidad": 0.794,
+        "E_frecuencia": 0.767,
         "U_impopularidad": 0.933,
-        "suma": 102,
-        "percentil_suma_null": 71.7,
+        "suma": 108,
+        "percentil_suma_null": 80.2,
         "pares_impares": "3P-2I",
-        "amplitud": 25,
+        "amplitud": 24,
         "consecutivos": 1,
         "p_null_consecutivos_o_mas": 0.4747,
         "bandas_ocupadas": 3,
@@ -1902,19 +1902,19 @@
           28,
           31
         ],
-        "score": 54.8,
-        "T_tipicidad": 0.964,
-        "E_frecuencia": 0.5,
+        "score": 56.1,
+        "T_tipicidad": 0.963,
+        "E_frecuencia": 0.567,
         "U_impopularidad": 0.247,
         "suma": 90,
-        "percentil_suma_null": 51.0,
+        "percentil_suma_null": 50.9,
         "pares_impares": "3P-2I",
         "amplitud": 25,
         "consecutivos": 1,
         "p_null_consecutivos_o_mas": 0.4747,
         "bandas_ocupadas": 4,
         "n_mayores_31": 0,
-        "percentil_score": 76.43
+        "percentil_score": 79.1
       },
       {
         "etiqueta": "contrarian",
@@ -1925,50 +1925,62 @@
           32,
           33
         ],
-        "score": 66.3,
+        "score": 62.9,
         "T_tipicidad": 0.322,
-        "E_frecuencia": 0.5,
+        "E_frecuencia": 0.333,
         "U_impopularidad": 1.0,
         "suma": 107,
-        "percentil_suma_null": 79.0,
+        "percentil_suma_null": 78.9,
         "pares_impares": "2P-3I",
         "amplitud": 20,
         "consecutivos": 3,
         "p_null_consecutivos_o_mas": 0.0059,
         "bandas_ocupadas": 2,
         "n_mayores_31": 2,
-        "percentil_score": 91.33
+        "percentil_score": 87.58
       }
     ],
     "score_distribucion": {
-      "media": 46.23,
-      "p50": 46.28,
-      "p99": 74.64,
-      "max": 82.35
+      "media": 45.28,
+      "p50": 45.21,
+      "p99": 75.2,
+      "max": 85.11
     },
     "top10": [
       {
         "numero": 32,
-        "score": 82.2,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "score": 92.3,
+        "F_frecuencia": 0.833,
+        "R_recencia": 0.75,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.971,
+        "D_desempate_descriptivo": 0.941,
         "ap_total": 5,
-        "frec_vs_esperado": 1.94,
-        "sorteos_desde": 3,
+        "frec_vs_esperado": 1.84,
+        "sorteos_desde": 4,
         "max_retraso": 4
       },
       {
-        "numero": 33,
-        "score": 81.3,
+        "numero": 34,
+        "score": 83.0,
         "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "R_recencia": 0.75,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.882,
+        "D_desempate_descriptivo": 0.676,
+        "ap_total": 3,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 3,
+        "max_retraso": 10
+      },
+      {
+        "numero": 33,
+        "score": 80.3,
+        "F_frecuencia": 0.667,
+        "R_recencia": 0.25,
+        "V_impopularidad": 1.0,
+        "D_desempate_descriptivo": 0.824,
         "ap_total": 4,
-        "frec_vs_esperado": 1.56,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 1.47,
+        "sorteos_desde": 1,
         "max_retraso": 10
       },
       {
@@ -1979,93 +1991,81 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.706,
         "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 5,
-        "max_retraso": 5
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 6,
+        "max_retraso": 6
       },
       {
-        "numero": 34,
-        "score": 79.3,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.676,
-        "ap_total": 3,
-        "frec_vs_esperado": 1.17,
-        "sorteos_desde": 2,
-        "max_retraso": 10
-      },
-      {
-        "numero": 16,
-        "score": 57.8,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
+        "numero": 18,
+        "score": 71.5,
+        "F_frecuencia": 1.0,
+        "R_recencia": 0.75,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 1.0,
         "ap_total": 6,
-        "frec_vs_esperado": 2.33,
+        "frec_vs_esperado": 2.21,
+        "sorteos_desde": 0,
+        "max_retraso": 6
+      },
+      {
+        "numero": 16,
+        "score": 71.2,
+        "F_frecuencia": 1.0,
+        "R_recencia": 0.75,
+        "V_impopularidad": 0.55,
+        "D_desempate_descriptivo": 0.971,
+        "ap_total": 6,
+        "frec_vs_esperado": 2.21,
+        "sorteos_desde": 1,
+        "max_retraso": 5
+      },
+      {
+        "numero": 20,
+        "score": 67.0,
+        "F_frecuencia": 0.833,
+        "R_recencia": 0.75,
+        "V_impopularidad": 0.55,
+        "D_desempate_descriptivo": 0.882,
+        "ap_total": 5,
+        "frec_vs_esperado": 1.84,
         "sorteos_desde": 0,
         "max_retraso": 5
       },
       {
         "numero": 21,
-        "score": 57.2,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.941,
-        "ap_total": 5,
-        "frec_vs_esperado": 1.94,
-        "sorteos_desde": 1,
-        "max_retraso": 5
-      },
-      {
-        "numero": 18,
-        "score": 56.9,
-        "F_frecuencia": 0.5,
+        "score": 63.5,
+        "F_frecuencia": 0.833,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.912,
         "ap_total": 5,
-        "frec_vs_esperado": 1.94,
-        "sorteos_desde": 3,
-        "max_retraso": 6
-      },
-      {
-        "numero": 28,
-        "score": 56.3,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.853,
-        "ap_total": 4,
-        "frec_vs_esperado": 1.56,
-        "sorteos_desde": 7,
-        "max_retraso": 7
-      },
-      {
-        "numero": 27,
-        "score": 56.0,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.824,
-        "ap_total": 4,
-        "frec_vs_esperado": 1.56,
+        "frec_vs_esperado": 1.84,
         "sorteos_desde": 2,
         "max_retraso": 5
       },
       {
-        "numero": 20,
-        "score": 55.7,
-        "F_frecuencia": 0.5,
+        "numero": 17,
+        "score": 62.2,
+        "F_frecuencia": 0.667,
+        "R_recencia": 0.75,
+        "V_impopularidad": 0.55,
+        "D_desempate_descriptivo": 0.735,
+        "ap_total": 4,
+        "frec_vs_esperado": 1.47,
+        "sorteos_desde": 2,
+        "max_retraso": 10
+      },
+      {
+        "numero": 28,
+        "score": 59.0,
+        "F_frecuencia": 0.667,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.794,
         "ap_total": 4,
-        "frec_vs_esperado": 1.56,
-        "sorteos_desde": 0,
-        "max_retraso": 5
+        "frec_vs_esperado": 1.47,
+        "sorteos_desde": 8,
+        "max_retraso": 8
       }
     ],
     "prob_base": {
@@ -2078,30 +2078,30 @@
     "k": 6,
     "maxnum": 40,
     "cobertura": {
-      "sorteos_verificados": 23,
+      "sorteos_verificados": 24,
       "sorteos_en_el_periodo": 252,
-      "cobertura_pct": 9.1,
-      "faltantes": 229,
+      "cobertura_pct": 9.5,
+      "faltantes": 228,
       "verificados_2025": 6,
-      "verificados_2026": 17,
-      "rango": "2025-08-09 .. 2026-08-08",
+      "verificados_2026": 18,
+      "rango": "2025-08-09 .. 2026-08-11",
       "filas_rechazadas": []
     },
     "tabla_maestra": [
       {
         "numero": 1,
         "ap_2025": 1,
-        "ap_2026": 0,
-        "ap_total": 1,
+        "ap_2026": 1,
+        "ap_total": 2,
         "pct_2025": 2.78,
-        "pct_2026": 0.0,
-        "ultima_aparicion": "2025-11-08",
-        "sorteos_desde": 17,
+        "pct_2026": 0.93,
+        "ultima_aparicion": "2026-08-11",
+        "sorteos_desde": 0,
         "max_retraso": 17,
-        "frec_ult_30": 1,
-        "frec_ult_60": 1,
-        "frec_ult_100": 1,
-        "diferencia_pp": -2.78
+        "frec_ult_30": 2,
+        "frec_ult_60": 2,
+        "frec_ult_100": 2,
+        "diferencia_pp": -1.85
       },
       {
         "numero": 2,
@@ -2109,14 +2109,14 @@
         "ap_2026": 1,
         "ap_total": 2,
         "pct_2025": 2.78,
-        "pct_2026": 0.98,
+        "pct_2026": 0.93,
         "ultima_aparicion": "2026-07-21",
-        "sorteos_desde": 8,
+        "sorteos_desde": 9,
         "max_retraso": 9,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
         "frec_ult_100": 2,
-        "diferencia_pp": -1.8
+        "diferencia_pp": -1.85
       },
       {
         "numero": 3,
@@ -2124,29 +2124,29 @@
         "ap_2026": 2,
         "ap_total": 2,
         "pct_2025": 0.0,
-        "pct_2026": 1.96,
+        "pct_2026": 1.85,
         "ultima_aparicion": "2026-07-21",
-        "sorteos_desde": 8,
-        "max_retraso": 8,
+        "sorteos_desde": 9,
+        "max_retraso": 9,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
         "frec_ult_100": 2,
-        "diferencia_pp": 1.96
+        "diferencia_pp": 1.85
       },
       {
         "numero": 4,
         "ap_2025": 3,
-        "ap_2026": 2,
-        "ap_total": 5,
+        "ap_2026": 3,
+        "ap_total": 6,
         "pct_2025": 8.33,
-        "pct_2026": 1.96,
-        "ultima_aparicion": "2026-08-01",
-        "sorteos_desde": 3,
+        "pct_2026": 2.78,
+        "ultima_aparicion": "2026-08-11",
+        "sorteos_desde": 0,
         "max_retraso": 11,
-        "frec_ult_30": 5,
-        "frec_ult_60": 5,
-        "frec_ult_100": 5,
-        "diferencia_pp": -6.37
+        "frec_ult_30": 6,
+        "frec_ult_60": 6,
+        "frec_ult_100": 6,
+        "diferencia_pp": -5.55
       },
       {
         "numero": 5,
@@ -2154,14 +2154,14 @@
         "ap_2026": 5,
         "ap_total": 5,
         "pct_2025": 0.0,
-        "pct_2026": 4.9,
+        "pct_2026": 4.63,
         "ultima_aparicion": "2026-07-28",
-        "sorteos_desde": 5,
+        "sorteos_desde": 6,
         "max_retraso": 7,
         "frec_ult_30": 5,
         "frec_ult_60": 5,
         "frec_ult_100": 5,
-        "diferencia_pp": 4.9
+        "diferencia_pp": 4.63
       },
       {
         "numero": 6,
@@ -2169,14 +2169,14 @@
         "ap_2026": 5,
         "ap_total": 5,
         "pct_2025": 0.0,
-        "pct_2026": 4.9,
+        "pct_2026": 4.63,
         "ultima_aparicion": "2026-08-08",
-        "sorteos_desde": 0,
+        "sorteos_desde": 1,
         "max_retraso": 8,
         "frec_ult_30": 5,
         "frec_ult_60": 5,
         "frec_ult_100": 5,
-        "diferencia_pp": 4.9
+        "diferencia_pp": 4.63
       },
       {
         "numero": 7,
@@ -2184,14 +2184,14 @@
         "ap_2026": 6,
         "ap_total": 6,
         "pct_2025": 0.0,
-        "pct_2026": 5.88,
+        "pct_2026": 5.56,
         "ultima_aparicion": "2026-08-06",
-        "sorteos_desde": 1,
+        "sorteos_desde": 2,
         "max_retraso": 9,
         "frec_ult_30": 6,
         "frec_ult_60": 6,
         "frec_ult_100": 6,
-        "diferencia_pp": 5.88
+        "diferencia_pp": 5.56
       },
       {
         "numero": 8,
@@ -2199,14 +2199,14 @@
         "ap_2026": 4,
         "ap_total": 4,
         "pct_2025": 0.0,
-        "pct_2026": 3.92,
+        "pct_2026": 3.7,
         "ultima_aparicion": "2026-07-25",
-        "sorteos_desde": 6,
+        "sorteos_desde": 7,
         "max_retraso": 7,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": 3.92
+        "diferencia_pp": 3.7
       },
       {
         "numero": 9,
@@ -2214,14 +2214,14 @@
         "ap_2026": 2,
         "ap_total": 2,
         "pct_2025": 0.0,
-        "pct_2026": 1.96,
+        "pct_2026": 1.85,
         "ultima_aparicion": "2026-08-04",
-        "sorteos_desde": 2,
+        "sorteos_desde": 3,
         "max_retraso": 19,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
         "frec_ult_100": 2,
-        "diferencia_pp": 1.96
+        "diferencia_pp": 1.85
       },
       {
         "numero": 10,
@@ -2229,14 +2229,14 @@
         "ap_2026": 3,
         "ap_total": 4,
         "pct_2025": 2.78,
-        "pct_2026": 2.94,
+        "pct_2026": 2.78,
         "ultima_aparicion": "2026-08-04",
-        "sorteos_desde": 2,
+        "sorteos_desde": 3,
         "max_retraso": 7,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": 0.16
+        "diferencia_pp": 0.0
       },
       {
         "numero": 11,
@@ -2244,14 +2244,14 @@
         "ap_2026": 2,
         "ap_total": 2,
         "pct_2025": 0.0,
-        "pct_2026": 1.96,
+        "pct_2026": 1.85,
         "ultima_aparicion": "2026-07-23",
-        "sorteos_desde": 7,
+        "sorteos_desde": 8,
         "max_retraso": 8,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
         "frec_ult_100": 2,
-        "diferencia_pp": 1.96
+        "diferencia_pp": 1.85
       },
       {
         "numero": 12,
@@ -2259,14 +2259,14 @@
         "ap_2026": 2,
         "ap_total": 3,
         "pct_2025": 2.78,
-        "pct_2026": 1.96,
+        "pct_2026": 1.85,
         "ultima_aparicion": "2026-08-06",
-        "sorteos_desde": 1,
+        "sorteos_desde": 2,
         "max_retraso": 10,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
-        "diferencia_pp": -0.82
+        "diferencia_pp": -0.93
       },
       {
         "numero": 13,
@@ -2274,29 +2274,29 @@
         "ap_2026": 1,
         "ap_total": 1,
         "pct_2025": 0.0,
-        "pct_2026": 0.98,
+        "pct_2026": 0.93,
         "ultima_aparicion": "2026-07-14",
-        "sorteos_desde": 10,
+        "sorteos_desde": 11,
         "max_retraso": 12,
         "frec_ult_30": 1,
         "frec_ult_60": 1,
         "frec_ult_100": 1,
-        "diferencia_pp": 0.98
+        "diferencia_pp": 0.93
       },
       {
         "numero": 14,
         "ap_2025": 1,
-        "ap_2026": 5,
-        "ap_total": 6,
+        "ap_2026": 6,
+        "ap_total": 7,
         "pct_2025": 2.78,
-        "pct_2026": 4.9,
-        "ultima_aparicion": "2026-08-08",
+        "pct_2026": 5.56,
+        "ultima_aparicion": "2026-08-11",
         "sorteos_desde": 0,
         "max_retraso": 6,
-        "frec_ult_30": 6,
-        "frec_ult_60": 6,
-        "frec_ult_100": 6,
-        "diferencia_pp": 2.12
+        "frec_ult_30": 7,
+        "frec_ult_60": 7,
+        "frec_ult_100": 7,
+        "diferencia_pp": 2.78
       },
       {
         "numero": 15,
@@ -2304,14 +2304,14 @@
         "ap_2026": 1,
         "ap_total": 3,
         "pct_2025": 5.56,
-        "pct_2026": 0.98,
+        "pct_2026": 0.93,
         "ultima_aparicion": "2026-06-27",
-        "sorteos_desde": 13,
-        "max_retraso": 13,
+        "sorteos_desde": 14,
+        "max_retraso": 14,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
-        "diferencia_pp": -4.58
+        "diferencia_pp": -4.63
       },
       {
         "numero": 16,
@@ -2319,14 +2319,14 @@
         "ap_2026": 4,
         "ap_total": 4,
         "pct_2025": 0.0,
-        "pct_2026": 3.92,
+        "pct_2026": 3.7,
         "ultima_aparicion": "2026-08-06",
-        "sorteos_desde": 1,
+        "sorteos_desde": 2,
         "max_retraso": 12,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": 3.92
+        "diferencia_pp": 3.7
       },
       {
         "numero": 17,
@@ -2334,44 +2334,44 @@
         "ap_2026": 1,
         "ap_total": 3,
         "pct_2025": 5.56,
-        "pct_2026": 0.98,
+        "pct_2026": 0.93,
         "ultima_aparicion": "2026-07-23",
-        "sorteos_desde": 7,
+        "sorteos_desde": 8,
         "max_retraso": 11,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
-        "diferencia_pp": -4.58
+        "diferencia_pp": -4.63
       },
       {
         "numero": 18,
         "ap_2025": 3,
-        "ap_2026": 3,
-        "ap_total": 6,
+        "ap_2026": 4,
+        "ap_total": 7,
         "pct_2025": 8.33,
-        "pct_2026": 2.94,
-        "ultima_aparicion": "2026-08-04",
-        "sorteos_desde": 2,
+        "pct_2026": 3.7,
+        "ultima_aparicion": "2026-08-11",
+        "sorteos_desde": 0,
         "max_retraso": 7,
-        "frec_ult_30": 6,
-        "frec_ult_60": 6,
-        "frec_ult_100": 6,
-        "diferencia_pp": -5.39
+        "frec_ult_30": 7,
+        "frec_ult_60": 7,
+        "frec_ult_100": 7,
+        "diferencia_pp": -4.63
       },
       {
         "numero": 19,
         "ap_2025": 1,
-        "ap_2026": 2,
-        "ap_total": 3,
+        "ap_2026": 3,
+        "ap_total": 4,
         "pct_2025": 2.78,
-        "pct_2026": 1.96,
-        "ultima_aparicion": "2026-07-28",
-        "sorteos_desde": 5,
+        "pct_2026": 2.78,
+        "ultima_aparicion": "2026-08-11",
+        "sorteos_desde": 0,
         "max_retraso": 10,
-        "frec_ult_30": 3,
-        "frec_ult_60": 3,
-        "frec_ult_100": 3,
-        "diferencia_pp": -0.82
+        "frec_ult_30": 4,
+        "frec_ult_60": 4,
+        "frec_ult_100": 4,
+        "diferencia_pp": 0.0
       },
       {
         "numero": 20,
@@ -2379,14 +2379,14 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": 0.0,
-        "pct_2026": 2.94,
+        "pct_2026": 2.78,
         "ultima_aparicion": "2026-08-08",
-        "sorteos_desde": 0,
+        "sorteos_desde": 1,
         "max_retraso": 11,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
-        "diferencia_pp": 2.94
+        "diferencia_pp": 2.78
       },
       {
         "numero": 21,
@@ -2394,14 +2394,14 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": 0.0,
-        "pct_2026": 2.94,
+        "pct_2026": 2.78,
         "ultima_aparicion": "2026-08-08",
-        "sorteos_desde": 0,
+        "sorteos_desde": 1,
         "max_retraso": 8,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
-        "diferencia_pp": 2.94
+        "diferencia_pp": 2.78
       },
       {
         "numero": 22,
@@ -2409,14 +2409,14 @@
         "ap_2026": 3,
         "ap_total": 4,
         "pct_2025": 2.78,
-        "pct_2026": 2.94,
+        "pct_2026": 2.78,
         "ultima_aparicion": "2026-08-06",
-        "sorteos_desde": 1,
+        "sorteos_desde": 2,
         "max_retraso": 13,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": 0.16
+        "diferencia_pp": 0.0
       },
       {
         "numero": 23,
@@ -2424,14 +2424,14 @@
         "ap_2026": 5,
         "ap_total": 6,
         "pct_2025": 2.78,
-        "pct_2026": 4.9,
+        "pct_2026": 4.63,
         "ultima_aparicion": "2026-07-30",
-        "sorteos_desde": 4,
-        "max_retraso": 4,
+        "sorteos_desde": 5,
+        "max_retraso": 5,
         "frec_ult_30": 6,
         "frec_ult_60": 6,
         "frec_ult_100": 6,
-        "diferencia_pp": 2.12
+        "diferencia_pp": 1.85
       },
       {
         "numero": 24,
@@ -2439,14 +2439,14 @@
         "ap_2026": 1,
         "ap_total": 2,
         "pct_2025": 2.78,
-        "pct_2026": 0.98,
+        "pct_2026": 0.93,
         "ultima_aparicion": "2026-05-23",
-        "sorteos_desde": 15,
-        "max_retraso": 15,
+        "sorteos_desde": 16,
+        "max_retraso": 16,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
         "frec_ult_100": 2,
-        "diferencia_pp": -1.8
+        "diferencia_pp": -1.85
       },
       {
         "numero": 25,
@@ -2454,14 +2454,14 @@
         "ap_2026": 2,
         "ap_total": 4,
         "pct_2025": 5.56,
-        "pct_2026": 1.96,
+        "pct_2026": 1.85,
         "ultima_aparicion": "2026-07-14",
-        "sorteos_desde": 10,
-        "max_retraso": 10,
+        "sorteos_desde": 11,
+        "max_retraso": 11,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": -3.6
+        "diferencia_pp": -3.71
       },
       {
         "numero": 26,
@@ -2469,14 +2469,14 @@
         "ap_2026": 2,
         "ap_total": 4,
         "pct_2025": 5.56,
-        "pct_2026": 1.96,
+        "pct_2026": 1.85,
         "ultima_aparicion": "2026-08-06",
-        "sorteos_desde": 1,
+        "sorteos_desde": 2,
         "max_retraso": 12,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": -3.6
+        "diferencia_pp": -3.71
       },
       {
         "numero": 27,
@@ -2484,14 +2484,14 @@
         "ap_2026": 4,
         "ap_total": 7,
         "pct_2025": 8.33,
-        "pct_2026": 3.92,
+        "pct_2026": 3.7,
         "ultima_aparicion": "2026-08-08",
-        "sorteos_desde": 0,
+        "sorteos_desde": 1,
         "max_retraso": 8,
         "frec_ult_30": 7,
         "frec_ult_60": 7,
         "frec_ult_100": 7,
-        "diferencia_pp": -4.41
+        "diferencia_pp": -4.63
       },
       {
         "numero": 28,
@@ -2499,14 +2499,14 @@
         "ap_2026": 1,
         "ap_total": 2,
         "pct_2025": 2.78,
-        "pct_2026": 0.98,
+        "pct_2026": 0.93,
         "ultima_aparicion": "2026-07-18",
-        "sorteos_desde": 9,
-        "max_retraso": 9,
+        "sorteos_desde": 10,
+        "max_retraso": 10,
         "frec_ult_30": 2,
         "frec_ult_60": 2,
         "frec_ult_100": 2,
-        "diferencia_pp": -1.8
+        "diferencia_pp": -1.85
       },
       {
         "numero": 29,
@@ -2514,14 +2514,14 @@
         "ap_2026": 1,
         "ap_total": 1,
         "pct_2025": 0.0,
-        "pct_2026": 0.98,
+        "pct_2026": 0.93,
         "ultima_aparicion": "2026-05-07",
-        "sorteos_desde": 16,
-        "max_retraso": 16,
+        "sorteos_desde": 17,
+        "max_retraso": 17,
         "frec_ult_30": 1,
         "frec_ult_60": 1,
         "frec_ult_100": 1,
-        "diferencia_pp": 0.98
+        "diferencia_pp": 0.93
       },
       {
         "numero": 30,
@@ -2529,29 +2529,29 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": 0.0,
-        "pct_2026": 2.94,
+        "pct_2026": 2.78,
         "ultima_aparicion": "2026-08-01",
-        "sorteos_desde": 3,
+        "sorteos_desde": 4,
         "max_retraso": 11,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
-        "diferencia_pp": 2.94
+        "diferencia_pp": 2.78
       },
       {
         "numero": 31,
         "ap_2025": 0,
-        "ap_2026": 3,
-        "ap_total": 3,
+        "ap_2026": 4,
+        "ap_total": 4,
         "pct_2025": 0.0,
-        "pct_2026": 2.94,
-        "ultima_aparicion": "2026-08-06",
-        "sorteos_desde": 1,
+        "pct_2026": 3.7,
+        "ultima_aparicion": "2026-08-11",
+        "sorteos_desde": 0,
         "max_retraso": 15,
-        "frec_ult_30": 3,
-        "frec_ult_60": 3,
-        "frec_ult_100": 3,
-        "diferencia_pp": 2.94
+        "frec_ult_30": 4,
+        "frec_ult_60": 4,
+        "frec_ult_100": 4,
+        "diferencia_pp": 3.7
       },
       {
         "numero": 32,
@@ -2559,14 +2559,14 @@
         "ap_2026": 3,
         "ap_total": 4,
         "pct_2025": 2.78,
-        "pct_2026": 2.94,
+        "pct_2026": 2.78,
         "ultima_aparicion": "2026-07-25",
-        "sorteos_desde": 6,
+        "sorteos_desde": 7,
         "max_retraso": 7,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": 0.16
+        "diferencia_pp": 0.0
       },
       {
         "numero": 33,
@@ -2574,14 +2574,14 @@
         "ap_2026": 3,
         "ap_total": 4,
         "pct_2025": 2.78,
-        "pct_2026": 2.94,
+        "pct_2026": 2.78,
         "ultima_aparicion": "2026-08-08",
-        "sorteos_desde": 0,
+        "sorteos_desde": 1,
         "max_retraso": 12,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": 0.16
+        "diferencia_pp": 0.0
       },
       {
         "numero": 34,
@@ -2589,14 +2589,14 @@
         "ap_2026": 3,
         "ap_total": 5,
         "pct_2025": 5.56,
-        "pct_2026": 2.94,
+        "pct_2026": 2.78,
         "ultima_aparicion": "2026-07-21",
-        "sorteos_desde": 8,
-        "max_retraso": 8,
+        "sorteos_desde": 9,
+        "max_retraso": 9,
         "frec_ult_30": 5,
         "frec_ult_60": 5,
         "frec_ult_100": 5,
-        "diferencia_pp": -2.62
+        "diferencia_pp": -2.78
       },
       {
         "numero": 35,
@@ -2604,14 +2604,14 @@
         "ap_2026": 2,
         "ap_total": 3,
         "pct_2025": 2.78,
-        "pct_2026": 1.96,
+        "pct_2026": 1.85,
         "ultima_aparicion": "2026-08-01",
-        "sorteos_desde": 3,
+        "sorteos_desde": 4,
         "max_retraso": 10,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
-        "diferencia_pp": -0.82
+        "diferencia_pp": -0.93
       },
       {
         "numero": 36,
@@ -2619,14 +2619,14 @@
         "ap_2026": 1,
         "ap_total": 1,
         "pct_2025": 0.0,
-        "pct_2026": 0.98,
+        "pct_2026": 0.93,
         "ultima_aparicion": "2026-07-18",
-        "sorteos_desde": 9,
+        "sorteos_desde": 10,
         "max_retraso": 13,
         "frec_ult_30": 1,
         "frec_ult_60": 1,
         "frec_ult_100": 1,
-        "diferencia_pp": 0.98
+        "diferencia_pp": 0.93
       },
       {
         "numero": 37,
@@ -2634,14 +2634,14 @@
         "ap_2026": 2,
         "ap_total": 4,
         "pct_2025": 5.56,
-        "pct_2026": 1.96,
+        "pct_2026": 1.85,
         "ultima_aparicion": "2026-07-28",
-        "sorteos_desde": 5,
+        "sorteos_desde": 6,
         "max_retraso": 9,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": -3.6
+        "diferencia_pp": -3.71
       },
       {
         "numero": 38,
@@ -2649,14 +2649,14 @@
         "ap_2026": 2,
         "ap_total": 4,
         "pct_2025": 5.56,
-        "pct_2026": 1.96,
+        "pct_2026": 1.85,
         "ultima_aparicion": "2026-07-30",
-        "sorteos_desde": 4,
+        "sorteos_desde": 5,
         "max_retraso": 7,
         "frec_ult_30": 4,
         "frec_ult_60": 4,
         "frec_ult_100": 4,
-        "diferencia_pp": -3.6
+        "diferencia_pp": -3.71
       },
       {
         "numero": 39,
@@ -2664,14 +2664,14 @@
         "ap_2026": 3,
         "ap_total": 3,
         "pct_2025": 0.0,
-        "pct_2026": 2.94,
+        "pct_2026": 2.78,
         "ultima_aparicion": "2026-08-01",
-        "sorteos_desde": 3,
+        "sorteos_desde": 4,
         "max_retraso": 11,
         "frec_ult_30": 3,
         "frec_ult_60": 3,
         "frec_ult_100": 3,
-        "diferencia_pp": 2.94
+        "diferencia_pp": 2.78
       },
       {
         "numero": 40,
@@ -2679,25 +2679,25 @@
         "ap_2026": 1,
         "ap_total": 1,
         "pct_2025": 0.0,
-        "pct_2026": 0.98,
+        "pct_2026": 0.93,
         "ultima_aparicion": "2026-08-04",
-        "sorteos_desde": 2,
+        "sorteos_desde": 3,
         "max_retraso": 20,
         "frec_ult_30": 1,
         "frec_ult_60": 1,
         "frec_ult_100": 1,
-        "diferencia_pp": 0.98
+        "diferencia_pp": 0.93
       }
     ],
     "chi2": {
-      "chi2": 27.8,
+      "chi2": 29.89,
       "gl": 39,
-      "p_montecarlo": 0.7782,
+      "p_montecarlo": 0.6809,
       "obs_max": 7,
       "obs_min": 1,
-      "esperado_por_numero": 3.45,
-      "chi2_null_media": 34.01,
-      "chi2_null_p95": 47.51
+      "esperado_por_numero": 3.6,
+      "chi2_null_media": 34.0,
+      "chi2_null_p95": 47.11
     },
     "shrinkage_lambda": 0.0,
     "pares": {
@@ -2708,8 +2708,8 @@
             33
           ],
           "obs": 4,
-          "esperado": 0.442,
-          "p_poisson": 0.00112247094351825
+          "esperado": 0.462,
+          "p_poisson": 0.0013107862798446002
         },
         {
           "combo": [
@@ -2717,8 +2717,8 @@
             23
           ],
           "obs": 3,
-          "esperado": 0.442,
-          "p_poisson": 0.010389284742492233
+          "esperado": 0.462,
+          "p_poisson": 0.011639086105735275
         },
         {
           "combo": [
@@ -2726,8 +2726,17 @@
             16
           ],
           "obs": 3,
-          "esperado": 0.442,
-          "p_poisson": 0.010389284742492233
+          "esperado": 0.462,
+          "p_poisson": 0.011639086105735275
+        },
+        {
+          "combo": [
+            14,
+            19
+          ],
+          "obs": 3,
+          "esperado": 0.462,
+          "p_poisson": 0.011639086105735275
         },
         {
           "combo": [
@@ -2735,8 +2744,17 @@
             38
           ],
           "obs": 3,
-          "esperado": 0.442,
-          "p_poisson": 0.010389284742492233
+          "esperado": 0.462,
+          "p_poisson": 0.011639086105735275
+        },
+        {
+          "combo": [
+            1,
+            18
+          ],
+          "obs": 2,
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
         },
         {
           "combo": [
@@ -2744,8 +2762,17 @@
             10
           ],
           "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
+        },
+        {
+          "combo": [
+            4,
+            18
+          ],
+          "obs": 2,
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
         },
         {
           "combo": [
@@ -2753,8 +2780,8 @@
             23
           ],
           "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
         },
         {
           "combo": [
@@ -2762,8 +2789,8 @@
             26
           ],
           "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
         },
         {
           "combo": [
@@ -2771,8 +2798,17 @@
             27
           ],
           "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
+        },
+        {
+          "combo": [
+            4,
+            31
+          ],
+          "obs": 2,
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
         },
         {
           "combo": [
@@ -2780,8 +2816,8 @@
             32
           ],
           "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
         },
         {
           "combo": [
@@ -2789,8 +2825,8 @@
             8
           ],
           "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
         },
         {
           "combo": [
@@ -2798,51 +2834,15 @@
             20
           ],
           "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
-        },
-        {
-          "combo": [
-            5,
-            30
-          ],
-          "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
-        },
-        {
-          "combo": [
-            6,
-            14
-          ],
-          "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
-        },
-        {
-          "combo": [
-            6,
-            16
-          ],
-          "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
-        },
-        {
-          "combo": [
-            6,
-            21
-          ],
-          "obs": 2,
-          "esperado": 0.442,
-          "p_poisson": 0.07324245659640283
+          "esperado": 0.462,
+          "p_poisson": 0.07877303497402499
         }
       ],
       "n_posibles": 780,
-      "esperado": 0.442,
+      "esperado": 0.462,
       "max_obs": 4,
       "n_significativos_BH": 0,
-      "n_observados_distintos": 287
+      "n_observados_distintos": 297
     },
     "trios": {
       "top": [
@@ -2853,8 +2853,8 @@
             23
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
@@ -2863,8 +2863,8 @@
             30
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
@@ -2873,8 +2873,8 @@
             27
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
@@ -2883,8 +2883,8 @@
             18
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
@@ -2893,8 +2893,8 @@
             25
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
@@ -2903,8 +2903,8 @@
             38
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
@@ -2913,8 +2913,8 @@
             38
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
@@ -2923,8 +2923,8 @@
             38
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
@@ -2933,8 +2933,8 @@
             27
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
@@ -2943,106 +2943,106 @@
             34
           ],
           "obs": 2,
-          "esperado": 0.047,
-          "p_poisson": 0.0010507946611678642
+          "esperado": 0.049,
+          "p_poisson": 0.0011426175946884776
         },
         {
           "combo": [
             1,
-            15,
+            4,
+            14
+          ],
+          "obs": 1,
+          "esperado": 0.049,
+          "p_poisson": 0.04742172411539791
+        },
+        {
+          "combo": [
+            1,
+            4,
             18
           ],
           "obs": 1,
-          "esperado": 0.047,
-          "p_poisson": 0.04549147497604822
+          "esperado": 0.049,
+          "p_poisson": 0.04742172411539791
         },
         {
           "combo": [
             1,
-            15,
-            28
+            4,
+            19
           ],
           "obs": 1,
-          "esperado": 0.047,
-          "p_poisson": 0.04549147497604822
+          "esperado": 0.049,
+          "p_poisson": 0.04742172411539791
         },
         {
           "combo": [
             1,
-            15,
-            34
+            4,
+            31
           ],
           "obs": 1,
-          "esperado": 0.047,
-          "p_poisson": 0.04549147497604822
+          "esperado": 0.049,
+          "p_poisson": 0.04742172411539791
         },
         {
           "combo": [
             1,
-            15,
-            37
+            14,
+            18
           ],
           "obs": 1,
-          "esperado": 0.047,
-          "p_poisson": 0.04549147497604822
-        },
-        {
-          "combo": [
-            1,
-            18,
-            28
-          ],
-          "obs": 1,
-          "esperado": 0.047,
-          "p_poisson": 0.04549147497604822
+          "esperado": 0.049,
+          "p_poisson": 0.04742172411539791
         }
       ],
       "n_posibles": 9880,
-      "esperado": 0.047,
+      "esperado": 0.049,
       "max_obs": 2,
       "n_significativos_BH": 0,
-      "n_observados_distintos": 450
+      "n_observados_distintos": 470
     },
     "estructura": {
       "suma": {
-        "observado_medio": 121.04,
-        "esperado_medio": 122.9,
-        "z_del_promedio": -0.34,
+        "observado_medio": 119.62,
+        "esperado_medio": 122.92,
+        "z_del_promedio": -0.61,
         "null_p05": 79.0,
-        "null_p95": 167.0
+        "null_p95": 166.0
       },
       "pares": {
-        "observado_medio": 3.13,
+        "observado_medio": 3.12,
         "esperado_medio": 3.0,
-        "z_del_promedio": 0.55,
+        "z_del_promedio": 0.53,
         "null_p05": 1.0,
         "null_p95": 5.0
       },
       "amplitud": {
-        "observado_medio": 28.96,
+        "observado_medio": 29.0,
         "esperado_medio": 29.28,
-        "z_del_promedio": -0.26,
+        "z_del_promedio": -0.23,
         "null_p05": 18.0,
         "null_p95": 38.0
       },
       "consecutivos": {
-        "observado_medio": 0.65,
+        "observado_medio": 0.67,
         "esperado_medio": 0.75,
-        "z_del_promedio": -0.62,
+        "z_del_promedio": -0.55,
         "null_p05": 0.0,
         "null_p95": 2.0
       },
       "n_mayores_31": {
-        "observado_medio": 1.26,
+        "observado_medio": 1.21,
         "esperado_medio": 1.35,
-        "z_del_promedio": -0.42,
+        "z_del_promedio": -0.71,
         "null_p05": 0.0,
         "null_p95": 3.0
       }
     },
     "estructura_dist": {
       "par_impar": {
-        "3P-3I": 9,
+        "3P-3I": 10,
         "4P-2I": 7,
         "2P-4I": 3,
         "5P-1I": 2,
@@ -3050,60 +3050,60 @@
         "0P-6I": 1
       },
       "bandas_ocupadas": {
-        "3": 13,
+        "3": 14,
         "4": 10
       },
       "consecutivos": {
         "0": 11,
-        "1": 9,
+        "1": 10,
         "2": 3
       }
     },
     "repeticiones_obs": {
       "1": {
-        "n": 22,
-        "media": 0.727
+        "n": 23,
+        "media": 0.739
       },
       "2": {
-        "n": 21,
-        "media": 1.571
+        "n": 22,
+        "media": 1.591
       },
       "3": {
-        "n": 20,
-        "media": 1.85
+        "n": 21,
+        "media": 1.905
       },
       "5": {
-        "n": 18,
-        "media": 3.389
+        "n": 19,
+        "media": 3.421
       },
       "10": {
-        "n": 13,
-        "media": 4.692
+        "n": 14,
+        "media": 4.714
       }
     },
     "repeticiones_null": {
-      "1": 0.91,
-      "2": 1.677,
-      "3": 2.329,
-      "5": 3.341,
-      "10": 4.825
+      "1": 0.892,
+      "2": 1.653,
+      "3": 2.301,
+      "5": 3.332,
+      "10": 4.829
     },
     "poder": [
       {
-        "n_sorteos": 23,
-        "esperado_por_numero": 3.5,
-        "max_esperado_por_azar_p50": 7.0,
-        "max_esperado_por_azar_p95": 9.0,
-        "exceso_p95_sobre_esperado": 5.5,
-        "chi2_umbral_p95": 47.5
+        "n_sorteos": 24,
+        "esperado_por_numero": 3.6,
+        "max_esperado_por_azar_p50": 8.0,
+        "max_esperado_por_azar_p95": 10.0,
+        "exceso_p95_sobre_esperado": 6.4,
+        "chi2_umbral_p95": 47.7
       },
       {
         "n_sorteos": 100,
         "esperado_por_numero": 15.0,
         "max_esperado_por_azar_p50": 23.0,
-        "max_esperado_por_azar_p95": 26.0,
-        "exceso_p95_sobre_esperado": 11.0,
-        "chi2_umbral_p95": 47.6
+        "max_esperado_por_azar_p95": 27.0,
+        "exceso_p95_sobre_esperado": 12.0,
+        "chi2_umbral_p95": 47.5
       },
       {
         "n_sorteos": 223,
@@ -3111,7 +3111,7 @@
         "max_esperado_por_azar_p50": 45.0,
         "max_esperado_por_azar_p95": 50.0,
         "exceso_p95_sobre_esperado": 16.5,
-        "chi2_umbral_p95": 47.7
+        "chi2_umbral_p95": 47.4
       },
       {
         "n_sorteos": 252,
@@ -3124,34 +3124,91 @@
     ],
     "comparacion_anios": {
       "n_2025": 6,
-      "n_2026": 17,
+      "n_2026": 18,
       "computable": true,
-      "correlacion_pearson": -0.15,
+      "correlacion_pearson": -0.079,
       "null_media": 0.001,
-      "null_p025": -0.31,
-      "null_p975": 0.312,
-      "p_dos_colas": 0.351,
+      "null_p025": -0.313,
+      "null_p975": 0.318,
+      "p_dos_colas": 0.6203,
       "interpretacion": "La correlacion observada cae dentro de la banda esperada por puro azar"
     },
     "hot_cold": {
       "hot": [
+        {
+          "numero": 14,
+          "ap_2025": 1,
+          "ap_2026": 6,
+          "ap_total": 7,
+          "pct_2025": 2.78,
+          "pct_2026": 5.56,
+          "ultima_aparicion": "2026-08-11",
+          "sorteos_desde": 0,
+          "max_retraso": 6,
+          "frec_ult_30": 7,
+          "frec_ult_60": 7,
+          "frec_ult_100": 7,
+          "diferencia_pp": 2.78,
+          "esperado": 3.6,
+          "p_exacto": 0.07742422112082407,
+          "bh_umbral": 0.0013,
+          "significativo": false
+        },
+        {
+          "numero": 18,
+          "ap_2025": 3,
+          "ap_2026": 4,
+          "ap_total": 7,
+          "pct_2025": 8.33,
+          "pct_2026": 3.7,
+          "ultima_aparicion": "2026-08-11",
+          "sorteos_desde": 0,
+          "max_retraso": 7,
+          "frec_ult_30": 7,
+          "frec_ult_60": 7,
+          "frec_ult_100": 7,
+          "diferencia_pp": -4.63,
+          "esperado": 3.6,
+          "p_exacto": 0.07742422112082407,
+          "bh_umbral": 0.0025,
+          "significativo": false
+        },
         {
           "numero": 27,
           "ap_2025": 3,
           "ap_2026": 4,
           "ap_total": 7,
           "pct_2025": 8.33,
-          "pct_2026": 3.92,
+          "pct_2026": 3.7,
           "ultima_aparicion": "2026-08-08",
-          "sorteos_desde": 0,
+          "sorteos_desde": 1,
           "max_retraso": 8,
           "frec_ult_30": 7,
           "frec_ult_60": 7,
           "frec_ult_100": 7,
-          "diferencia_pp": -4.41,
-          "esperado": 3.45,
-          "p_exacto": 0.07010906068069427,
-          "bh_umbral": 0.0013,
+          "diferencia_pp": -4.63,
+          "esperado": 3.6,
+          "p_exacto": 0.07742422112082407,
+          "bh_umbral": 0.0038,
+          "significativo": false
+        },
+        {
+          "numero": 4,
+          "ap_2025": 3,
+          "ap_2026": 3,
+          "ap_total": 6,
+          "pct_2025": 8.33,
+          "pct_2026": 2.78,
+          "ultima_aparicion": "2026-08-11",
+          "sorteos_desde": 0,
+          "max_retraso": 11,
+          "frec_ult_30": 6,
+          "frec_ult_60": 6,
+          "frec_ult_100": 6,
+          "diferencia_pp": -5.55,
+          "esperado": 3.6,
+          "p_exacto": 0.15967127885494148,
+          "bh_umbral": 0.005,
           "significativo": false
         },
         {
@@ -3160,55 +3217,17 @@
           "ap_2026": 6,
           "ap_total": 6,
           "pct_2025": 0.0,
-          "pct_2026": 5.88,
+          "pct_2026": 5.56,
           "ultima_aparicion": "2026-08-06",
-          "sorteos_desde": 1,
+          "sorteos_desde": 2,
           "max_retraso": 9,
           "frec_ult_30": 6,
           "frec_ult_60": 6,
           "frec_ult_100": 6,
-          "diferencia_pp": 5.88,
-          "esperado": 3.45,
-          "p_exacto": 0.1426799939755038,
-          "bh_umbral": 0.0025,
-          "significativo": false
-        },
-        {
-          "numero": 14,
-          "ap_2025": 1,
-          "ap_2026": 5,
-          "ap_total": 6,
-          "pct_2025": 2.78,
-          "pct_2026": 4.9,
-          "ultima_aparicion": "2026-08-08",
-          "sorteos_desde": 0,
-          "max_retraso": 6,
-          "frec_ult_30": 6,
-          "frec_ult_60": 6,
-          "frec_ult_100": 6,
-          "diferencia_pp": 2.12,
-          "esperado": 3.45,
-          "p_exacto": 0.1426799939755038,
-          "bh_umbral": 0.0038,
-          "significativo": false
-        },
-        {
-          "numero": 18,
-          "ap_2025": 3,
-          "ap_2026": 3,
-          "ap_total": 6,
-          "pct_2025": 8.33,
-          "pct_2026": 2.94,
-          "ultima_aparicion": "2026-08-04",
-          "sorteos_desde": 2,
-          "max_retraso": 7,
-          "frec_ult_30": 6,
-          "frec_ult_60": 6,
-          "frec_ult_100": 6,
-          "diferencia_pp": -5.39,
-          "esperado": 3.45,
-          "p_exacto": 0.1426799939755038,
-          "bh_umbral": 0.005,
+          "diferencia_pp": 5.56,
+          "esperado": 3.6,
+          "p_exacto": 0.15967127885494148,
+          "bh_umbral": 0.0063,
           "significativo": false
         },
         {
@@ -3217,36 +3236,17 @@
           "ap_2026": 5,
           "ap_total": 6,
           "pct_2025": 2.78,
-          "pct_2026": 4.9,
+          "pct_2026": 4.63,
           "ultima_aparicion": "2026-07-30",
-          "sorteos_desde": 4,
-          "max_retraso": 4,
+          "sorteos_desde": 5,
+          "max_retraso": 5,
           "frec_ult_30": 6,
           "frec_ult_60": 6,
           "frec_ult_100": 6,
-          "diferencia_pp": 2.12,
-          "esperado": 3.45,
-          "p_exacto": 0.1426799939755038,
-          "bh_umbral": 0.0063,
-          "significativo": false
-        },
-        {
-          "numero": 4,
-          "ap_2025": 3,
-          "ap_2026": 2,
-          "ap_total": 5,
-          "pct_2025": 8.33,
-          "pct_2026": 1.96,
-          "ultima_aparicion": "2026-08-01",
-          "sorteos_desde": 3,
-          "max_retraso": 11,
-          "frec_ult_30": 5,
-          "frec_ult_60": 5,
-          "frec_ult_100": 5,
-          "diferencia_pp": -6.37,
-          "esperado": 3.45,
-          "p_exacto": 0.37637139970190375,
-          "bh_umbral": 0.0138,
+          "diferencia_pp": 1.85,
+          "esperado": 3.6,
+          "p_exacto": 0.15967127885494148,
+          "bh_umbral": 0.0075,
           "significativo": false
         },
         {
@@ -3255,17 +3255,17 @@
           "ap_2026": 5,
           "ap_total": 5,
           "pct_2025": 0.0,
-          "pct_2026": 4.9,
+          "pct_2026": 4.63,
           "ultima_aparicion": "2026-07-28",
-          "sorteos_desde": 5,
+          "sorteos_desde": 6,
           "max_retraso": 7,
           "frec_ult_30": 5,
           "frec_ult_60": 5,
           "frec_ult_100": 5,
-          "diferencia_pp": 4.9,
-          "esperado": 3.45,
-          "p_exacto": 0.37637139970190375,
-          "bh_umbral": 0.015,
+          "diferencia_pp": 4.63,
+          "esperado": 3.6,
+          "p_exacto": 0.3925417335720871,
+          "bh_umbral": 0.0138,
           "significativo": false
         },
         {
@@ -3274,37 +3274,56 @@
           "ap_2026": 5,
           "ap_total": 5,
           "pct_2025": 0.0,
-          "pct_2026": 4.9,
+          "pct_2026": 4.63,
           "ultima_aparicion": "2026-08-08",
-          "sorteos_desde": 0,
+          "sorteos_desde": 1,
           "max_retraso": 8,
           "frec_ult_30": 5,
           "frec_ult_60": 5,
           "frec_ult_100": 5,
-          "diferencia_pp": 4.9,
-          "esperado": 3.45,
-          "p_exacto": 0.37637139970190375,
-          "bh_umbral": 0.0163,
+          "diferencia_pp": 4.63,
+          "esperado": 3.6,
+          "p_exacto": 0.3925417335720871,
+          "bh_umbral": 0.015,
           "significativo": false
         }
       ],
       "cold": [
+        {
+          "numero": 9,
+          "ap_2025": 0,
+          "ap_2026": 2,
+          "ap_total": 2,
+          "pct_2025": 0.0,
+          "pct_2026": 1.85,
+          "ultima_aparicion": "2026-08-04",
+          "sorteos_desde": 3,
+          "max_retraso": 19,
+          "frec_ult_30": 2,
+          "frec_ult_60": 2,
+          "frec_ult_100": 2,
+          "diferencia_pp": 1.85,
+          "esperado": 3.6,
+          "p_exacto": 0.5664450906772546,
+          "bh_umbral": 0.0213,
+          "significativo": false
+        },
         {
           "numero": 11,
           "ap_2025": 0,
           "ap_2026": 2,
           "ap_total": 2,
           "pct_2025": 0.0,
-          "pct_2026": 1.96,
+          "pct_2026": 1.85,
           "ultima_aparicion": "2026-07-23",
-          "sorteos_desde": 7,
+          "sorteos_desde": 8,
           "max_retraso": 8,
           "frec_ult_30": 2,
           "frec_ult_60": 2,
           "frec_ult_100": 2,
-          "diferencia_pp": 1.96,
-          "esperado": 3.45,
-          "p_exacto": 0.5639142357957118,
+          "diferencia_pp": 1.85,
+          "esperado": 3.6,
+          "p_exacto": 0.5664450906772546,
           "bh_umbral": 0.0225,
           "significativo": false
         },
@@ -3314,16 +3333,16 @@
           "ap_2026": 1,
           "ap_total": 2,
           "pct_2025": 2.78,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-05-23",
-          "sorteos_desde": 15,
-          "max_retraso": 15,
+          "sorteos_desde": 16,
+          "max_retraso": 16,
           "frec_ult_30": 2,
           "frec_ult_60": 2,
           "frec_ult_100": 2,
-          "diferencia_pp": -1.8,
-          "esperado": 3.45,
-          "p_exacto": 0.5639142357957118,
+          "diferencia_pp": -1.85,
+          "esperado": 3.6,
+          "p_exacto": 0.5664450906772546,
           "bh_umbral": 0.0238,
           "significativo": false
         },
@@ -3333,36 +3352,17 @@
           "ap_2026": 1,
           "ap_total": 2,
           "pct_2025": 2.78,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-07-18",
-          "sorteos_desde": 9,
-          "max_retraso": 9,
+          "sorteos_desde": 10,
+          "max_retraso": 10,
           "frec_ult_30": 2,
           "frec_ult_60": 2,
           "frec_ult_100": 2,
-          "diferencia_pp": -1.8,
-          "esperado": 3.45,
-          "p_exacto": 0.5639142357957118,
+          "diferencia_pp": -1.85,
+          "esperado": 3.6,
+          "p_exacto": 0.5664450906772546,
           "bh_umbral": 0.025,
-          "significativo": false
-        },
-        {
-          "numero": 1,
-          "ap_2025": 1,
-          "ap_2026": 0,
-          "ap_total": 1,
-          "pct_2025": 2.78,
-          "pct_2026": 0.0,
-          "ultima_aparicion": "2025-11-08",
-          "sorteos_desde": 17,
-          "max_retraso": 17,
-          "frec_ult_30": 1,
-          "frec_ult_60": 1,
-          "frec_ult_100": 1,
-          "diferencia_pp": -2.78,
-          "esperado": 3.45,
-          "p_exacto": 0.23929297014504133,
-          "bh_umbral": 0.0075,
           "significativo": false
         },
         {
@@ -3371,16 +3371,16 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": 0.0,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-07-14",
-          "sorteos_desde": 10,
+          "sorteos_desde": 11,
           "max_retraso": 12,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
-          "diferencia_pp": 0.98,
-          "esperado": 3.45,
-          "p_exacto": 0.23929297014504133,
+          "diferencia_pp": 0.93,
+          "esperado": 3.6,
+          "p_exacto": 0.24536278815314,
           "bh_umbral": 0.0088,
           "significativo": false
         },
@@ -3390,16 +3390,16 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": 0.0,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-05-07",
-          "sorteos_desde": 16,
-          "max_retraso": 16,
+          "sorteos_desde": 17,
+          "max_retraso": 17,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
-          "diferencia_pp": 0.98,
-          "esperado": 3.45,
-          "p_exacto": 0.23929297014504133,
+          "diferencia_pp": 0.93,
+          "esperado": 3.6,
+          "p_exacto": 0.24536278815314,
           "bh_umbral": 0.01,
           "significativo": false
         },
@@ -3409,16 +3409,16 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": 0.0,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-07-18",
-          "sorteos_desde": 9,
+          "sorteos_desde": 10,
           "max_retraso": 13,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
-          "diferencia_pp": 0.98,
-          "esperado": 3.45,
-          "p_exacto": 0.23929297014504133,
+          "diferencia_pp": 0.93,
+          "esperado": 3.6,
+          "p_exacto": 0.24536278815314,
           "bh_umbral": 0.0112,
           "significativo": false
         },
@@ -3428,56 +3428,37 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": 0.0,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-08-04",
-          "sorteos_desde": 2,
+          "sorteos_desde": 3,
           "max_retraso": 20,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
-          "diferencia_pp": 0.98,
-          "esperado": 3.45,
-          "p_exacto": 0.23929297014504133,
+          "diferencia_pp": 0.93,
+          "esperado": 3.6,
+          "p_exacto": 0.24536278815314,
           "bh_umbral": 0.0125,
           "significativo": false
         }
       ],
       "overdue": [
         {
-          "numero": 1,
-          "ap_2025": 1,
-          "ap_2026": 0,
-          "ap_total": 1,
-          "pct_2025": 2.78,
-          "pct_2026": 0.0,
-          "ultima_aparicion": "2025-11-08",
-          "sorteos_desde": 17,
-          "max_retraso": 17,
-          "frec_ult_30": 1,
-          "frec_ult_60": 1,
-          "frec_ult_100": 1,
-          "diferencia_pp": -2.78,
-          "esperado": 3.45,
-          "p_exacto": 0.23929297014504133,
-          "bh_umbral": 0.0075,
-          "significativo": false
-        },
-        {
           "numero": 29,
           "ap_2025": 0,
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": 0.0,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-05-07",
-          "sorteos_desde": 16,
-          "max_retraso": 16,
+          "sorteos_desde": 17,
+          "max_retraso": 17,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
-          "diferencia_pp": 0.98,
-          "esperado": 3.45,
-          "p_exacto": 0.23929297014504133,
+          "diferencia_pp": 0.93,
+          "esperado": 3.6,
+          "p_exacto": 0.24536278815314,
           "bh_umbral": 0.01,
           "significativo": false
         },
@@ -3487,16 +3468,16 @@
           "ap_2026": 1,
           "ap_total": 2,
           "pct_2025": 2.78,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-05-23",
-          "sorteos_desde": 15,
-          "max_retraso": 15,
+          "sorteos_desde": 16,
+          "max_retraso": 16,
           "frec_ult_30": 2,
           "frec_ult_60": 2,
           "frec_ult_100": 2,
-          "diferencia_pp": -1.8,
-          "esperado": 3.45,
-          "p_exacto": 0.5639142357957118,
+          "diferencia_pp": -1.85,
+          "esperado": 3.6,
+          "p_exacto": 0.5664450906772546,
           "bh_umbral": 0.0238,
           "significativo": false
         },
@@ -3506,17 +3487,17 @@
           "ap_2026": 1,
           "ap_total": 3,
           "pct_2025": 5.56,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-06-27",
-          "sorteos_desde": 13,
-          "max_retraso": 13,
+          "sorteos_desde": 14,
+          "max_retraso": 14,
           "frec_ult_30": 3,
           "frec_ult_60": 3,
           "frec_ult_100": 3,
-          "diferencia_pp": -4.58,
-          "esperado": 3.45,
-          "p_exacto": 0.9999999999999991,
-          "bh_umbral": 0.04,
+          "diferencia_pp": -4.63,
+          "esperado": 3.6,
+          "p_exacto": 0.9999999999999992,
+          "bh_umbral": 0.0425,
           "significativo": false
         },
         {
@@ -3525,16 +3506,16 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": 0.0,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-07-14",
-          "sorteos_desde": 10,
+          "sorteos_desde": 11,
           "max_retraso": 12,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
-          "diferencia_pp": 0.98,
-          "esperado": 3.45,
-          "p_exacto": 0.23929297014504133,
+          "diferencia_pp": 0.93,
+          "esperado": 3.6,
+          "p_exacto": 0.24536278815314,
           "bh_umbral": 0.0088,
           "significativo": false
         },
@@ -3544,17 +3525,17 @@
           "ap_2026": 2,
           "ap_total": 4,
           "pct_2025": 5.56,
-          "pct_2026": 1.96,
+          "pct_2026": 1.85,
           "ultima_aparicion": "2026-07-14",
-          "sorteos_desde": 10,
-          "max_retraso": 10,
+          "sorteos_desde": 11,
+          "max_retraso": 11,
           "frec_ult_30": 4,
           "frec_ult_60": 4,
           "frec_ult_100": 4,
-          "diferencia_pp": -3.6,
-          "esperado": 3.45,
-          "p_exacto": 0.7683294377664716,
-          "bh_umbral": 0.0312,
+          "diferencia_pp": -3.71,
+          "esperado": 3.6,
+          "p_exacto": 0.7749485966874295,
+          "bh_umbral": 0.0325,
           "significativo": false
         },
         {
@@ -3563,16 +3544,16 @@
           "ap_2026": 1,
           "ap_total": 2,
           "pct_2025": 2.78,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-07-18",
-          "sorteos_desde": 9,
-          "max_retraso": 9,
+          "sorteos_desde": 10,
+          "max_retraso": 10,
           "frec_ult_30": 2,
           "frec_ult_60": 2,
           "frec_ult_100": 2,
-          "diferencia_pp": -1.8,
-          "esperado": 3.45,
-          "p_exacto": 0.5639142357957118,
+          "diferencia_pp": -1.85,
+          "esperado": 3.6,
+          "p_exacto": 0.5664450906772546,
           "bh_umbral": 0.025,
           "significativo": false
         },
@@ -3582,36 +3563,55 @@
           "ap_2026": 1,
           "ap_total": 1,
           "pct_2025": 0.0,
-          "pct_2026": 0.98,
+          "pct_2026": 0.93,
           "ultima_aparicion": "2026-07-18",
-          "sorteos_desde": 9,
+          "sorteos_desde": 10,
           "max_retraso": 13,
           "frec_ult_30": 1,
           "frec_ult_60": 1,
           "frec_ult_100": 1,
-          "diferencia_pp": 0.98,
-          "esperado": 3.45,
-          "p_exacto": 0.23929297014504133,
+          "diferencia_pp": 0.93,
+          "esperado": 3.6,
+          "p_exacto": 0.24536278815314,
           "bh_umbral": 0.0112,
+          "significativo": false
+        },
+        {
+          "numero": 2,
+          "ap_2025": 1,
+          "ap_2026": 1,
+          "ap_total": 2,
+          "pct_2025": 2.78,
+          "pct_2026": 0.93,
+          "ultima_aparicion": "2026-07-21",
+          "sorteos_desde": 9,
+          "max_retraso": 9,
+          "frec_ult_30": 2,
+          "frec_ult_60": 2,
+          "frec_ult_100": 2,
+          "diferencia_pp": -1.85,
+          "esperado": 3.6,
+          "p_exacto": 0.5664450906772546,
+          "bh_umbral": 0.0187,
           "significativo": false
         }
       ],
       "n_significativos_BH": 0,
       "numeros_significativos": [],
-      "p_minimo_observado": 0.0701,
-      "esperado_por_numero": 3.45
+      "p_minimo_observado": 0.0774,
+      "esperado_por_numero": 3.6
     },
     "score_numeros": {
       "1": {
         "numero": 1,
-        "score": 17.5,
+        "score": 18.5,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.0,
-        "ap_total": 1,
-        "frec_vs_esperado": 0.29,
-        "sorteos_desde": 17,
+        "D_desempate_descriptivo": 0.103,
+        "ap_total": 2,
+        "frec_vs_esperado": 0.56,
+        "sorteos_desde": 0,
         "max_retraso": 17
       },
       "2": {
@@ -3622,8 +3622,8 @@
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.128,
         "ap_total": 2,
-        "frec_vs_esperado": 0.58,
-        "sorteos_desde": 8,
+        "frec_vs_esperado": 0.56,
+        "sorteos_desde": 9,
         "max_retraso": 9
       },
       "3": {
@@ -3634,44 +3634,44 @@
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.154,
         "ap_total": 2,
-        "frec_vs_esperado": 0.58,
-        "sorteos_desde": 8,
-        "max_retraso": 8
+        "frec_vs_esperado": 0.56,
+        "sorteos_desde": 9,
+        "max_retraso": 9
       },
       "4": {
         "numero": 4,
+        "score": 26.2,
+        "F_frecuencia": 0.5,
+        "R_recencia": 0.5,
+        "V_impopularidad": 0.0,
+        "D_desempate_descriptivo": 0.872,
+        "ap_total": 6,
+        "frec_vs_esperado": 1.67,
+        "sorteos_desde": 0,
+        "max_retraso": 11
+      },
+      "5": {
+        "numero": 5,
         "score": 25.4,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.795,
         "ap_total": 5,
-        "frec_vs_esperado": 1.45,
-        "sorteos_desde": 3,
-        "max_retraso": 11
+        "frec_vs_esperado": 1.39,
+        "sorteos_desde": 6,
+        "max_retraso": 7
       },
-      "5": {
-        "numero": 5,
+      "6": {
+        "numero": 6,
         "score": 25.7,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.821,
         "ap_total": 5,
-        "frec_vs_esperado": 1.45,
-        "sorteos_desde": 5,
-        "max_retraso": 7
-      },
-      "6": {
-        "numero": 6,
-        "score": 26.0,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.846,
-        "ap_total": 5,
-        "frec_vs_esperado": 1.45,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 1.39,
+        "sorteos_desde": 1,
         "max_retraso": 8
       },
       "7": {
@@ -3682,20 +3682,20 @@
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.897,
         "ap_total": 6,
-        "frec_vs_esperado": 1.74,
-        "sorteos_desde": 1,
+        "frec_vs_esperado": 1.67,
+        "sorteos_desde": 2,
         "max_retraso": 9
       },
       "8": {
         "numero": 8,
-        "score": 22.9,
+        "score": 22.4,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.538,
+        "D_desempate_descriptivo": 0.487,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 6,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 7,
         "max_retraso": 7
       },
       "9": {
@@ -3706,20 +3706,20 @@
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.179,
         "ap_total": 2,
-        "frec_vs_esperado": 0.58,
-        "sorteos_desde": 2,
+        "frec_vs_esperado": 0.56,
+        "sorteos_desde": 3,
         "max_retraso": 19
       },
       "10": {
         "numero": 10,
-        "score": 23.1,
+        "score": 22.6,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.0,
-        "D_desempate_descriptivo": 0.564,
+        "D_desempate_descriptivo": 0.513,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 2,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 3,
         "max_retraso": 7
       },
       "11": {
@@ -3730,8 +3730,8 @@
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.205,
         "ap_total": 2,
-        "frec_vs_esperado": 0.58,
-        "sorteos_desde": 7,
+        "frec_vs_esperado": 0.56,
+        "sorteos_desde": 8,
         "max_retraso": 8
       },
       "12": {
@@ -3742,31 +3742,31 @@
         "V_impopularidad": 0.0,
         "D_desempate_descriptivo": 0.282,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 1,
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 2,
         "max_retraso": 10
       },
       "13": {
         "numero": 13,
-        "score": 48.0,
+        "score": 47.8,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.026,
+        "D_desempate_descriptivo": 0.0,
         "ap_total": 1,
-        "frec_vs_esperado": 0.29,
-        "sorteos_desde": 10,
+        "frec_vs_esperado": 0.28,
+        "sorteos_desde": 11,
         "max_retraso": 12
       },
       "14": {
         "numero": 14,
-        "score": 57.0,
+        "score": 57.2,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.923,
-        "ap_total": 6,
-        "frec_vs_esperado": 1.74,
+        "D_desempate_descriptivo": 0.949,
+        "ap_total": 7,
+        "frec_vs_esperado": 1.94,
         "sorteos_desde": 0,
         "max_retraso": 6
       },
@@ -3778,20 +3778,20 @@
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.308,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 13,
-        "max_retraso": 13
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 14,
+        "max_retraso": 14
       },
       "16": {
         "numero": 16,
-        "score": 53.6,
+        "score": 53.1,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.59,
+        "D_desempate_descriptivo": 0.538,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 1,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 2,
         "max_retraso": 12
       },
       "17": {
@@ -3802,81 +3802,81 @@
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.333,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 7,
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 8,
         "max_retraso": 11
       },
       "18": {
         "numero": 18,
-        "score": 57.2,
+        "score": 57.5,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.949,
-        "ap_total": 6,
-        "frec_vs_esperado": 1.74,
-        "sorteos_desde": 2,
+        "D_desempate_descriptivo": 0.974,
+        "ap_total": 7,
+        "frec_vs_esperado": 1.94,
+        "sorteos_desde": 0,
         "max_retraso": 7
       },
       "19": {
         "numero": 19,
+        "score": 53.4,
+        "F_frecuencia": 0.5,
+        "R_recencia": 0.5,
+        "V_impopularidad": 0.55,
+        "D_desempate_descriptivo": 0.564,
+        "ap_total": 4,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 0,
+        "max_retraso": 10
+      },
+      "20": {
+        "numero": 20,
         "score": 51.3,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.359,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 5,
-        "max_retraso": 10
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 1,
+        "max_retraso": 11
       },
-      "20": {
-        "numero": 20,
+      "21": {
+        "numero": 21,
         "score": 51.6,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.385,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 0,
-        "max_retraso": 11
-      },
-      "21": {
-        "numero": 21,
-        "score": 51.9,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.41,
-        "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 1,
         "max_retraso": 8
       },
       "22": {
         "numero": 22,
-        "score": 53.9,
+        "score": 53.6,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.615,
+        "D_desempate_descriptivo": 0.59,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 1,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 2,
         "max_retraso": 13
       },
       "23": {
         "numero": 23,
-        "score": 57.5,
+        "score": 57.0,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.974,
+        "D_desempate_descriptivo": 0.923,
         "ap_total": 6,
-        "frec_vs_esperado": 1.74,
-        "sorteos_desde": 4,
-        "max_retraso": 4
+        "frec_vs_esperado": 1.67,
+        "sorteos_desde": 5,
+        "max_retraso": 5
       },
       "24": {
         "numero": 24,
@@ -3886,32 +3886,32 @@
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.231,
         "ap_total": 2,
-        "frec_vs_esperado": 0.58,
-        "sorteos_desde": 15,
-        "max_retraso": 15
+        "frec_vs_esperado": 0.56,
+        "sorteos_desde": 16,
+        "max_retraso": 16
       },
       "25": {
         "numero": 25,
+        "score": 53.9,
+        "F_frecuencia": 0.5,
+        "R_recencia": 0.5,
+        "V_impopularidad": 0.55,
+        "D_desempate_descriptivo": 0.615,
+        "ap_total": 4,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 11,
+        "max_retraso": 11
+      },
+      "26": {
+        "numero": 26,
         "score": 54.2,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.641,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 10,
-        "max_retraso": 10
-      },
-      "26": {
-        "numero": 26,
-        "score": 54.4,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.667,
-        "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 1,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 2,
         "max_retraso": 12
       },
       "27": {
@@ -3922,8 +3922,8 @@
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 1.0,
         "ap_total": 7,
-        "frec_vs_esperado": 2.03,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 1.94,
+        "sorteos_desde": 1,
         "max_retraso": 8
       },
       "28": {
@@ -3934,44 +3934,44 @@
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 0.256,
         "ap_total": 2,
-        "frec_vs_esperado": 0.58,
-        "sorteos_desde": 9,
-        "max_retraso": 9
+        "frec_vs_esperado": 0.56,
+        "sorteos_desde": 10,
+        "max_retraso": 10
       },
       "29": {
         "numero": 29,
-        "score": 48.3,
+        "score": 48.0,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.051,
+        "D_desempate_descriptivo": 0.026,
         "ap_total": 1,
-        "frec_vs_esperado": 0.29,
-        "sorteos_desde": 16,
-        "max_retraso": 16
+        "frec_vs_esperado": 0.28,
+        "sorteos_desde": 17,
+        "max_retraso": 17
       },
       "30": {
         "numero": 30,
-        "score": 52.1,
+        "score": 51.9,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.436,
+        "D_desempate_descriptivo": 0.41,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 3,
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 4,
         "max_retraso": 11
       },
       "31": {
         "numero": 31,
-        "score": 52.4,
+        "score": 54.4,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 0.55,
-        "D_desempate_descriptivo": 0.462,
-        "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 1,
+        "D_desempate_descriptivo": 0.667,
+        "ap_total": 4,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 0,
         "max_retraso": 15
       },
       "32": {
@@ -3982,8 +3982,8 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.692,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 6,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 7,
         "max_retraso": 7
       },
       "33": {
@@ -3994,44 +3994,44 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.718,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 1,
         "max_retraso": 12
       },
       "34": {
         "numero": 34,
-        "score": 81.2,
+        "score": 81.0,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.872,
+        "D_desempate_descriptivo": 0.846,
         "ap_total": 5,
-        "frec_vs_esperado": 1.45,
-        "sorteos_desde": 8,
-        "max_retraso": 8
+        "frec_vs_esperado": 1.39,
+        "sorteos_desde": 9,
+        "max_retraso": 9
       },
       "35": {
         "numero": 35,
-        "score": 77.4,
+        "score": 76.9,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.487,
+        "D_desempate_descriptivo": 0.436,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 3,
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 4,
         "max_retraso": 10
       },
       "36": {
         "numero": 36,
-        "score": 73.3,
+        "score": 73.0,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.077,
+        "D_desempate_descriptivo": 0.051,
         "ap_total": 1,
-        "frec_vs_esperado": 0.29,
-        "sorteos_desde": 9,
+        "frec_vs_esperado": 0.28,
+        "sorteos_desde": 10,
         "max_retraso": 13
       },
       "37": {
@@ -4042,8 +4042,8 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.744,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 5,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 6,
         "max_retraso": 9
       },
       "38": {
@@ -4054,32 +4054,32 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.769,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 4,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 5,
         "max_retraso": 7
       },
       "39": {
         "numero": 39,
-        "score": 77.6,
+        "score": 77.1,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.513,
+        "D_desempate_descriptivo": 0.462,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 3,
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 4,
         "max_retraso": 11
       },
       "40": {
         "numero": 40,
-        "score": 73.5,
+        "score": 73.3,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.103,
+        "D_desempate_descriptivo": 0.077,
         "ap_total": 1,
-        "frec_vs_esperado": 0.29,
-        "sorteos_desde": 2,
+        "frec_vs_esperado": 0.28,
+        "sorteos_desde": 3,
         "max_retraso": 20
       }
     },
@@ -4099,7 +4099,7 @@
         "E_frecuencia": 0.5,
         "U_impopularidad": 0.933,
         "suma": 123,
-        "percentil_suma_null": 50.8,
+        "percentil_suma_null": 50.7,
         "pares_impares": "3P-3I",
         "amplitud": 31,
         "consecutivos": 1,
@@ -4123,14 +4123,14 @@
         "E_frecuencia": 0.5,
         "U_impopularidad": 0.697,
         "suma": 123,
-        "percentil_suma_null": 50.8,
+        "percentil_suma_null": 50.7,
         "pares_impares": "3P-3I",
         "amplitud": 31,
         "consecutivos": 1,
         "p_null_consecutivos_o_mas": 0.5785,
         "bandas_ocupadas": 4,
         "n_mayores_31": 1,
-        "percentil_score": 92.04
+        "percentil_score": 92.06
       },
       {
         "etiqueta": "contrarian",
@@ -4147,34 +4147,34 @@
         "E_frecuencia": 0.5,
         "U_impopularidad": 1.0,
         "suma": 124,
-        "percentil_suma_null": 52.3,
+        "percentil_suma_null": 52.2,
         "pares_impares": "4P-2I",
         "amplitud": 21,
         "consecutivos": 3,
-        "p_null_consecutivos_o_mas": 0.0179,
+        "p_null_consecutivos_o_mas": 0.018,
         "bandas_ocupadas": 2,
         "n_mayores_31": 2,
-        "percentil_score": 91.82
+        "percentil_score": 91.83
       }
     ],
     "score_distribucion": {
-      "media": 54.35,
-      "p50": 55.25,
-      "p99": 76.55,
+      "media": 54.34,
+      "p50": 55.24,
+      "p99": 76.54,
       "max": 82.07
     },
     "top10": [
       {
         "numero": 34,
-        "score": 81.2,
+        "score": 81.0,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.872,
+        "D_desempate_descriptivo": 0.846,
         "ap_total": 5,
-        "frec_vs_esperado": 1.45,
-        "sorteos_desde": 8,
-        "max_retraso": 8
+        "frec_vs_esperado": 1.39,
+        "sorteos_desde": 9,
+        "max_retraso": 9
       },
       {
         "numero": 38,
@@ -4184,8 +4184,8 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.769,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 4,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 5,
         "max_retraso": 7
       },
       {
@@ -4196,8 +4196,8 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.744,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 5,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 6,
         "max_retraso": 9
       },
       {
@@ -4208,8 +4208,8 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.718,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 1,
         "max_retraso": 12
       },
       {
@@ -4220,56 +4220,56 @@
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.692,
         "ap_total": 4,
-        "frec_vs_esperado": 1.16,
-        "sorteos_desde": 6,
+        "frec_vs_esperado": 1.11,
+        "sorteos_desde": 7,
         "max_retraso": 7
       },
       {
         "numero": 39,
-        "score": 77.6,
+        "score": 77.1,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.513,
+        "D_desempate_descriptivo": 0.462,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 3,
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 4,
         "max_retraso": 11
       },
       {
         "numero": 35,
-        "score": 77.4,
+        "score": 76.9,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.487,
+        "D_desempate_descriptivo": 0.436,
         "ap_total": 3,
-        "frec_vs_esperado": 0.87,
-        "sorteos_desde": 3,
+        "frec_vs_esperado": 0.83,
+        "sorteos_desde": 4,
         "max_retraso": 10
       },
       {
         "numero": 40,
-        "score": 73.5,
-        "F_frecuencia": 0.5,
-        "R_recencia": 0.5,
-        "V_impopularidad": 1.0,
-        "D_desempate_descriptivo": 0.103,
-        "ap_total": 1,
-        "frec_vs_esperado": 0.29,
-        "sorteos_desde": 2,
-        "max_retraso": 20
-      },
-      {
-        "numero": 36,
         "score": 73.3,
         "F_frecuencia": 0.5,
         "R_recencia": 0.5,
         "V_impopularidad": 1.0,
         "D_desempate_descriptivo": 0.077,
         "ap_total": 1,
-        "frec_vs_esperado": 0.29,
-        "sorteos_desde": 9,
+        "frec_vs_esperado": 0.28,
+        "sorteos_desde": 3,
+        "max_retraso": 20
+      },
+      {
+        "numero": 36,
+        "score": 73.0,
+        "F_frecuencia": 0.5,
+        "R_recencia": 0.5,
+        "V_impopularidad": 1.0,
+        "D_desempate_descriptivo": 0.051,
+        "ap_total": 1,
+        "frec_vs_esperado": 0.28,
+        "sorteos_desde": 10,
         "max_retraso": 13
       },
       {
@@ -4280,8 +4280,8 @@
         "V_impopularidad": 0.55,
         "D_desempate_descriptivo": 1.0,
         "ap_total": 7,
-        "frec_vs_esperado": 2.03,
-        "sorteos_desde": 0,
+        "frec_vs_esperado": 1.94,
+        "sorteos_desde": 1,
         "max_retraso": 8
       }
     ],
